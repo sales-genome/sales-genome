@@ -1,0 +1,251 @@
+{
+  "status": "Recovered review schemas; no actual model reviews run",
+  "helper_source": "scripts/raw_graph_v71_pilot.py::object_schema,array_schema",
+  "helper_source_sha256": "3934f1e83ba78ee1a3172b9a07f100469300686f7360a56c73f04cf73bf32cea",
+  "schema_helper_semantics": "object_schema supplies type/properties; array_schema supplies type/items. Required/additionalProperties constraints are NOT invented.",
+  "schemas": [
+    {
+      "source": "scripts/raw_graph_relationship_repair.py",
+      "source_sha256": "1f4c5e1b99409f793b41898fb6441511566ebd9ce2423b25dacc06976974df22",
+      "symbol": "SCHEMA",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "source_assessment": {
+            "type": "string",
+            "enum": [
+              "consistent",
+              "insufficient",
+              "conflict"
+            ]
+          },
+          "decisions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "task_id": {
+                  "type": "string"
+                },
+                "bindings": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "subject_id": {
+                        "type": "string"
+                      },
+                      "span_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "individual_product_support": {
+                        "type": "boolean"
+                      },
+                      "temporal_context": {
+                        "type": "string",
+                        "enum": [
+                          "source_time",
+                          "past",
+                          "planned",
+                          "unclear"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "source": "scripts/gnn_ready_cohort.py",
+      "source_sha256": "f69386bcbdc9140cbc705540570cc438c34058d6555e3e25355a61c971ebffdb",
+      "symbol": "PAGE_SCHEMA",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "source_assessment": {
+            "type": "string",
+            "enum": [
+              "consistent",
+              "insufficient",
+              "conflict"
+            ]
+          },
+          "requested_page_matches": {
+            "type": "boolean"
+          },
+          "exact_customer_is_case_subject": {
+            "type": "boolean"
+          },
+          "customer_uses_publishers_offering": {
+            "type": "boolean"
+          },
+          "span_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "source": "scripts/gnn_ready_cohort.py",
+      "source_sha256": "f69386bcbdc9140cbc705540570cc438c34058d6555e3e25355a61c971ebffdb",
+      "symbol": "MAP_SCHEMA",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "decisions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "task_id": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string",
+                  "enum": [
+                    "match",
+                    "unresolved"
+                  ]
+                },
+                "canonical_id": {
+                  "type": "string"
+                },
+                "raw_role_supported": {
+                  "type": "boolean"
+                },
+                "same_semantic_claim": {
+                  "type": "boolean"
+                },
+                "within_scope": {
+                  "type": "boolean"
+                },
+                "name_definition_consistent": {
+                  "type": "boolean"
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "source": "scripts/gnn_ready_cohort.py",
+      "source_sha256": "f69386bcbdc9140cbc705540570cc438c34058d6555e3e25355a61c971ebffdb",
+      "symbol": "IDENTITY_SCHEMA",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "assessment": {
+            "type": "string",
+            "enum": [
+              "supported_existing_identity",
+              "insufficient",
+              "conflict"
+            ]
+          },
+          "case_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "common_identity_attributes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "citations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "case_id": {
+                  "type": "string"
+                },
+                "span_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "source": "scripts/gnn_research_graph.py",
+      "source_sha256": "66c24000b26ca180cd1b688e00c218d820acfe75381db121d76658bde33b5a4c",
+      "symbol": "VERDICT_SCHEMA",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "judgment": {
+            "type": "string",
+            "enum": [
+              "equivalent",
+              "related_only",
+              "different_claim",
+              "catalog_inconsistent",
+              "uncertain"
+            ]
+          },
+          "raw_core_quote": {
+            "type": "string"
+          },
+          "canonical_core_quote": {
+            "type": "string"
+          },
+          "unjustified_requirements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "lost_core_claims": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "name_scope_discriminator_consistent": {
+            "type": "boolean"
+          },
+          "raw_can_be_true_without_canonical": {
+            "type": "boolean"
+          },
+          "counterexample": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "command": "python -m paper_submission.downstream --graph data/sample/canonical --vendor vendor:8451 --audience audience:automotive --out validation/sample-retrieval-context.json",
+  "query_selection": "Lexicographically first seller/audience pair with a structural path. Illustrative query selection, NOT graph sampling or model-performance selection.",
+  "context_count": 72,
+  "all_peer_ids_in_selected_customer_groups": true,
+  "new_prospect_facts_inferred": false,
+  "LLM_pitch_generated": false,
+  "empirical_metrics_computed": false,
+  "source_support_verified": false
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "Initial v0.1 staging environment; see environment-v2.json for completion.",
+  "python": "3.13.9",
+  "packages": {
+    "jsonschema": "4.26.0",
+    "torch": "2.13.0",
+    "torch-geometric": "2.8.0.post1",
+    "numpy": "2.4.6",
+    "trafilatura": "2.0.0",
+    "setuptools": "80.10.2"
+  },
+  "core_required": [
+    "jsonschema"
+  ],
+  "optional_gnn": [
+    "torch",
+    "torch-geometric"
+  ],
+  "network_calls_run": 0,
+  "models_trained": 0,
+  "model_server_changes": 0,
+  "dependencies_installed_during_assembly": false
+}

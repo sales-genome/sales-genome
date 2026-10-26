@@ -1,0 +1,269 @@
+{
+  "package_status": "ANONYMOUS RESEARCH SUBMISSION — PUBLICATION AUTHORIZED",
+  "implementation_revision": "0.2.0",
+  "completion_record": "validation/implementation-completion-v2.json",
+  "created_at": "2026-10-26T10:22:48.267405+00:00",
+  "publication_record": "provenance/publication-v1.json",
+  "source_revision_policy": "Original repository locator and commit omitted for anonymity; per-file source SHA-256 values preserve implementation provenance.",
+  "source_worktree": "dirty; source hashes, not commit alone, identify copied implementation",
+  "manuscript": {
+    "scope": "Method snapshot at initial staging; external author manuscript is not bundled.",
+    "locator": "paper/audience_genome.tex (external author working draft; not bundled)",
+    "sha256": "541960190dc838614b403296a1c6225503d6ae422a799e9d9e80530bbf56f9e4",
+    "bytes": 72594,
+    "modified_at": "2026-10-26T09:42:32.616660+00:00",
+    "title": "Sales Genome: Modeling Persuasion in Sales Communication as a Knowledge Graph",
+    "reason": "Latest named audience_genome.tex is dated 2026-10-26; repository paper/main.tex is older (2026-10-12). Repository has no audience_genome.tex.",
+    "original_unchanged_during_assembly": true
+  },
+  "other_manuscript": {
+    "locator": "repository paper/main.tex",
+    "sha256": "87830bcb90b6041076c63d0694359db7af8ec941919219446cc4e9fcedfe5761",
+    "bytes": 15707,
+    "modified_at": "2026-10-12T07:14:47.715310+00:00"
+  },
+  "copied_files": [
+    {
+      "source_relative_path": "scripts/build_v4_graph.py",
+      "package_path": "scripts/build_v4_graph.py",
+      "source_sha256": "b2ac6971a7780cf57fcfd37721a8dbb39628ccfd4342e9305b1b49c03e96b6c5",
+      "source_bytes": 54979,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "b41a752d62b256aeae7e277e3160c64360b0dbc94ccc6578ce7e8d9b057565c6",
+      "package_bytes": 56235,
+      "copy_kind": "adapted_copy",
+      "modifications": "Added explicit read-only input/new output CLI paths; copied normalization caches to output; input refreshes rejected; graph-construction phase logic preserved."
+    },
+    {
+      "source_relative_path": "scripts/build_v5_graph.py",
+      "package_path": "scripts/build_v5_graph.py",
+      "source_sha256": "44cf6b2dc18ecef8234d793675d7083a019d10217ed9e64de4e491f43351c8ae",
+      "source_bytes": 22067,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "59484f16f7e4297e8df8d705e3257567bb243ef60c121f000579dd35e870adfb",
+      "package_bytes": 22208,
+      "copy_kind": "adapted_copy",
+      "modifications": "Added explicit raw base path and new-output guard; projection/evidence phase logic preserved."
+    },
+    {
+      "source_relative_path": "scripts/taxonomy_v4.py",
+      "package_path": "scripts/taxonomy_v4.py",
+      "source_sha256": "613888d5e74fc6b05cd61b857ea3f71f3c0487af65ddedd52cbc244afc4d5955",
+      "source_bytes": 35363,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "fa26d537e211b785108470a5800258d50a31a6f6042b86d007ed3825eb3cc2b1",
+      "package_bytes": 35535,
+      "copy_kind": "adapted_copy",
+      "modifications": "Added explicit graph and required output CLI paths; induction/grouping logic and embedded prompts/schemas preserved."
+    },
+    {
+      "source_relative_path": "scripts/taxonomy_v4_chisel.py",
+      "package_path": "scripts/taxonomy_v4_chisel.py",
+      "source_sha256": "e02c2c2c4405a89e6a481905f29463ddf2f2dacd8dc658e86a89d4a246243b9a",
+      "source_bytes": 25522,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "fc8d889650aa6890ec43a58065290fcfd079e4e11c6916b0dd4b0eb642cb4da2",
+      "package_bytes": 25812,
+      "copy_kind": "adapted_copy",
+      "modifications": "Used package-qualified taxonomy import and explicit graph/output paths; recursive refinement/grouping logic preserved."
+    },
+    {
+      "source_relative_path": "scripts/gnn_ready_baseline.py",
+      "package_path": "scripts/gnn_ready_baseline.py",
+      "source_sha256": "da3335d158045a9e80d3191545b1af484871b1dafd7e5fe53ddb66b3a4e191e6",
+      "source_bytes": 20203,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "a5802b7c80833c39e8e16dd85d10d1aefbc15668058f65a8e088c733dfcc432b",
+      "package_bytes": 20524,
+      "copy_kind": "adapted_copy",
+      "modifications": "Replaced private cohort-runner import with small package artifact I/O; added early rejection of unsplit samples before any training; model/training routines otherwise preserved."
+    },
+    {
+      "source_relative_path": "scripts/ingest/extract_corpus.py",
+      "package_path": "scripts/ingest/extract_corpus.py",
+      "source_sha256": "8ccfb7f81a83318caf4529c2dabb7df5cbe82cd764b0b0c125ecd6205e38a893",
+      "source_bytes": 5996,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "8ccfb7f81a83318caf4529c2dabb7df5cbe82cd764b0b0c125ecd6205e38a893",
+      "package_bytes": 5996,
+      "copy_kind": "verbatim_file_copy"
+    },
+    {
+      "source_relative_path": "lib/ingest/corpus.py",
+      "package_path": "lib/ingest/corpus.py",
+      "source_sha256": "7b10220b13be7060de9f922f1a790cc8c03bc35c84b3aef97c45a66e9cd38ea8",
+      "source_bytes": 6914,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "7b10220b13be7060de9f922f1a790cc8c03bc35c84b3aef97c45a66e9cd38ea8",
+      "package_bytes": 6914,
+      "copy_kind": "verbatim_file_copy"
+    },
+    {
+      "source_relative_path": "lib/ingest/url_sources.py",
+      "package_path": "lib/ingest/url_sources.py",
+      "source_sha256": "a29c7013d7b7f305c533bd68bbdc8aa4df27f807cfb12395bd2eca7d44678fb7",
+      "source_bytes": 11745,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "a29c7013d7b7f305c533bd68bbdc8aa4df27f807cfb12395bd2eca7d44678fb7",
+      "package_bytes": 11745,
+      "copy_kind": "verbatim_file_copy"
+    },
+    {
+      "source_relative_path": "lib/ingest/classify.py",
+      "package_path": "lib/ingest/classify.py",
+      "source_sha256": "b4efa4b337b09ca9089628254c4525a23a0006beca937942ba1ab4b4b8f18ad6",
+      "source_bytes": 5378,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "b4efa4b337b09ca9089628254c4525a23a0006beca937942ba1ab4b4b8f18ad6",
+      "package_bytes": 5378,
+      "copy_kind": "verbatim_file_copy"
+    },
+    {
+      "source_relative_path": "lib/logging.py",
+      "package_path": "lib/logging.py",
+      "source_sha256": "8facee8b11a559b32c8b114b98963da32de3dc1dbf8e3ef668038365a52357c4",
+      "source_bytes": 463,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "8facee8b11a559b32c8b114b98963da32de3dc1dbf8e3ef668038365a52357c4",
+      "package_bytes": 463,
+      "copy_kind": "verbatim_file_copy"
+    },
+    {
+      "source_relative_path": "prompts/extract_unified_v2.md",
+      "package_path": "prompts/extract_unified_v2.md",
+      "source_sha256": "72decb6eb5e8612de28ffc525fa8d06c16ae75e542a31f548d71f6fcddee036b",
+      "source_bytes": 3700,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "72decb6eb5e8612de28ffc525fa8d06c16ae75e542a31f548d71f6fcddee036b",
+      "package_bytes": 3700,
+      "copy_kind": "verbatim_file_copy"
+    },
+    {
+      "source_relative_path": "prompts/extract_vendor_page_v2.md",
+      "package_path": "prompts/extract_vendor_page_v2.md",
+      "source_sha256": "bf4bf7837030e7605bb52949fe993f3f75645f97648e3e6e860b8db5fa98c9d0",
+      "source_bytes": 3498,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "bf4bf7837030e7605bb52949fe993f3f75645f97648e3e6e860b8db5fa98c9d0",
+      "package_bytes": 3498,
+      "copy_kind": "verbatim_file_copy"
+    },
+    {
+      "source_relative_path": "schemas/unified/case_study_v2.json",
+      "package_path": "schemas/unified/case_study_v2.json",
+      "source_sha256": "982207b37a249984056feead69366035138866afbcceac2ef754056ec8847d5f",
+      "source_bytes": 4576,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "982207b37a249984056feead69366035138866afbcceac2ef754056ec8847d5f",
+      "package_bytes": 4576,
+      "copy_kind": "verbatim_file_copy"
+    },
+    {
+      "source_relative_path": "lib/budget.py",
+      "package_path": "lib/budget.py",
+      "source_sha256": "56b3b4f8b161a07d0c6eade1251045d826238291a656404e3bc46e780299f797",
+      "source_bytes": 2886,
+      "source_unchanged_since_copy": true,
+      "package_sha256": "56b3b4f8b161a07d0c6eade1251045d826238291a656404e3bc46e780299f797",
+      "package_bytes": 2886,
+      "copy_kind": "verbatim_file_copy"
+    },
+    {
+      "source_relative_path": "scripts/lead_signals.py",
+      "package_path": "reference/account_scoring.py",
+      "source_sha256": "e5daa49f0c36918afd849901027a367166d8b8c4b5a98a470513ae9dd5da4f26",
+      "source_bytes": 18905,
+      "extracted_symbols": [
+        {
+          "symbol": "_recency_multiplier",
+          "start_line": 137,
+          "end_line": 168
+        },
+        {
+          "symbol": "_score_lead",
+          "start_line": 171,
+          "end_line": 203
+        }
+      ],
+      "transformation": "Verbatim AST-delimited symbols plus a new self-contained import/provider header.",
+      "source_unchanged_since_copy": true,
+      "package_sha256": "dd9e0f516fccbe16c4a39f2ce154595159e083b278e0718a46cdf7ebfd522d6c",
+      "package_bytes": 2853,
+      "copy_kind": "verbatim_ast_symbols_with_new_import_header",
+      "extracted_symbol_texts_verified_verbatim": true
+    },
+    {
+      "source_relative_path": "scripts/inference/pitch_points/prospect_pitch.py",
+      "package_path": "reference/pitch_point_functions.py",
+      "source_sha256": "e0f68f3c6b7d0d16edd132adb6173055aaf5995e603313c6404f02ef97a54440",
+      "source_bytes": 50962,
+      "extracted_symbols": [
+        {
+          "symbol": "step4_audience_pains",
+          "start_line": 385,
+          "end_line": 425
+        },
+        {
+          "symbol": "step5_vendor_pains",
+          "start_line": 432,
+          "end_line": 464
+        },
+        {
+          "symbol": "RANK_SCHEMA",
+          "start_line": 510,
+          "end_line": 530
+        },
+        {
+          "symbol": "_rank_pains",
+          "start_line": 533,
+          "end_line": 599
+        },
+        {
+          "symbol": "PITCH_SCHEMA",
+          "start_line": 652,
+          "end_line": 701
+        },
+        {
+          "symbol": "step8_generate_pitch",
+          "start_line": 704,
+          "end_line": 804
+        }
+      ],
+      "transformation": "Verbatim AST-delimited symbols plus a new self-contained import/provider header.",
+      "source_unchanged_since_copy": true,
+      "package_sha256": "30850fb06bc0ca7d1a04b1c2c71555288c8553a04174786798385bdf0c3aa5cc",
+      "package_bytes": 13434,
+      "copy_kind": "verbatim_ast_symbols_with_new_import_header",
+      "extracted_symbol_texts_verified_verbatim": true
+    }
+  ],
+  "license_status": "No repository license file found; permission and data rights must be reviewed before redistribution.",
+  "new_adapters_not_historical_implementations": [
+    "config/settings.py",
+    "lib/providers.py",
+    "lib/llm.py",
+    "lib/oai.py",
+    "paper_submission/artifacts.py",
+    "paper_submission/repair.py",
+    "paper_submission/downstream.py",
+    "paper_submission/temporal.py",
+    "paper_submission/sample_graph.py",
+    "paper_submission/gnn_smoke.py",
+    "paper_submission/make_example.py",
+    "paper_submission/smoke.py",
+    "paper_submission/validate.py",
+    "paper_submission/audit_package.py",
+    "paper_submission/construction.py",
+    "paper_submission/composition.py",
+    "paper_submission/induction.py",
+    "paper_submission/canonicalization.py",
+    "paper_submission/pipeline.py",
+    "paper_submission/tasks.py",
+    "paper_submission/evaluate.py",
+    "paper_submission/experiment_io.py",
+    "paper_submission/rgcn.py",
+    "paper_submission/analyze.py"
+  ],
+  "standalone_policy": "Regular materialized files only; no original graph/cache/db/model/provider paths or symlink dependencies.",
+  "folder_permissions": "0700: owner-only local staging directory"
+}

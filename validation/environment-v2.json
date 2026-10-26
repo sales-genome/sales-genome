@@ -1,0 +1,23 @@
+{
+  "scope": "Implementation-completion v0.2 validation environment",
+  "python": "3.13.9",
+  "packages": {
+    "jsonschema": "4.26.0",
+    "numpy": "2.4.6",
+    "torch": "2.13.0",
+    "torch-geometric": "2.8.0.post1",
+    "transformers": "5.17.0",
+    "pytest": "9.1.1",
+    "setuptools": "80.10.2"
+  },
+  "core_required": ["jsonschema"],
+  "test_extra": ["pytest"],
+  "gnn_extra": ["numpy", "torch", "torch-geometric"],
+  "embedding_extra": ["transformers"],
+  "dependency_installation": "Only declared pytest runner installed after missing-runner failure.",
+  "synthetic_CPU_optimizer_epochs": 1,
+  "research_training_runs": 0,
+  "live_model_calls": 0,
+  "external_page_or_paid_search_calls": 0,
+  "model_server_changes": 0
+}

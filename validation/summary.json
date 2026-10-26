@@ -1,0 +1,49 @@
+{
+  "status": "COMPLETE_EXECUTABLE_LOCAL_SUBMISSION_DRAFT",
+  "implementation_revision": "0.2.0",
+  "completion_record": "validation/implementation-completion-v2.json",
+  "stages": [
+    "source_extraction",
+    "shared_identity_composition",
+    "iterative_hierarchy_induction",
+    "semantic_grouping_and_recursive_reconciliation",
+    "canonical_and_hybrid_projection",
+    "publication_snapshot_and_target_source_masking",
+    "graph_pitch_and_bounded_AET",
+    "account_prioritization_and_CRM_evaluation",
+    "RGCN_and_recovered_inductive_experiments",
+    "source_joined_persuasion_profiles"
+  ],
+  "validation": {
+    "pytest_passed": 83,
+    "subtests_passed": 32,
+    "synthetic_pipeline_and_exact_recording_replay": "PASS",
+    "construction_through_temporal_pitch_and_account_integration": "PASS",
+    "recovered_experiment_modules_imported": 17,
+    "sample_checksums_and_structural_invariants": "PASS",
+    "synthetic_one_epoch_CPU_RGCN_optimizer": "PASS",
+    "historical_paper_metrics_regenerated": false
+  },
+  "historical_recovery": {
+    "final_full_source_files_hash_verified_before_adaptation": 18,
+    "original_regression_tests": 19,
+    "complete_RGCN_classes_and_variant_builder_symbols": true,
+    "authority": "Recovered final GNN lab notebook and architecture memo"
+  },
+  "data_policy": {
+    "sample_changed": false,
+    "sampling_unit": "PROVISIONAL 20% of customer groups",
+    "selected_customer_groups": 4762,
+    "valid_customer_groups": 23811,
+    "labels_are_unsplit": true,
+    "external_publication_approved": false
+  },
+  "operations": {
+    "live_model_calls": 0,
+    "paid_calls": 0,
+    "external_page_retrieval": 0,
+    "model_server_changes": 0,
+    "research_training_runs": 0,
+    "commit_push_upload": false
+  }
+}

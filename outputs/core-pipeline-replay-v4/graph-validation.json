@@ -1,0 +1,23 @@
+{
+  "raw": {
+    "nodes": 49,
+    "edges": 96,
+    "endpoint_integrity": true,
+    "acyclic_semantic_links": true
+  },
+  "canonical": {
+    "nodes": 47,
+    "edges": 89,
+    "endpoint_integrity": true,
+    "acyclic_semantic_links": true
+  },
+  "hybrid": {
+    "nodes": 78,
+    "edges": 152,
+    "endpoint_integrity": true,
+    "acyclic_semantic_links": true
+  },
+  "native_claim_ids_preserved": true,
+  "hybrid_native_edges_unchanged": true,
+  "unmapped_raw_atoms_retained": []
+}

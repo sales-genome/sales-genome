@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "live_calls": false,
+  "manually_supplied_graph_overlays": false,
+  "all_four_dimensions_executed": true,
+  "operations_executed": [
+    "assign_hierarchy",
+    "extract_fingerprints",
+    "extract_observation",
+    "group_canonicals",
+    "propose_hierarchy",
+    "reconcile_canonicals",
+    "refine_hierarchy"
+  ],
+  "views": {
+    "raw": {
+      "nodes": 49,
+      "edges": 96
+    },
+    "canonical": {
+      "nodes": 47,
+      "edges": 89
+    },
+    "hybrid": {
+      "nodes": 78,
+      "edges": 152
+    }
+  },
+  "status": "PASS"
+}

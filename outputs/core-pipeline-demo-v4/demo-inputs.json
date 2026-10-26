@@ -1,0 +1,150 @@
+{
+  "synthetic": true,
+  "pages": [
+    {
+      "vendor_slug": "synthetic-a",
+      "vendor_name": "Synthetic-A",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-a/case-0",
+      "content": "Synthetic Client 0 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Route enables this function: Automatically route incoming support tickets.\nStaff manually sorted support tickets, delaying responses.\nIndustry: Manufacturing.\nLocation: United States.\nTicket operations processing time fell by 40 percent.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-a",
+      "vendor_name": "Synthetic-A",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-a/case-1",
+      "content": "Synthetic Client 1 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Route enables this function: Assign new service requests without manual sorting.\nManual support-request triage delayed replies.\nIndustry: Industrial manufacturing.\nLocation: USA.\nTicket operations errors were eliminated, lowering operational risk.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-a",
+      "vendor_name": "Synthetic-A",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-a/case-2",
+      "content": "Synthetic Client 2 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Ledger enables this function: Capture supplier invoices automatically.\nManual invoice entry caused processing delays.\nIndustry: Manufacturing.\nLocation: United States.\nInvoice operations processing time fell by 40 percent.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-a",
+      "vendor_name": "Synthetic-A",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-a/case-3",
+      "content": "Synthetic Client 3 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Ledger enables this function: Digitize incoming invoices without manual entry.\nStaff retyped supplier bills, slowing finance operations.\nIndustry: Industrial manufacturing.\nLocation: USA.\nInvoice operations errors were eliminated, lowering operational risk.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-b",
+      "vendor_name": "Synthetic-B",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-b/case-0",
+      "content": "Synthetic Client Zero LLC is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Route enables this function: Automatically route incoming support tickets.\nStaff manually sorted support tickets, delaying responses.\nIndustry: Manufacturing.\nLocation: United States.\nTicket operations processing time fell by 40 percent.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-b",
+      "vendor_name": "Synthetic-B",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-b/case-1",
+      "content": "Synthetic Client 1 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Route enables this function: Assign new service requests without manual sorting.\nManual support-request triage delayed replies.\nIndustry: Industrial manufacturing.\nLocation: USA.\nTicket operations errors were eliminated, lowering operational risk.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-b",
+      "vendor_name": "Synthetic-B",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-b/case-2",
+      "content": "Synthetic Client 2 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Ledger enables this function: Capture supplier invoices automatically.\nManual invoice entry caused processing delays.\nIndustry: Manufacturing.\nLocation: United States.\nInvoice operations processing time fell by 40 percent.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-b",
+      "vendor_name": "Synthetic-B",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-b/case-3",
+      "content": "Synthetic Client 3 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Ledger enables this function: Digitize incoming invoices without manual entry.\nStaff retyped supplier bills, slowing finance operations.\nIndustry: Industrial manufacturing.\nLocation: USA.\nInvoice operations errors were eliminated, lowering operational risk.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-c",
+      "vendor_name": "Synthetic-C",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-c/case-0",
+      "content": "Synthetic Client 0 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Route enables this function: Automatically route incoming support tickets.\nStaff manually sorted support tickets, delaying responses.\nIndustry: Manufacturing.\nLocation: United States.\nTicket operations processing time fell by 40 percent.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-c",
+      "vendor_name": "Synthetic-C",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-c/case-1",
+      "content": "Synthetic Client 1 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Route enables this function: Assign new service requests without manual sorting.\nManual support-request triage delayed replies.\nIndustry: Industrial manufacturing.\nLocation: USA.\nTicket operations errors were eliminated, lowering operational risk.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-c",
+      "vendor_name": "Synthetic-C",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-c/case-2",
+      "content": "Synthetic Client 2 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Ledger enables this function: Capture supplier invoices automatically.\nManual invoice entry caused processing delays.\nIndustry: Manufacturing.\nLocation: United States.\nInvoice operations processing time fell by 40 percent.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-c",
+      "vendor_name": "Synthetic-C",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-c/case-3",
+      "content": "Synthetic Client 3 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Ledger enables this function: Digitize incoming invoices without manual entry.\nStaff retyped supplier bills, slowing finance operations.\nIndustry: Industrial manufacturing.\nLocation: USA.\nInvoice operations errors were eliminated, lowering operational risk.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-d",
+      "vendor_name": "Synthetic-D",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-d/case-0",
+      "content": "Synthetic Client 0 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Route enables this function: Automatically route incoming support tickets.\nStaff manually sorted support tickets, delaying responses.\nIndustry: Manufacturing.\nLocation: United States.\nTicket operations processing time fell by 40 percent.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-d",
+      "vendor_name": "Synthetic-D",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-d/case-1",
+      "content": "Synthetic Client 1 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Route enables this function: Assign new service requests without manual sorting.\nManual support-request triage delayed replies.\nIndustry: Industrial manufacturing.\nLocation: USA.\nTicket operations errors were eliminated, lowering operational risk.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-d",
+      "vendor_name": "Synthetic-D",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-d/case-2",
+      "content": "Synthetic Client 2 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Ledger enables this function: Capture supplier invoices automatically.\nManual invoice entry caused processing delays.\nIndustry: Manufacturing.\nLocation: United States.\nInvoice operations processing time fell by 40 percent.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-d",
+      "vendor_name": "Synthetic-D",
+      "page_type": "case_study",
+      "url": "https://example.org/synthetic-d/case-3",
+      "content": "Synthetic Client 3 is the subject of this synthetic customer story.\nSynthetic Route and Synthetic Ledger are available offerings.\nSynthetic Ledger enables this function: Digitize incoming invoices without manual entry.\nStaff retyped supplier bills, slowing finance operations.\nIndustry: Industrial manufacturing.\nLocation: USA.\nInvoice operations errors were eliminated, lowering operational risk.",
+      "published_date": "2020-01-01"
+    },
+    {
+      "vendor_slug": "synthetic-a",
+      "vendor_name": "Synthetic-A",
+      "page_type": "product",
+      "url": "https://example.org/synthetic-a/reporting",
+      "content": "Synthetic Reports is an available offering.\nExport consistent audit reports.\nAnalysts lacked consistent reporting across review cycles.\nIndustry: Government agencies."
+    }
+  ],
+  "aliases": {
+    "customer_crosslinks": [
+      {
+        "name": "Synthetic Client Zero LLC",
+        "customer_id": "customer:synthetic-client-0",
+        "canonical_name": "Synthetic Client 0",
+        "approved": true
+      }
+    ]
+  }
+}

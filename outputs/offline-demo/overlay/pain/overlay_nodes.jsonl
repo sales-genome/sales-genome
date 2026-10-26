@@ -1,0 +1,3 @@
+{"canonical_name": "Synthetic pain concept", "id": "synthetic:canonical:pain", "type": "pain_canonical"}
+{"id": "synthetic:subtheme:pain", "name": "Synthetic subtheme", "type": "pain_subtheme"}
+{"id": "synthetic:domain:pain", "name": "Synthetic domain", "type": "pain_domain"}

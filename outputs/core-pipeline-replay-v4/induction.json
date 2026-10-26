@@ -1,0 +1,2000 @@
+{
+  "version": "strict-semantic-induction-1",
+  "dimensions": [
+    {
+      "dimension": "pain",
+      "nodes": [
+        {
+          "id": "canonical:pain:5471c8ea780778d2da51",
+          "type": "pain_canonical",
+          "name": "Synthetic pain reporting",
+          "text": "Synthetic pain reporting",
+          "scope_definition": "Equivalent synthetic reporting meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "pain",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "pain:6b54240c"
+          ],
+          "induction_receipts": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            41
+          ]
+        },
+        {
+          "id": "canonical:pain:9cf3d3256e22cbbbbeab",
+          "type": "pain_canonical",
+          "name": "Synthetic pain invoice",
+          "text": "Synthetic pain invoice",
+          "scope_definition": "Equivalent synthetic invoice meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "pain",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "pain:0108bb55",
+            "pain:17d38a63"
+          ],
+          "induction_receipts": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            40
+          ]
+        },
+        {
+          "id": "canonical:pain:d44bbeb7227ef12f881b",
+          "type": "pain_canonical",
+          "name": "Synthetic pain ticket",
+          "text": "Synthetic pain ticket",
+          "scope_definition": "Equivalent synthetic ticket meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "pain",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "pain:94e28ed9",
+            "pain:d59a7aba"
+          ],
+          "induction_receipts": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        },
+        {
+          "id": "taxonomy:pain:45fd73c4906fbe4e7f7c",
+          "type": "pain_subtheme",
+          "name": "Refined meanings",
+          "description": "Force-split overloaded semantic branch.",
+          "dimension": "pain",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:pain:477ef742dbbba69f4189",
+          "type": "pain_domain",
+          "name": "Synthetic pain domain",
+          "description": "Authored synthetic semantic responses.",
+          "dimension": "pain",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:pain:58c033b9e7cbd607daba",
+          "type": "pain_subtheme",
+          "name": "ticket",
+          "description": "Synthetic ticket descriptions.",
+          "dimension": "pain",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:pain:888dbf6a6e7538868b9f",
+          "type": "pain_subtheme",
+          "name": "reporting",
+          "description": "Synthetic reporting descriptions.",
+          "dimension": "pain",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:pain:ce5bfebaa437732f5c5f",
+          "type": "pain_subtheme",
+          "name": "invoice",
+          "description": "Synthetic invoice descriptions.",
+          "dimension": "pain",
+          "level": "category"
+        }
+      ],
+      "edges": [
+        {
+          "src": "canonical:pain:5471c8ea780778d2da51",
+          "type": "is_a",
+          "dst": "taxonomy:pain:888dbf6a6e7538868b9f",
+          "dimension": "pain"
+        },
+        {
+          "src": "canonical:pain:9cf3d3256e22cbbbbeab",
+          "type": "is_a",
+          "dst": "taxonomy:pain:ce5bfebaa437732f5c5f",
+          "dimension": "pain"
+        },
+        {
+          "src": "canonical:pain:d44bbeb7227ef12f881b",
+          "type": "is_a",
+          "dst": "taxonomy:pain:58c033b9e7cbd607daba",
+          "dimension": "pain"
+        },
+        {
+          "src": "taxonomy:pain:45fd73c4906fbe4e7f7c",
+          "type": "is_a",
+          "dst": "taxonomy:pain:477ef742dbbba69f4189",
+          "dimension": "pain"
+        },
+        {
+          "src": "taxonomy:pain:58c033b9e7cbd607daba",
+          "type": "is_a",
+          "dst": "taxonomy:pain:45fd73c4906fbe4e7f7c",
+          "dimension": "pain"
+        },
+        {
+          "src": "taxonomy:pain:888dbf6a6e7538868b9f",
+          "type": "is_a",
+          "dst": "taxonomy:pain:45fd73c4906fbe4e7f7c",
+          "dimension": "pain"
+        },
+        {
+          "src": "taxonomy:pain:ce5bfebaa437732f5c5f",
+          "type": "is_a",
+          "dst": "taxonomy:pain:45fd73c4906fbe4e7f7c",
+          "dimension": "pain"
+        }
+      ],
+      "mappings": [
+        {
+          "src": "pain:0108bb55",
+          "type": "instance_of",
+          "dst": "canonical:pain:9cf3d3256e22cbbbbeab",
+          "dimension": "pain",
+          "status": "model_grouped"
+        },
+        {
+          "src": "pain:17d38a63",
+          "type": "instance_of",
+          "dst": "canonical:pain:9cf3d3256e22cbbbbeab",
+          "dimension": "pain",
+          "status": "model_grouped"
+        },
+        {
+          "src": "pain:6b54240c",
+          "type": "instance_of",
+          "dst": "canonical:pain:5471c8ea780778d2da51",
+          "dimension": "pain",
+          "status": "model_grouped"
+        },
+        {
+          "src": "pain:94e28ed9",
+          "type": "instance_of",
+          "dst": "canonical:pain:d44bbeb7227ef12f881b",
+          "dimension": "pain",
+          "status": "model_grouped"
+        },
+        {
+          "src": "pain:d59a7aba",
+          "type": "instance_of",
+          "dst": "canonical:pain:d44bbeb7227ef12f881b",
+          "dimension": "pain",
+          "status": "model_grouped"
+        }
+      ],
+      "unmapped": [],
+      "rounds": [
+        {
+          "round": 1,
+          "coverage": 0.4,
+          "assigned": 2,
+          "total": 5,
+          "leaf_loads": {
+            "0": 2
+          },
+          "overloaded_leaves": [
+            0
+          ],
+          "hierarchy_sha256": "04ae977a77c57a43fb9d92dca66eaae4f1a5f7278e269012063b3cb83e285167",
+          "hierarchy_receipt": 33,
+          "schema_unchanged": false
+        },
+        {
+          "round": 2,
+          "coverage": 1.0,
+          "assigned": 5,
+          "total": 5,
+          "leaf_loads": {
+            "1": 2,
+            "2": 1,
+            "0": 2
+          },
+          "overloaded_leaves": [],
+          "hierarchy_sha256": "eff85180be5541616455227c1e205740270da67598902bc3df22e2b4b7891d55",
+          "hierarchy_receipt": 36,
+          "schema_unchanged": false
+        }
+      ],
+      "status": "coverage_and_balance_targets_met",
+      "settings": {
+        "seed": "construction-pipeline-v1",
+        "sample_size": 4,
+        "classification_batch": 3,
+        "group_batch": 2,
+        "reconciliation_batch": 2,
+        "max_rounds": 4,
+        "coverage_target": 0.95,
+        "max_leaf_fraction": 0.6,
+        "min_split_size": 2,
+        "max_depth": 6,
+        "explicit_singleton_fallback": false
+      },
+      "hierarchy": {
+        "dimension": "pain",
+        "domains": [
+          {
+            "name": "Synthetic pain domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Refined meanings",
+                "description": "Force-split overloaded semantic branch.",
+                "children": [
+                  {
+                    "name": "ticket",
+                    "description": "Synthetic ticket descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "invoice",
+                    "description": "Synthetic invoice descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "reporting",
+                    "description": "Synthetic reporting descriptions.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "dimension": "capability",
+      "nodes": [
+        {
+          "id": "canonical:capability:0fefbcf69860677d6d54",
+          "type": "cap_canonical",
+          "name": "Synthetic capability reporting",
+          "text": "Synthetic capability reporting",
+          "scope_definition": "Equivalent synthetic reporting meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "capability",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "cap:synthetic-a:eea0205f"
+          ],
+          "induction_receipts": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            70
+          ]
+        },
+        {
+          "id": "canonical:capability:44978b8fbbec3482ee0f",
+          "type": "cap_canonical",
+          "name": "Synthetic capability ticket",
+          "text": "Synthetic capability ticket",
+          "scope_definition": "Equivalent synthetic ticket meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "capability",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "cap:synthetic-a:98258f3c",
+            "cap:synthetic-a:e5adb1b9",
+            "cap:synthetic-b:98258f3c",
+            "cap:synthetic-b:e5adb1b9",
+            "cap:synthetic-c:98258f3c",
+            "cap:synthetic-c:e5adb1b9",
+            "cap:synthetic-d:98258f3c",
+            "cap:synthetic-d:e5adb1b9"
+          ],
+          "induction_receipts": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ]
+        },
+        {
+          "id": "canonical:capability:47125695855db312e7a7",
+          "type": "cap_canonical",
+          "name": "Synthetic capability invoice",
+          "text": "Synthetic capability invoice",
+          "scope_definition": "Equivalent synthetic invoice meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "capability",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "cap:synthetic-a:69c7ffd9",
+            "cap:synthetic-a:eb4bd586",
+            "cap:synthetic-b:69c7ffd9",
+            "cap:synthetic-b:eb4bd586",
+            "cap:synthetic-c:69c7ffd9",
+            "cap:synthetic-c:eb4bd586",
+            "cap:synthetic-d:69c7ffd9",
+            "cap:synthetic-d:eb4bd586"
+          ],
+          "induction_receipts": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ]
+        },
+        {
+          "id": "taxonomy:capability:175675e4956264228ac5",
+          "type": "cap_subtheme",
+          "name": "Refined meanings",
+          "description": "Force-split overloaded semantic branch.",
+          "dimension": "capability",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:capability:3eff53edd117212af2c0",
+          "type": "cap_domain",
+          "name": "Synthetic capability domain",
+          "description": "Authored synthetic semantic responses.",
+          "dimension": "capability",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:capability:40ab75a6dd919a223f5b",
+          "type": "cap_subtheme",
+          "name": "invoice",
+          "description": "Synthetic invoice descriptions.",
+          "dimension": "capability",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:capability:989411ab19aac13a5323",
+          "type": "cap_subtheme",
+          "name": "ticket",
+          "description": "Synthetic ticket descriptions.",
+          "dimension": "capability",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:capability:e984cd62668829de4710",
+          "type": "cap_subtheme",
+          "name": "reporting",
+          "description": "Synthetic reporting descriptions.",
+          "dimension": "capability",
+          "level": "category"
+        }
+      ],
+      "edges": [
+        {
+          "src": "canonical:capability:0fefbcf69860677d6d54",
+          "type": "is_a",
+          "dst": "taxonomy:capability:e984cd62668829de4710",
+          "dimension": "capability"
+        },
+        {
+          "src": "canonical:capability:44978b8fbbec3482ee0f",
+          "type": "is_a",
+          "dst": "taxonomy:capability:989411ab19aac13a5323",
+          "dimension": "capability"
+        },
+        {
+          "src": "canonical:capability:47125695855db312e7a7",
+          "type": "is_a",
+          "dst": "taxonomy:capability:40ab75a6dd919a223f5b",
+          "dimension": "capability"
+        },
+        {
+          "src": "taxonomy:capability:175675e4956264228ac5",
+          "type": "is_a",
+          "dst": "taxonomy:capability:3eff53edd117212af2c0",
+          "dimension": "capability"
+        },
+        {
+          "src": "taxonomy:capability:40ab75a6dd919a223f5b",
+          "type": "is_a",
+          "dst": "taxonomy:capability:175675e4956264228ac5",
+          "dimension": "capability"
+        },
+        {
+          "src": "taxonomy:capability:989411ab19aac13a5323",
+          "type": "is_a",
+          "dst": "taxonomy:capability:175675e4956264228ac5",
+          "dimension": "capability"
+        },
+        {
+          "src": "taxonomy:capability:e984cd62668829de4710",
+          "type": "is_a",
+          "dst": "taxonomy:capability:175675e4956264228ac5",
+          "dimension": "capability"
+        }
+      ],
+      "mappings": [
+        {
+          "src": "cap:synthetic-a:69c7ffd9",
+          "type": "instance_of",
+          "dst": "canonical:capability:47125695855db312e7a7",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-a:98258f3c",
+          "type": "instance_of",
+          "dst": "canonical:capability:44978b8fbbec3482ee0f",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-a:e5adb1b9",
+          "type": "instance_of",
+          "dst": "canonical:capability:44978b8fbbec3482ee0f",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-a:eb4bd586",
+          "type": "instance_of",
+          "dst": "canonical:capability:47125695855db312e7a7",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-a:eea0205f",
+          "type": "instance_of",
+          "dst": "canonical:capability:0fefbcf69860677d6d54",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-b:69c7ffd9",
+          "type": "instance_of",
+          "dst": "canonical:capability:47125695855db312e7a7",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-b:98258f3c",
+          "type": "instance_of",
+          "dst": "canonical:capability:44978b8fbbec3482ee0f",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-b:e5adb1b9",
+          "type": "instance_of",
+          "dst": "canonical:capability:44978b8fbbec3482ee0f",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-b:eb4bd586",
+          "type": "instance_of",
+          "dst": "canonical:capability:47125695855db312e7a7",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-c:69c7ffd9",
+          "type": "instance_of",
+          "dst": "canonical:capability:47125695855db312e7a7",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-c:98258f3c",
+          "type": "instance_of",
+          "dst": "canonical:capability:44978b8fbbec3482ee0f",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-c:e5adb1b9",
+          "type": "instance_of",
+          "dst": "canonical:capability:44978b8fbbec3482ee0f",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-c:eb4bd586",
+          "type": "instance_of",
+          "dst": "canonical:capability:47125695855db312e7a7",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-d:69c7ffd9",
+          "type": "instance_of",
+          "dst": "canonical:capability:47125695855db312e7a7",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-d:98258f3c",
+          "type": "instance_of",
+          "dst": "canonical:capability:44978b8fbbec3482ee0f",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-d:e5adb1b9",
+          "type": "instance_of",
+          "dst": "canonical:capability:44978b8fbbec3482ee0f",
+          "dimension": "capability",
+          "status": "model_grouped"
+        },
+        {
+          "src": "cap:synthetic-d:eb4bd586",
+          "type": "instance_of",
+          "dst": "canonical:capability:47125695855db312e7a7",
+          "dimension": "capability",
+          "status": "model_grouped"
+        }
+      ],
+      "unmapped": [],
+      "rounds": [
+        {
+          "round": 1,
+          "coverage": 0.47058823529411764,
+          "assigned": 8,
+          "total": 17,
+          "leaf_loads": {
+            "0": 8
+          },
+          "overloaded_leaves": [
+            0
+          ],
+          "hierarchy_sha256": "006a7f6a5ae2723931824fc86f53fe9c124385977b84d279d9fa5f1feaebe4ef",
+          "hierarchy_receipt": 42,
+          "schema_unchanged": false
+        },
+        {
+          "round": 2,
+          "coverage": 1.0,
+          "assigned": 17,
+          "total": 17,
+          "leaf_loads": {
+            "1": 8,
+            "0": 8,
+            "2": 1
+          },
+          "overloaded_leaves": [],
+          "hierarchy_sha256": "7c314801c23904b57fdc691284029df779d687ccbe943394a960a3920ea2fec9",
+          "hierarchy_receipt": 49,
+          "schema_unchanged": false
+        }
+      ],
+      "status": "coverage_and_balance_targets_met",
+      "settings": {
+        "seed": "construction-pipeline-v1",
+        "sample_size": 4,
+        "classification_batch": 3,
+        "group_batch": 2,
+        "reconciliation_batch": 2,
+        "max_rounds": 4,
+        "coverage_target": 0.95,
+        "max_leaf_fraction": 0.6,
+        "min_split_size": 2,
+        "max_depth": 6,
+        "explicit_singleton_fallback": false
+      },
+      "hierarchy": {
+        "dimension": "capability",
+        "domains": [
+          {
+            "name": "Synthetic capability domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Refined meanings",
+                "description": "Force-split overloaded semantic branch.",
+                "children": [
+                  {
+                    "name": "ticket",
+                    "description": "Synthetic ticket descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "invoice",
+                    "description": "Synthetic invoice descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "reporting",
+                    "description": "Synthetic reporting descriptions.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "dimension": "audience",
+      "nodes": [
+        {
+          "id": "canonical:audience:1399116ba340dbbec0da",
+          "type": "audience",
+          "name": "Synthetic audience government",
+          "text": "Synthetic audience government",
+          "scope_definition": "Equivalent synthetic government meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "audience",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "audience:3da4b52b"
+          ],
+          "induction_receipts": [
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            80
+          ]
+        },
+        {
+          "id": "canonical:audience:4788f12c8645132f6320",
+          "type": "audience",
+          "name": "Synthetic audience united_states",
+          "text": "Synthetic audience united_states",
+          "scope_definition": "Equivalent synthetic united_states meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "audience",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "audience:295736ec",
+            "audience:98858caa"
+          ],
+          "induction_receipts": [
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            81
+          ]
+        },
+        {
+          "id": "canonical:audience:8fcf85ca12124b6a9833",
+          "type": "audience",
+          "name": "Synthetic audience manufacturing",
+          "text": "Synthetic audience manufacturing",
+          "scope_definition": "Equivalent synthetic manufacturing meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "audience",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "audience:a01e3216",
+            "audience:b80a44fe"
+          ],
+          "induction_receipts": [
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80
+          ]
+        },
+        {
+          "id": "taxonomy:audience:2d37f544d34338d6be43",
+          "type": "audience_subtheme",
+          "name": "Refined meanings",
+          "description": "Force-split overloaded semantic branch.",
+          "dimension": "audience",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:audience:44b4e7cac1f7c0f6d0ad",
+          "type": "audience_domain",
+          "name": "Synthetic audience domain",
+          "description": "Authored synthetic semantic responses.",
+          "dimension": "audience",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:audience:8476527ecfbc8da2db96",
+          "type": "audience_subtheme",
+          "name": "location",
+          "description": "Synthetic location descriptions.",
+          "dimension": "audience",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:audience:97cf0ddb02c7bb423af4",
+          "type": "audience_subtheme",
+          "name": "industry",
+          "description": "Synthetic industry descriptions.",
+          "dimension": "audience",
+          "level": "category"
+        }
+      ],
+      "edges": [
+        {
+          "src": "canonical:audience:1399116ba340dbbec0da",
+          "type": "is_a",
+          "dst": "taxonomy:audience:97cf0ddb02c7bb423af4",
+          "dimension": "audience"
+        },
+        {
+          "src": "canonical:audience:4788f12c8645132f6320",
+          "type": "is_a",
+          "dst": "taxonomy:audience:8476527ecfbc8da2db96",
+          "dimension": "audience"
+        },
+        {
+          "src": "canonical:audience:8fcf85ca12124b6a9833",
+          "type": "is_a",
+          "dst": "taxonomy:audience:97cf0ddb02c7bb423af4",
+          "dimension": "audience"
+        },
+        {
+          "src": "taxonomy:audience:2d37f544d34338d6be43",
+          "type": "is_a",
+          "dst": "taxonomy:audience:44b4e7cac1f7c0f6d0ad",
+          "dimension": "audience"
+        },
+        {
+          "src": "taxonomy:audience:8476527ecfbc8da2db96",
+          "type": "is_a",
+          "dst": "taxonomy:audience:2d37f544d34338d6be43",
+          "dimension": "audience"
+        },
+        {
+          "src": "taxonomy:audience:97cf0ddb02c7bb423af4",
+          "type": "is_a",
+          "dst": "taxonomy:audience:2d37f544d34338d6be43",
+          "dimension": "audience"
+        }
+      ],
+      "mappings": [
+        {
+          "src": "audience:295736ec",
+          "type": "instance_of",
+          "dst": "canonical:audience:4788f12c8645132f6320",
+          "dimension": "audience",
+          "status": "model_grouped"
+        },
+        {
+          "src": "audience:3da4b52b",
+          "type": "instance_of",
+          "dst": "canonical:audience:1399116ba340dbbec0da",
+          "dimension": "audience",
+          "status": "model_grouped"
+        },
+        {
+          "src": "audience:98858caa",
+          "type": "instance_of",
+          "dst": "canonical:audience:4788f12c8645132f6320",
+          "dimension": "audience",
+          "status": "model_grouped"
+        },
+        {
+          "src": "audience:a01e3216",
+          "type": "instance_of",
+          "dst": "canonical:audience:8fcf85ca12124b6a9833",
+          "dimension": "audience",
+          "status": "model_grouped"
+        },
+        {
+          "src": "audience:b80a44fe",
+          "type": "instance_of",
+          "dst": "canonical:audience:8fcf85ca12124b6a9833",
+          "dimension": "audience",
+          "status": "model_grouped"
+        }
+      ],
+      "unmapped": [],
+      "rounds": [
+        {
+          "round": 1,
+          "coverage": 0.6,
+          "assigned": 3,
+          "total": 5,
+          "leaf_loads": {
+            "0": 3
+          },
+          "overloaded_leaves": [
+            0
+          ],
+          "hierarchy_sha256": "3ac1e47317f7ac1ed2a7de8d875c2a1222ef67763a4622405cd926ae95cba63a",
+          "hierarchy_receipt": 71,
+          "schema_unchanged": false
+        },
+        {
+          "round": 2,
+          "coverage": 1.0,
+          "assigned": 5,
+          "total": 5,
+          "leaf_loads": {
+            "1": 2,
+            "0": 3
+          },
+          "overloaded_leaves": [],
+          "hierarchy_sha256": "e7ad03181bc788e81fb4b18f1b4138519528db67e8b226d041a0e20ac26f4d95",
+          "hierarchy_receipt": 74,
+          "schema_unchanged": false
+        }
+      ],
+      "status": "coverage_and_balance_targets_met",
+      "settings": {
+        "seed": "construction-pipeline-v1",
+        "sample_size": 4,
+        "classification_batch": 3,
+        "group_batch": 2,
+        "reconciliation_batch": 2,
+        "max_rounds": 4,
+        "coverage_target": 0.95,
+        "max_leaf_fraction": 0.6,
+        "min_split_size": 2,
+        "max_depth": 6,
+        "explicit_singleton_fallback": false
+      },
+      "hierarchy": {
+        "dimension": "audience",
+        "domains": [
+          {
+            "name": "Synthetic audience domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Refined meanings",
+                "description": "Force-split overloaded semantic branch.",
+                "children": [
+                  {
+                    "name": "industry",
+                    "description": "Synthetic industry descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "location",
+                    "description": "Synthetic location descriptions.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "dimension": "strategy",
+      "nodes": [
+        {
+          "id": "canonical:strategy:f72359d85180bf444ebe",
+          "type": "strategy",
+          "name": "Synthetic strategy reassurance",
+          "text": "Synthetic strategy reassurance",
+          "scope_definition": "Equivalent synthetic reassurance meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "strategy",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "strategy:676f084e",
+            "strategy:f60f7ff1"
+          ],
+          "induction_receipts": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            89
+          ]
+        },
+        {
+          "id": "canonical:strategy:feb9942cff37da3b07f1",
+          "type": "strategy",
+          "name": "Synthetic strategy quantified",
+          "text": "Synthetic strategy quantified",
+          "scope_definition": "Equivalent synthetic quantified meaning only.",
+          "key_discriminator": "Distinct from other synthetic meanings.",
+          "dimension": "strategy",
+          "level": "canonical",
+          "canonicalization_status": "model_grouped",
+          "raw_ids": [
+            "strategy:2a612063",
+            "strategy:f3998a8f"
+          ],
+          "induction_receipts": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88
+          ]
+        },
+        {
+          "id": "taxonomy:strategy:0e92ab0e45eda72f9459",
+          "type": "strategy_domain",
+          "name": "Synthetic strategy domain",
+          "description": "Authored synthetic semantic responses.",
+          "dimension": "strategy",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:strategy:472f5eb8b838509d7a6f",
+          "type": "strategy_subtheme",
+          "name": "quantified",
+          "description": "Synthetic quantified descriptions.",
+          "dimension": "strategy",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:strategy:bab7747c693475bfb52f",
+          "type": "strategy_subtheme",
+          "name": "reassurance",
+          "description": "Synthetic reassurance descriptions.",
+          "dimension": "strategy",
+          "level": "category"
+        },
+        {
+          "id": "taxonomy:strategy:fad478368c5bce6ac38b",
+          "type": "strategy_subtheme",
+          "name": "Refined meanings",
+          "description": "Force-split overloaded semantic branch.",
+          "dimension": "strategy",
+          "level": "category"
+        }
+      ],
+      "edges": [
+        {
+          "src": "canonical:strategy:f72359d85180bf444ebe",
+          "type": "is_a",
+          "dst": "taxonomy:strategy:bab7747c693475bfb52f",
+          "dimension": "strategy"
+        },
+        {
+          "src": "canonical:strategy:feb9942cff37da3b07f1",
+          "type": "is_a",
+          "dst": "taxonomy:strategy:472f5eb8b838509d7a6f",
+          "dimension": "strategy"
+        },
+        {
+          "src": "taxonomy:strategy:472f5eb8b838509d7a6f",
+          "type": "is_a",
+          "dst": "taxonomy:strategy:fad478368c5bce6ac38b",
+          "dimension": "strategy"
+        },
+        {
+          "src": "taxonomy:strategy:bab7747c693475bfb52f",
+          "type": "is_a",
+          "dst": "taxonomy:strategy:fad478368c5bce6ac38b",
+          "dimension": "strategy"
+        },
+        {
+          "src": "taxonomy:strategy:fad478368c5bce6ac38b",
+          "type": "is_a",
+          "dst": "taxonomy:strategy:0e92ab0e45eda72f9459",
+          "dimension": "strategy"
+        }
+      ],
+      "mappings": [
+        {
+          "src": "strategy:2a612063",
+          "type": "instance_of",
+          "dst": "canonical:strategy:feb9942cff37da3b07f1",
+          "dimension": "strategy",
+          "status": "model_grouped"
+        },
+        {
+          "src": "strategy:676f084e",
+          "type": "instance_of",
+          "dst": "canonical:strategy:f72359d85180bf444ebe",
+          "dimension": "strategy",
+          "status": "model_grouped"
+        },
+        {
+          "src": "strategy:f3998a8f",
+          "type": "instance_of",
+          "dst": "canonical:strategy:feb9942cff37da3b07f1",
+          "dimension": "strategy",
+          "status": "model_grouped"
+        },
+        {
+          "src": "strategy:f60f7ff1",
+          "type": "instance_of",
+          "dst": "canonical:strategy:f72359d85180bf444ebe",
+          "dimension": "strategy",
+          "status": "model_grouped"
+        }
+      ],
+      "unmapped": [],
+      "rounds": [
+        {
+          "round": 1,
+          "coverage": 0.5,
+          "assigned": 2,
+          "total": 4,
+          "leaf_loads": {
+            "0": 2
+          },
+          "overloaded_leaves": [
+            0
+          ],
+          "hierarchy_sha256": "f91939705f7f66dd3b9bf23ea2daabe584e4207dbc191a6b77a75e47b3716b46",
+          "hierarchy_receipt": 82,
+          "schema_unchanged": false
+        },
+        {
+          "round": 2,
+          "coverage": 1.0,
+          "assigned": 4,
+          "total": 4,
+          "leaf_loads": {
+            "0": 2,
+            "1": 2
+          },
+          "overloaded_leaves": [],
+          "hierarchy_sha256": "43de5aa5aea8c524a2a2ac4ba590085a1571ed8ff7332d2d86f5f70c0f1690fb",
+          "hierarchy_receipt": 85,
+          "schema_unchanged": false
+        }
+      ],
+      "status": "coverage_and_balance_targets_met",
+      "settings": {
+        "seed": "construction-pipeline-v1",
+        "sample_size": 4,
+        "classification_batch": 3,
+        "group_batch": 2,
+        "reconciliation_batch": 2,
+        "max_rounds": 4,
+        "coverage_target": 0.95,
+        "max_leaf_fraction": 0.6,
+        "min_split_size": 2,
+        "max_depth": 6,
+        "explicit_singleton_fallback": false
+      },
+      "hierarchy": {
+        "dimension": "strategy",
+        "domains": [
+          {
+            "name": "Synthetic strategy domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Refined meanings",
+                "description": "Force-split overloaded semantic branch.",
+                "children": [
+                  {
+                    "name": "quantified",
+                    "description": "Synthetic quantified descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "reassurance",
+                    "description": "Synthetic reassurance descriptions.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "canonical:pain:5471c8ea780778d2da51",
+      "type": "pain_canonical",
+      "name": "Synthetic pain reporting",
+      "text": "Synthetic pain reporting",
+      "scope_definition": "Equivalent synthetic reporting meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "pain",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "pain:6b54240c"
+      ],
+      "induction_receipts": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        41
+      ]
+    },
+    {
+      "id": "canonical:pain:9cf3d3256e22cbbbbeab",
+      "type": "pain_canonical",
+      "name": "Synthetic pain invoice",
+      "text": "Synthetic pain invoice",
+      "scope_definition": "Equivalent synthetic invoice meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "pain",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "pain:0108bb55",
+        "pain:17d38a63"
+      ],
+      "induction_receipts": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40
+      ]
+    },
+    {
+      "id": "canonical:pain:d44bbeb7227ef12f881b",
+      "type": "pain_canonical",
+      "name": "Synthetic pain ticket",
+      "text": "Synthetic pain ticket",
+      "scope_definition": "Equivalent synthetic ticket meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "pain",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "pain:94e28ed9",
+        "pain:d59a7aba"
+      ],
+      "induction_receipts": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "id": "taxonomy:pain:45fd73c4906fbe4e7f7c",
+      "type": "pain_subtheme",
+      "name": "Refined meanings",
+      "description": "Force-split overloaded semantic branch.",
+      "dimension": "pain",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:pain:477ef742dbbba69f4189",
+      "type": "pain_domain",
+      "name": "Synthetic pain domain",
+      "description": "Authored synthetic semantic responses.",
+      "dimension": "pain",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:pain:58c033b9e7cbd607daba",
+      "type": "pain_subtheme",
+      "name": "ticket",
+      "description": "Synthetic ticket descriptions.",
+      "dimension": "pain",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:pain:888dbf6a6e7538868b9f",
+      "type": "pain_subtheme",
+      "name": "reporting",
+      "description": "Synthetic reporting descriptions.",
+      "dimension": "pain",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:pain:ce5bfebaa437732f5c5f",
+      "type": "pain_subtheme",
+      "name": "invoice",
+      "description": "Synthetic invoice descriptions.",
+      "dimension": "pain",
+      "level": "category"
+    },
+    {
+      "id": "canonical:capability:0fefbcf69860677d6d54",
+      "type": "cap_canonical",
+      "name": "Synthetic capability reporting",
+      "text": "Synthetic capability reporting",
+      "scope_definition": "Equivalent synthetic reporting meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "capability",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "cap:synthetic-a:eea0205f"
+      ],
+      "induction_receipts": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        70
+      ]
+    },
+    {
+      "id": "canonical:capability:44978b8fbbec3482ee0f",
+      "type": "cap_canonical",
+      "name": "Synthetic capability ticket",
+      "text": "Synthetic capability ticket",
+      "scope_definition": "Equivalent synthetic ticket meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "capability",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "cap:synthetic-a:98258f3c",
+        "cap:synthetic-a:e5adb1b9",
+        "cap:synthetic-b:98258f3c",
+        "cap:synthetic-b:e5adb1b9",
+        "cap:synthetic-c:98258f3c",
+        "cap:synthetic-c:e5adb1b9",
+        "cap:synthetic-d:98258f3c",
+        "cap:synthetic-d:e5adb1b9"
+      ],
+      "induction_receipts": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "id": "canonical:capability:47125695855db312e7a7",
+      "type": "cap_canonical",
+      "name": "Synthetic capability invoice",
+      "text": "Synthetic capability invoice",
+      "scope_definition": "Equivalent synthetic invoice meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "capability",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "cap:synthetic-a:69c7ffd9",
+        "cap:synthetic-a:eb4bd586",
+        "cap:synthetic-b:69c7ffd9",
+        "cap:synthetic-b:eb4bd586",
+        "cap:synthetic-c:69c7ffd9",
+        "cap:synthetic-c:eb4bd586",
+        "cap:synthetic-d:69c7ffd9",
+        "cap:synthetic-d:eb4bd586"
+      ],
+      "induction_receipts": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "id": "taxonomy:capability:175675e4956264228ac5",
+      "type": "cap_subtheme",
+      "name": "Refined meanings",
+      "description": "Force-split overloaded semantic branch.",
+      "dimension": "capability",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:capability:3eff53edd117212af2c0",
+      "type": "cap_domain",
+      "name": "Synthetic capability domain",
+      "description": "Authored synthetic semantic responses.",
+      "dimension": "capability",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:capability:40ab75a6dd919a223f5b",
+      "type": "cap_subtheme",
+      "name": "invoice",
+      "description": "Synthetic invoice descriptions.",
+      "dimension": "capability",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:capability:989411ab19aac13a5323",
+      "type": "cap_subtheme",
+      "name": "ticket",
+      "description": "Synthetic ticket descriptions.",
+      "dimension": "capability",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:capability:e984cd62668829de4710",
+      "type": "cap_subtheme",
+      "name": "reporting",
+      "description": "Synthetic reporting descriptions.",
+      "dimension": "capability",
+      "level": "category"
+    },
+    {
+      "id": "canonical:audience:1399116ba340dbbec0da",
+      "type": "audience",
+      "name": "Synthetic audience government",
+      "text": "Synthetic audience government",
+      "scope_definition": "Equivalent synthetic government meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "audience",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "audience:3da4b52b"
+      ],
+      "induction_receipts": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        80
+      ]
+    },
+    {
+      "id": "canonical:audience:4788f12c8645132f6320",
+      "type": "audience",
+      "name": "Synthetic audience united_states",
+      "text": "Synthetic audience united_states",
+      "scope_definition": "Equivalent synthetic united_states meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "audience",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "audience:295736ec",
+        "audience:98858caa"
+      ],
+      "induction_receipts": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        81
+      ]
+    },
+    {
+      "id": "canonical:audience:8fcf85ca12124b6a9833",
+      "type": "audience",
+      "name": "Synthetic audience manufacturing",
+      "text": "Synthetic audience manufacturing",
+      "scope_definition": "Equivalent synthetic manufacturing meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "audience",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "audience:a01e3216",
+        "audience:b80a44fe"
+      ],
+      "induction_receipts": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "id": "taxonomy:audience:2d37f544d34338d6be43",
+      "type": "audience_subtheme",
+      "name": "Refined meanings",
+      "description": "Force-split overloaded semantic branch.",
+      "dimension": "audience",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:audience:44b4e7cac1f7c0f6d0ad",
+      "type": "audience_domain",
+      "name": "Synthetic audience domain",
+      "description": "Authored synthetic semantic responses.",
+      "dimension": "audience",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:audience:8476527ecfbc8da2db96",
+      "type": "audience_subtheme",
+      "name": "location",
+      "description": "Synthetic location descriptions.",
+      "dimension": "audience",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:audience:97cf0ddb02c7bb423af4",
+      "type": "audience_subtheme",
+      "name": "industry",
+      "description": "Synthetic industry descriptions.",
+      "dimension": "audience",
+      "level": "category"
+    },
+    {
+      "id": "canonical:strategy:f72359d85180bf444ebe",
+      "type": "strategy",
+      "name": "Synthetic strategy reassurance",
+      "text": "Synthetic strategy reassurance",
+      "scope_definition": "Equivalent synthetic reassurance meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "strategy",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "strategy:676f084e",
+        "strategy:f60f7ff1"
+      ],
+      "induction_receipts": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        89
+      ]
+    },
+    {
+      "id": "canonical:strategy:feb9942cff37da3b07f1",
+      "type": "strategy",
+      "name": "Synthetic strategy quantified",
+      "text": "Synthetic strategy quantified",
+      "scope_definition": "Equivalent synthetic quantified meaning only.",
+      "key_discriminator": "Distinct from other synthetic meanings.",
+      "dimension": "strategy",
+      "level": "canonical",
+      "canonicalization_status": "model_grouped",
+      "raw_ids": [
+        "strategy:2a612063",
+        "strategy:f3998a8f"
+      ],
+      "induction_receipts": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ]
+    },
+    {
+      "id": "taxonomy:strategy:0e92ab0e45eda72f9459",
+      "type": "strategy_domain",
+      "name": "Synthetic strategy domain",
+      "description": "Authored synthetic semantic responses.",
+      "dimension": "strategy",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:strategy:472f5eb8b838509d7a6f",
+      "type": "strategy_subtheme",
+      "name": "quantified",
+      "description": "Synthetic quantified descriptions.",
+      "dimension": "strategy",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:strategy:bab7747c693475bfb52f",
+      "type": "strategy_subtheme",
+      "name": "reassurance",
+      "description": "Synthetic reassurance descriptions.",
+      "dimension": "strategy",
+      "level": "category"
+    },
+    {
+      "id": "taxonomy:strategy:fad478368c5bce6ac38b",
+      "type": "strategy_subtheme",
+      "name": "Refined meanings",
+      "description": "Force-split overloaded semantic branch.",
+      "dimension": "strategy",
+      "level": "category"
+    }
+  ],
+  "edges": [
+    {
+      "src": "canonical:pain:5471c8ea780778d2da51",
+      "type": "is_a",
+      "dst": "taxonomy:pain:888dbf6a6e7538868b9f",
+      "dimension": "pain"
+    },
+    {
+      "src": "canonical:pain:9cf3d3256e22cbbbbeab",
+      "type": "is_a",
+      "dst": "taxonomy:pain:ce5bfebaa437732f5c5f",
+      "dimension": "pain"
+    },
+    {
+      "src": "canonical:pain:d44bbeb7227ef12f881b",
+      "type": "is_a",
+      "dst": "taxonomy:pain:58c033b9e7cbd607daba",
+      "dimension": "pain"
+    },
+    {
+      "src": "taxonomy:pain:45fd73c4906fbe4e7f7c",
+      "type": "is_a",
+      "dst": "taxonomy:pain:477ef742dbbba69f4189",
+      "dimension": "pain"
+    },
+    {
+      "src": "taxonomy:pain:58c033b9e7cbd607daba",
+      "type": "is_a",
+      "dst": "taxonomy:pain:45fd73c4906fbe4e7f7c",
+      "dimension": "pain"
+    },
+    {
+      "src": "taxonomy:pain:888dbf6a6e7538868b9f",
+      "type": "is_a",
+      "dst": "taxonomy:pain:45fd73c4906fbe4e7f7c",
+      "dimension": "pain"
+    },
+    {
+      "src": "taxonomy:pain:ce5bfebaa437732f5c5f",
+      "type": "is_a",
+      "dst": "taxonomy:pain:45fd73c4906fbe4e7f7c",
+      "dimension": "pain"
+    },
+    {
+      "src": "canonical:capability:0fefbcf69860677d6d54",
+      "type": "is_a",
+      "dst": "taxonomy:capability:e984cd62668829de4710",
+      "dimension": "capability"
+    },
+    {
+      "src": "canonical:capability:44978b8fbbec3482ee0f",
+      "type": "is_a",
+      "dst": "taxonomy:capability:989411ab19aac13a5323",
+      "dimension": "capability"
+    },
+    {
+      "src": "canonical:capability:47125695855db312e7a7",
+      "type": "is_a",
+      "dst": "taxonomy:capability:40ab75a6dd919a223f5b",
+      "dimension": "capability"
+    },
+    {
+      "src": "taxonomy:capability:175675e4956264228ac5",
+      "type": "is_a",
+      "dst": "taxonomy:capability:3eff53edd117212af2c0",
+      "dimension": "capability"
+    },
+    {
+      "src": "taxonomy:capability:40ab75a6dd919a223f5b",
+      "type": "is_a",
+      "dst": "taxonomy:capability:175675e4956264228ac5",
+      "dimension": "capability"
+    },
+    {
+      "src": "taxonomy:capability:989411ab19aac13a5323",
+      "type": "is_a",
+      "dst": "taxonomy:capability:175675e4956264228ac5",
+      "dimension": "capability"
+    },
+    {
+      "src": "taxonomy:capability:e984cd62668829de4710",
+      "type": "is_a",
+      "dst": "taxonomy:capability:175675e4956264228ac5",
+      "dimension": "capability"
+    },
+    {
+      "src": "canonical:audience:1399116ba340dbbec0da",
+      "type": "is_a",
+      "dst": "taxonomy:audience:97cf0ddb02c7bb423af4",
+      "dimension": "audience"
+    },
+    {
+      "src": "canonical:audience:4788f12c8645132f6320",
+      "type": "is_a",
+      "dst": "taxonomy:audience:8476527ecfbc8da2db96",
+      "dimension": "audience"
+    },
+    {
+      "src": "canonical:audience:8fcf85ca12124b6a9833",
+      "type": "is_a",
+      "dst": "taxonomy:audience:97cf0ddb02c7bb423af4",
+      "dimension": "audience"
+    },
+    {
+      "src": "taxonomy:audience:2d37f544d34338d6be43",
+      "type": "is_a",
+      "dst": "taxonomy:audience:44b4e7cac1f7c0f6d0ad",
+      "dimension": "audience"
+    },
+    {
+      "src": "taxonomy:audience:8476527ecfbc8da2db96",
+      "type": "is_a",
+      "dst": "taxonomy:audience:2d37f544d34338d6be43",
+      "dimension": "audience"
+    },
+    {
+      "src": "taxonomy:audience:97cf0ddb02c7bb423af4",
+      "type": "is_a",
+      "dst": "taxonomy:audience:2d37f544d34338d6be43",
+      "dimension": "audience"
+    },
+    {
+      "src": "canonical:strategy:f72359d85180bf444ebe",
+      "type": "is_a",
+      "dst": "taxonomy:strategy:bab7747c693475bfb52f",
+      "dimension": "strategy"
+    },
+    {
+      "src": "canonical:strategy:feb9942cff37da3b07f1",
+      "type": "is_a",
+      "dst": "taxonomy:strategy:472f5eb8b838509d7a6f",
+      "dimension": "strategy"
+    },
+    {
+      "src": "taxonomy:strategy:472f5eb8b838509d7a6f",
+      "type": "is_a",
+      "dst": "taxonomy:strategy:fad478368c5bce6ac38b",
+      "dimension": "strategy"
+    },
+    {
+      "src": "taxonomy:strategy:bab7747c693475bfb52f",
+      "type": "is_a",
+      "dst": "taxonomy:strategy:fad478368c5bce6ac38b",
+      "dimension": "strategy"
+    },
+    {
+      "src": "taxonomy:strategy:fad478368c5bce6ac38b",
+      "type": "is_a",
+      "dst": "taxonomy:strategy:0e92ab0e45eda72f9459",
+      "dimension": "strategy"
+    }
+  ],
+  "mappings": [
+    {
+      "src": "pain:0108bb55",
+      "type": "instance_of",
+      "dst": "canonical:pain:9cf3d3256e22cbbbbeab",
+      "dimension": "pain",
+      "status": "model_grouped"
+    },
+    {
+      "src": "pain:17d38a63",
+      "type": "instance_of",
+      "dst": "canonical:pain:9cf3d3256e22cbbbbeab",
+      "dimension": "pain",
+      "status": "model_grouped"
+    },
+    {
+      "src": "pain:6b54240c",
+      "type": "instance_of",
+      "dst": "canonical:pain:5471c8ea780778d2da51",
+      "dimension": "pain",
+      "status": "model_grouped"
+    },
+    {
+      "src": "pain:94e28ed9",
+      "type": "instance_of",
+      "dst": "canonical:pain:d44bbeb7227ef12f881b",
+      "dimension": "pain",
+      "status": "model_grouped"
+    },
+    {
+      "src": "pain:d59a7aba",
+      "type": "instance_of",
+      "dst": "canonical:pain:d44bbeb7227ef12f881b",
+      "dimension": "pain",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-a:69c7ffd9",
+      "type": "instance_of",
+      "dst": "canonical:capability:47125695855db312e7a7",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-a:98258f3c",
+      "type": "instance_of",
+      "dst": "canonical:capability:44978b8fbbec3482ee0f",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-a:e5adb1b9",
+      "type": "instance_of",
+      "dst": "canonical:capability:44978b8fbbec3482ee0f",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-a:eb4bd586",
+      "type": "instance_of",
+      "dst": "canonical:capability:47125695855db312e7a7",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-a:eea0205f",
+      "type": "instance_of",
+      "dst": "canonical:capability:0fefbcf69860677d6d54",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-b:69c7ffd9",
+      "type": "instance_of",
+      "dst": "canonical:capability:47125695855db312e7a7",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-b:98258f3c",
+      "type": "instance_of",
+      "dst": "canonical:capability:44978b8fbbec3482ee0f",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-b:e5adb1b9",
+      "type": "instance_of",
+      "dst": "canonical:capability:44978b8fbbec3482ee0f",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-b:eb4bd586",
+      "type": "instance_of",
+      "dst": "canonical:capability:47125695855db312e7a7",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-c:69c7ffd9",
+      "type": "instance_of",
+      "dst": "canonical:capability:47125695855db312e7a7",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-c:98258f3c",
+      "type": "instance_of",
+      "dst": "canonical:capability:44978b8fbbec3482ee0f",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-c:e5adb1b9",
+      "type": "instance_of",
+      "dst": "canonical:capability:44978b8fbbec3482ee0f",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-c:eb4bd586",
+      "type": "instance_of",
+      "dst": "canonical:capability:47125695855db312e7a7",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-d:69c7ffd9",
+      "type": "instance_of",
+      "dst": "canonical:capability:47125695855db312e7a7",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-d:98258f3c",
+      "type": "instance_of",
+      "dst": "canonical:capability:44978b8fbbec3482ee0f",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-d:e5adb1b9",
+      "type": "instance_of",
+      "dst": "canonical:capability:44978b8fbbec3482ee0f",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "cap:synthetic-d:eb4bd586",
+      "type": "instance_of",
+      "dst": "canonical:capability:47125695855db312e7a7",
+      "dimension": "capability",
+      "status": "model_grouped"
+    },
+    {
+      "src": "audience:295736ec",
+      "type": "instance_of",
+      "dst": "canonical:audience:4788f12c8645132f6320",
+      "dimension": "audience",
+      "status": "model_grouped"
+    },
+    {
+      "src": "audience:3da4b52b",
+      "type": "instance_of",
+      "dst": "canonical:audience:1399116ba340dbbec0da",
+      "dimension": "audience",
+      "status": "model_grouped"
+    },
+    {
+      "src": "audience:98858caa",
+      "type": "instance_of",
+      "dst": "canonical:audience:4788f12c8645132f6320",
+      "dimension": "audience",
+      "status": "model_grouped"
+    },
+    {
+      "src": "audience:a01e3216",
+      "type": "instance_of",
+      "dst": "canonical:audience:8fcf85ca12124b6a9833",
+      "dimension": "audience",
+      "status": "model_grouped"
+    },
+    {
+      "src": "audience:b80a44fe",
+      "type": "instance_of",
+      "dst": "canonical:audience:8fcf85ca12124b6a9833",
+      "dimension": "audience",
+      "status": "model_grouped"
+    },
+    {
+      "src": "strategy:2a612063",
+      "type": "instance_of",
+      "dst": "canonical:strategy:feb9942cff37da3b07f1",
+      "dimension": "strategy",
+      "status": "model_grouped"
+    },
+    {
+      "src": "strategy:676f084e",
+      "type": "instance_of",
+      "dst": "canonical:strategy:f72359d85180bf444ebe",
+      "dimension": "strategy",
+      "status": "model_grouped"
+    },
+    {
+      "src": "strategy:f3998a8f",
+      "type": "instance_of",
+      "dst": "canonical:strategy:feb9942cff37da3b07f1",
+      "dimension": "strategy",
+      "status": "model_grouped"
+    },
+    {
+      "src": "strategy:f60f7ff1",
+      "type": "instance_of",
+      "dst": "canonical:strategy:f72359d85180bf444ebe",
+      "dimension": "strategy",
+      "status": "model_grouped"
+    }
+  ],
+  "unmapped": []
+}

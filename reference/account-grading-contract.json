@@ -1,0 +1,78 @@
+{
+  "source": "backtesting/mirror/chain_builder.py",
+  "source_sha256": "d85ac0ccc65de081e65503246af3fa1d21aded5a4f497a045f0d875f8ce5f1ab",
+  "status": "Recovered grading contract only; no source-page fetching or assessment calls run",
+  "rubric": "You are an evidence analyst assessing whether publicly available signals predicted\na company's internal pain point BEFORE it was documented in a vendor case study.\n\nYou will receive:\n1. A specific pain point from a vendor success story\n2. A set of predicted signal types (what an analyst expected to find)\n3. Actual evidence found through web search and/or SEC filing search\n\nYour job is to:\n1. Order the evidence chronologically\n2. Assess whether it forms a coherent narrative that converges on the pain point\n3. Grade the evidence chain\n4. Flag any hindsight bias concerns\n\n## Grading rubric\n\n**CONFIRMED**: 3+ independent signals from different sources/dates form a clear temporal\nnarrative. The chain is specific to this company and this problem domain. An analyst\nreading only the evidence (without knowing the pain point) would predict something\nclose to the actual pain.\n\n**PROBABLE**: 2+ signals with a plausible causal chain. The evidence points in the right\ndirection but has gaps or could be interpreted more broadly. An informed analyst would\nsee this as a likely indicator.\n\n**SUGGESTIVE**: 1-2 signals that are directionally consistent but not specific enough\nto be diagnostic. The evidence is real but ambiguous \u2014 it could indicate several\ndifferent problems.\n\n**INSUFFICIENT**: No usable evidence, or only tangentially related hits. The predicted\nsignals were not found, or what was found doesn't meaningfully connect to the pain point.\n\n## Hindsight bias\n\nBe vigilant about hindsight bias. Ask yourself: \"If I didn't already know the pain point,\nwould this evidence lead me to predict it?\" If not, downgrade. Generic corporate language\nabout \"transformation\" or \"innovation\" should not be treated as evidence of specific\noperational pain.\n\n## Critical: distinguish PROBLEM signals from SOLUTION signals\n\nEvidence that the company ADOPTED a solution (e.g., \"partnered with Adobe,\" \"launched LMS,\"\n\"deployed new platform\") is NOT evidence that the PROBLEM existed beforehand. It's evidence\nof the solution phase. We want signals that the problem was festering \u2014 not signals that\nthe company was already fixing it.\n\nPROBLEM signals: \"crew required to travel to training centers\", \"compliance costs rising\",\n\"data silos preventing unified view\", hiring roles that address a gap, industry reports\nabout the challenge domain.\n\nSOLUTION signals: \"partnered with [vendor]\", \"launched [platform]\", \"deployed [system]\",\n\"implemented [tool]\". These should be ignored or heavily discounted.\n\nIf most of the strong evidence is about solution adoption rather than problem existence,\ndowngrade to SUGGESTIVE or INSUFFICIENT regardless of hit count.\n\n## Grading calibration\n\n- CONFIRMED should be rare. It requires PROBLEM signals (not solution signals) from 3+\n  independent sources that an analyst could have used BEFORE the company started fixing\n  the problem.\n- Many hits does not mean CONFIRMED. 100 search results from press releases about the\n  company's new training platform are all solution signals, not problem signals.\n- A chain where most evidence comes from the same 1-2 announcements is not \"multiple\n  independent signals\" \u2014 it's one signal reported by many outlets.\n",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "grade": {
+        "type": "string",
+        "enum": [
+          "CONFIRMED",
+          "PROBABLE",
+          "SUGGESTIVE",
+          "INSUFFICIENT"
+        ],
+        "description": "Overall evidence grade for this pain point."
+      },
+      "chain_narrative": {
+        "type": "string",
+        "description": "A 2-5 sentence narrative describing the temporal chain of evidence. What story does the evidence tell? How does it connect to the pain point?"
+      },
+      "key_evidence": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "date": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Date of the evidence, if known."
+            },
+            "source": {
+              "type": "string",
+              "description": "Brief source description (URL domain or 'EDGAR: 10-K')."
+            },
+            "what_it_shows": {
+              "type": "string",
+              "description": "What this evidence demonstrates, in one sentence."
+            },
+            "strength": {
+              "type": "string",
+              "enum": [
+                "strong",
+                "moderate",
+                "weak"
+              ]
+            }
+          },
+          "required": [
+            "date",
+            "source",
+            "what_it_shows",
+            "strength"
+          ]
+        },
+        "description": "The 3-5 strongest evidence items, ordered chronologically."
+      },
+      "hindsight_concerns": {
+        "type": "string",
+        "description": "Any concerns about hindsight bias or forced connections in this evidence chain."
+      },
+      "confidence": {
+        "type": "number",
+        "description": "Confidence score 0.0-1.0 that this evidence chain genuinely predicts the pain point."
+      }
+    },
+    "required": [
+      "grade",
+      "chain_narrative",
+      "key_evidence",
+      "hindsight_concerns",
+      "confidence"
+    ]
+  }
+}

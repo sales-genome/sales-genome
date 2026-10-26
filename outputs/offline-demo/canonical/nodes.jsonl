@@ -1,0 +1,13 @@
+{"id": "vendor:synthetic-vendor", "type": "vendor", "slug": "synthetic-vendor", "name": "Synthetic Vendor", "n_case_studies": 3, "n_product_pages": 0, "vendor_slug": "synthetic-vendor"}
+{"id": "product:synthetic-vendor:2d70127b", "type": "product", "vendor_slug": "synthetic-vendor", "name": "Synthetic Service", "description": "", "raw_variants": ["Synthetic Service"], "n_customers": 3, "customer_slugs": ["Synthetic Alpha", "Synthetic Beta", "Synthetic Gamma"]}
+{"id": "product:synthetic-vendor:_unspecified", "type": "product", "vendor_slug": "synthetic-vendor", "name": "(Unspecified)", "raw_variants": [], "n_customers": 0, "customer_slugs": []}
+{"id": "customer:synthetic-alpha", "type": "customer", "slug": "synthetic-alpha", "name": "Synthetic Alpha", "raw_names": ["Synthetic Alpha"], "n_case_studies": 1, "vendors": ["synthetic-vendor"], "crosslink_resolved": false, "canonical_industry": "synthetic industry"}
+{"id": "customer:synthetic-beta", "type": "customer", "slug": "synthetic-beta", "name": "Synthetic Beta", "raw_names": ["Synthetic Beta"], "n_case_studies": 1, "vendors": ["synthetic-vendor"], "crosslink_resolved": false, "canonical_industry": "synthetic industry"}
+{"id": "customer:synthetic-gamma", "type": "customer", "slug": "synthetic-gamma", "name": "Synthetic Gamma", "raw_names": ["Synthetic Gamma"], "n_case_studies": 1, "vendors": ["synthetic-vendor"], "crosslink_resolved": false, "canonical_industry": "synthetic industry"}
+{"id": "audience:synthetic-industry", "type": "audience", "canonical_name": "synthetic industry", "description": "", "n_customers": 3, "n_raw_variants": 1}
+{"canonical_name": "Synthetic pain concept", "id": "synthetic:canonical:pain", "type": "pain_canonical"}
+{"canonical_name": "Synthetic capability concept", "id": "synthetic:canonical:capability", "type": "cap_canonical"}
+{"id": "synthetic:subtheme:pain", "name": "Synthetic subtheme", "type": "pain_subtheme"}
+{"id": "synthetic:domain:pain", "name": "Synthetic domain", "type": "pain_domain"}
+{"id": "synthetic:subtheme:capability", "name": "Synthetic subtheme", "type": "cap_subtheme"}
+{"id": "synthetic:domain:capability", "name": "Synthetic domain", "type": "cap_domain"}

@@ -1,0 +1,260 @@
+{
+  "authority": {
+    "notebook_sha256": "0a7ffe44860d1758ab5bd77e3583ba4abe279df545787a547248cf7c83234279",
+    "architecture_memo_sha256": "67b82a96aa6617c1ef0e5218206a05206b894e9c8959112b419d3345a3958403"
+  },
+  "files": [
+    {
+      "source_relative_path": "experiments/graph_embeddings/canonical_vendor_pain_features.py",
+      "source_sha256": "092673b0016fc8a462286947529c5807e231c1132a842be1ef9ce4222e32591f",
+      "package_path": "experiments/graph_embeddings/canonical_vendor_pain_features.py",
+      "package_sha256": "ee185f04a7745dd80b20b61f345d17e39f3f24a6784bb00d33def9b3aabffdc8",
+      "kind": "adapted_recovered_source",
+      "adaptations": [
+        {
+          "from": "machine-specific model cache",
+          "to": "Path.home() / \".cache\" / \"huggingface\" / \"hub\"",
+          "occurrences": 1
+        }
+      ],
+      "successful_patch_count": 3
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/crm_independent_profile_experiment.py",
+      "source_sha256": "56ef6bd686d709f9c612041bb699543d0027d595230c61da46fb136c0b538655",
+      "package_path": "experiments/graph_embeddings/crm_independent_profile_experiment.py",
+      "package_sha256": "6ef5e4c4f25dc281e285c14e271013df7840796f26970dc564d5d7b146b6c48a",
+      "kind": "adapted_recovered_source",
+      "adaptations": [
+        {
+          "from": "from lib.providers import require_local",
+          "to": "from paper_submission.experiment_io import require_local",
+          "occurrences": 1
+        }
+      ],
+      "successful_patch_count": 4
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/eval_double_coldstart.py",
+      "source_sha256": "64bc2f102ecc855038120b520e7a5928069e0b2d9220b0c81f940bff83c859df",
+      "package_path": "experiments/graph_embeddings/eval_double_coldstart.py",
+      "package_sha256": "64bc2f102ecc855038120b520e7a5928069e0b2d9220b0c81f940bff83c859df",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 3
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/eval_independent_centroids.py",
+      "source_sha256": "5d3903374d6c1fad3ca3862ce60daed1240e6322c49e85559dfb386740a4e8ab",
+      "package_path": "experiments/graph_embeddings/eval_independent_centroids.py",
+      "package_sha256": "5d3903374d6c1fad3ca3862ce60daed1240e6322c49e85559dfb386740a4e8ab",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 1
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/eval_inductive_degree_matched.py",
+      "source_sha256": "74089b76092b583451b3b1ad784ed09dc33774e6dc6cbf44a333288a00a3d773",
+      "package_path": "experiments/graph_embeddings/eval_inductive_degree_matched.py",
+      "package_sha256": "74089b76092b583451b3b1ad784ed09dc33774e6dc6cbf44a333288a00a3d773",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 2
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/eval_lead_ensemble.py",
+      "source_sha256": "c84dace7d5cef7029d391fc0dcd4e86af5ec0afcd7255623cb717675215f8526",
+      "package_path": "experiments/graph_embeddings/eval_lead_ensemble.py",
+      "package_sha256": "c84dace7d5cef7029d391fc0dcd4e86af5ec0afcd7255623cb717675215f8526",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 1
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/independent_profile_experiment.py",
+      "source_sha256": "90db49d9552bca49926e438f60509daf3da2d7614c190020d2b8afded7c7165d",
+      "package_path": "experiments/graph_embeddings/independent_profile_experiment.py",
+      "package_sha256": "1e5eb1f753ba72e12e85c24e0192f829b51c5f9cc388c746a7aeab6afd68108b",
+      "kind": "adapted_recovered_source",
+      "adaptations": [
+        {
+          "from": "machine-specific model cache",
+          "to": "Path.home() / \".cache\" / \"huggingface\" / \"hub\"",
+          "occurrences": 1
+        },
+        {
+          "from": "from lib.providers import local_tool_call, require_local",
+          "to": "from paper_submission.experiment_io import local_tool_call, require_local",
+          "occurrences": 1
+        },
+        {
+          "from": "from lib.websearch import SearchResult, serp",
+          "to": "from paper_submission.experiment_io import SearchResult, serp",
+          "occurrences": 1
+        },
+        {
+          "from": "\"provider\": \"brightdata\",",
+          "to": "\"provider\": \"submission_local_corpus\",",
+          "occurrences": 1
+        },
+        {
+          "from": "provider=\"brightdata\",",
+          "to": "provider=\"submission_local_corpus\",",
+          "occurrences": 1
+        }
+      ],
+      "successful_patch_count": 25
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/inductive_baseline.py",
+      "source_sha256": "13f04723ca3a5ca841641843e5613084b6246d166861cfdcd607725f2588cd0b",
+      "package_path": "experiments/graph_embeddings/inductive_baseline.py",
+      "package_sha256": "13f04723ca3a5ca841641843e5613084b6246d166861cfdcd607725f2588cd0b",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 12
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/inductive_model_family.py",
+      "source_sha256": "35f7f5f56a8aec728fd061014fa4443a25d02ba16bfb583d7c80f8cb2bd817b9",
+      "package_path": "experiments/graph_embeddings/inductive_model_family.py",
+      "package_sha256": "35f7f5f56a8aec728fd061014fa4443a25d02ba16bfb583d7c80f8cb2bd817b9",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 2
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/lead_prior.py",
+      "source_sha256": "377a41518a11e92953f52e8142fd8022a627437d4812009531d30c7d4954ab57",
+      "package_path": "experiments/graph_embeddings/lead_prior.py",
+      "package_sha256": "377a41518a11e92953f52e8142fd8022a627437d4812009531d30c7d4954ab57",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 5
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/product_page_vendor_features.py",
+      "source_sha256": "b82def4a733abf037953204cbd7a304a846493e6f7ba43be226b3f9a1d4ce02c",
+      "package_path": "experiments/graph_embeddings/product_page_vendor_features.py",
+      "package_sha256": "46e04eb6a6c000f3b4f9eac83cf87e745d4ca79a7b0b329d50c4aa815db1b6c2",
+      "kind": "adapted_recovered_source",
+      "adaptations": [
+        {
+          "from": "machine-specific model cache",
+          "to": "Path.home() / \".cache\" / \"huggingface\" / \"hub\"",
+          "occurrences": 1
+        }
+      ],
+      "successful_patch_count": 5
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/prospect_features.py",
+      "source_sha256": "6bf0963977f72a75db7cdcd9c0eae0d2f7754f13a24e3008df86d7e6e55d106a",
+      "package_path": "experiments/graph_embeddings/prospect_features.py",
+      "package_sha256": "6bf0963977f72a75db7cdcd9c0eae0d2f7754f13a24e3008df86d7e6e55d106a",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 4
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/run_inductive_matrix.py",
+      "source_sha256": "b60e93cbd23c98d976e61a4594e4b84a29bd9bb4a3287167a0b369b12fe8cdfd",
+      "package_path": "experiments/graph_embeddings/run_inductive_matrix.py",
+      "package_sha256": "b60e93cbd23c98d976e61a4594e4b84a29bd9bb4a3287167a0b369b12fe8cdfd",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 4
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/run_inductive_model_family_matrix.py",
+      "source_sha256": "931c31ddd6a0987a063585185115356c20676f4e0417df5443a96e49abc9854e",
+      "package_path": "experiments/graph_embeddings/run_inductive_model_family_matrix.py",
+      "package_sha256": "931c31ddd6a0987a063585185115356c20676f4e0417df5443a96e49abc9854e",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 1
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/score_lead_cohort.py",
+      "source_sha256": "11998484ddfa9c59e6f7a3cc4e3cedef19ebff1cadf2f270b05baf24fdad7a59",
+      "package_path": "experiments/graph_embeddings/score_lead_cohort.py",
+      "package_sha256": "11998484ddfa9c59e6f7a3cc4e3cedef19ebff1cadf2f270b05baf24fdad7a59",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 5
+    },
+    {
+      "source_relative_path": "tests/test_independent_profile_experiment.py",
+      "source_sha256": "a050d68858e2c57f58f9df3a1f0bf2b27b19e45b081c2ef3a0494293b08127c5",
+      "package_path": "tests/test_independent_profile_experiment.py",
+      "package_sha256": "a050d68858e2c57f58f9df3a1f0bf2b27b19e45b081c2ef3a0494293b08127c5",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 11
+    },
+    {
+      "source_relative_path": "tests/test_inductive_baseline.py",
+      "source_sha256": "5deb14cebf083eca0227b2101608003de76bfaa11bf16bf179ebaec2ed11184c",
+      "package_path": "tests/test_inductive_baseline.py",
+      "package_sha256": "5deb14cebf083eca0227b2101608003de76bfaa11bf16bf179ebaec2ed11184c",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 5
+    },
+    {
+      "source_relative_path": "tests/test_inductive_model_family.py",
+      "source_sha256": "0291422550e84986925aebb190263325485df5536106351234e04e8c670d3e77",
+      "package_path": "tests/test_inductive_model_family.py",
+      "package_sha256": "0291422550e84986925aebb190263325485df5536106351234e04e8c670d3e77",
+      "kind": "verbatim_recovered_source",
+      "adaptations": [],
+      "successful_patch_count": 3
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/train_v2.py",
+      "package_path": "experiments/graph_embeddings/train_v2.py",
+      "kind": "complete_captured_model_symbols_with_submission_import_header",
+      "symbols": [
+        {
+          "name": "FeatureProjector",
+          "source_symbol_sha256": "c4087b8d806523023f01eb5d1c16e266609a64756c3e428bf68323c62685b303"
+        },
+        {
+          "name": "RGCNEncoder",
+          "source_symbol_sha256": "cc3c3af4616898a54f8b4cb5b7fddd4d997cb4e48f67e397fe2e8341ada0aa95"
+        },
+        {
+          "name": "LinkPredModel",
+          "source_symbol_sha256": "b0a9ff397541f1bbf39094a359e314da2df01ea99b55ad1bd0b95054dfa0c01c"
+        }
+      ],
+      "package_sha256": "5e2a8a5f6bfb026b8df6d37dc47ffa338b63154d00e0eafb09efd8a77f343f45",
+      "adaptations": [
+        "Explicit collapsed_res_d100 alias; training CLI is paper_submission.rgcn."
+      ],
+      "authority": "Architecture memo and recovered GNN lab notebook."
+    },
+    {
+      "source_relative_path": "experiments/graph_embeddings/build_graph_variants.py",
+      "package_path": "experiments/graph_embeddings/build_graph_variants.py",
+      "kind": "complete_captured_builder_functions_with_submission_import_header",
+      "symbols": [
+        {
+          "name": "build_bipartite",
+          "source_symbol_sha256": "395a7646cc13dec2842f98c4e63fa69f6dfaefd1ac1cd37d52dbe6ad20eb84ed"
+        },
+        {
+          "name": "build_collapsed",
+          "source_symbol_sha256": "154255cd15b547d3642fc48123468eaeffd0e4effd6cc04207cd0cc5802f7c89"
+        },
+        {
+          "name": "build_full_reverse",
+          "source_symbol_sha256": "13b29f6be7868d24fbab0638213a1f294e9b7cf3746f77f98966352180c0777a"
+        }
+      ],
+      "package_sha256": "6de73c3125f5e4f8cc0402805ec7d27e4cb1059de82a34e2c11326ea615bd9b9"
+    }
+  ],
+  "historical_results_rerun": false,
+  "experimental_data_or_checkpoints_distributed": false
+}

@@ -1,0 +1,104 @@
+Selected 4762 of 23811 valid customer groups
+Retained raw business edges: 96538
+{
+  "destination": "data/sample",
+  "views": {
+    "raw": {
+      "nodes": 52940,
+      "edges": 96538,
+      "bytes": 49595225,
+      "node_types": {
+        "vendor": 885,
+        "product": 4882,
+        "capability": 17301,
+        "pain_point": 25080,
+        "audience": 30,
+        "customer": 4762
+      },
+      "edge_types": {
+        "experiences": 25298,
+        "in_audience": 842,
+        "has_case_study": 5391,
+        "addresses": 18529,
+        "provides": 41596,
+        "offers": 4882
+      },
+      "source_nodes": 4525703,
+      "source_edges": 6993277,
+      "source_bytes": 2144239516,
+      "node_fraction": 0.011697630180327786,
+      "edge_fraction": 0.013804400998273056,
+      "byte_fraction": 0.02312951730901689
+    },
+    "raw_matched": {
+      "nodes": 45923,
+      "edges": 83514,
+      "bytes": 43270231,
+      "node_types": {
+        "vendor": 885,
+        "product": 4882,
+        "capability": 14510,
+        "pain_point": 20854,
+        "audience": 30,
+        "customer": 4762
+      },
+      "edge_types": {
+        "experiences": 21072,
+        "in_audience": 842,
+        "has_case_study": 5391,
+        "addresses": 15117,
+        "provides": 36210,
+        "offers": 4882
+      },
+      "source_nodes": 4525703,
+      "source_edges": 6993277,
+      "source_bytes": 2144239516,
+      "node_fraction": 0.01014715282907429,
+      "edge_fraction": 0.011942040905858584,
+      "byte_fraction": 0.020179756355166435
+    },
+    "canonical": {
+      "nodes": 22021,
+      "edges": 87392,
+      "bytes": 28475734,
+      "node_types": {
+        "vendor": 885,
+        "product": 4882,
+        "audience": 30,
+        "customer": 4762,
+        "pain_canonical": 5435,
+        "cap_canonical": 5395,
+        "pain_domain": 26,
+        "pain_subtheme": 290,
+        "cap_domain": 26,
+        "cap_subtheme": 290
+      },
+      "edge_types": {
+        "addresses": 14248,
+        "experiences": 19297,
+        "in_audience": 842,
+        "provides": 31322,
+        "has_case_study": 5391,
+        "offers": 4882,
+        "in_subtheme": 10830,
+        "in_domain": 580
+      },
+      "source_nodes": 214236,
+      "source_edges": 4559801,
+      "source_bytes": 1330546823,
+      "node_fraction": 0.10278851360182228,
+      "edge_fraction": 0.019165748680699004,
+      "byte_fraction": 0.021401527182482324
+    }
+  },
+  "disclosure": {
+    "distinct_native_raw_plus_canonical_edge_records": 183930,
+    "source_raw_plus_canonical_edge_records": 11553078,
+    "native_edge_record_fraction": 0.01592043263275813,
+    "physical_edge_records_including_matched_duplicates_and_mappings": 302808,
+    "physical_edge_fraction_vs_source_base_edges": 0.026210158020226297,
+    "native_raw_edge_fraction": 0.013804400998273056,
+    "native_canonical_edge_fraction": 0.019165748680699004,
+    "at_most_20_percent_native_edges_each_view_and_combined": true
+  }
+}

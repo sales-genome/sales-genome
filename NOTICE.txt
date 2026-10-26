@@ -1,0 +1,17 @@
+ANONYMOUS RESEARCH SUBMISSION — NO LICENSE GRANT
+
+This folder was assembled from author-provided local working code and an
+authorized graph sample. The author explicitly authorized publishing this
+prepared package to github.com/sales-genome/sales-genome.
+The sample uses the documented provisional 20%-of-customer-groups convention,
+not 20% of every graph table. No LICENSE file was found in the source repository.
+This notice does not assign
+copyright, grant a code/data license, or establish redistribution rights in
+seller-published source material. Public availability is not a license grant;
+obtain the necessary code/data permissions for reuse or redistribution.
+
+The original repository and source manuscript were not modified by this work;
+only this separate submission package is committed.
+Copied-code hashes, exact source symbol ranges, modifications and added adapters
+are recorded in provenance/. Synthetic fixtures are explicitly marked and are
+not sampled source evidence or research results.

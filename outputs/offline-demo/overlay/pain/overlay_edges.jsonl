@@ -1,0 +1,4 @@
+{"dst": "synthetic:canonical:pain", "src": "pain:daeb892a", "type": "instance_of"}
+{"dst": "synthetic:canonical:pain", "src": "pain:9387953b", "type": "instance_of"}
+{"dst": "synthetic:subtheme:pain", "src": "synthetic:canonical:pain", "type": "in_subtheme"}
+{"dst": "synthetic:domain:pain", "src": "synthetic:subtheme:pain", "type": "in_domain"}

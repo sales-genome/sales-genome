@@ -1,0 +1,39 @@
+{
+  "version": "v5",
+  "description": "Canonical-first knowledge graph with evidence-attributed edges",
+  "n_nodes": 13,
+  "n_edges": 17,
+  "node_types": {
+    "audience": 1,
+    "cap_canonical": 1,
+    "cap_domain": 1,
+    "cap_subtheme": 1,
+    "customer": 3,
+    "pain_canonical": 1,
+    "pain_domain": 1,
+    "pain_subtheme": 1,
+    "product": 2,
+    "vendor": 1
+  },
+  "edge_types": {
+    "addresses": 1,
+    "experiences": 3,
+    "has_case_study": 3,
+    "in_audience": 3,
+    "in_domain": 2,
+    "in_subtheme": 2,
+    "offers": 2,
+    "provides": 1
+  },
+  "sources": {
+    "v4_graph": "outputs/offline-demo/raw",
+    "pain_overlay": "outputs/offline-demo/overlay/pain",
+    "cap_overlay": "outputs/offline-demo/overlay/capability"
+  },
+  "evidence_caps": {
+    "experiences": 10,
+    "provides": 5,
+    "urls_per_addresses": 15,
+    "customers_per_addresses": 20
+  }
+}

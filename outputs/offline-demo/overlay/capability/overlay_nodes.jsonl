@@ -1,0 +1,3 @@
+{"canonical_name": "Synthetic capability concept", "id": "synthetic:canonical:capability", "type": "cap_canonical"}
+{"id": "synthetic:subtheme:capability", "name": "Synthetic subtheme", "type": "cap_subtheme"}
+{"id": "synthetic:domain:capability", "name": "Synthetic domain", "type": "cap_domain"}

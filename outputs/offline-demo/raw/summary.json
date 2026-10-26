@@ -1,0 +1,22 @@
+{
+  "version": "v4",
+  "n_nodes": 11,
+  "n_edges": 15,
+  "node_types": {
+    "vendor": 1,
+    "product": 2,
+    "capability": 2,
+    "pain_point": 2,
+    "customer": 3,
+    "audience": 1
+  },
+  "edge_types": {
+    "offers": 2,
+    "provides": 2,
+    "addresses": 2,
+    "experiences": 3,
+    "in_audience": 3,
+    "has_case_study": 3
+  },
+  "description": "v4 graph adds product layer: vendor -[offers]-> product -[provides]-> capability"
+}

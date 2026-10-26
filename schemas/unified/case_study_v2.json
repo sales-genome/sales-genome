@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UnifiedCaseStudyV2",
+  "type": "object",
+  "required": [
+    "customer_name",
+    "inferred_target_persona",
+    "audience_dimensions",
+    "vendor_products_used",
+    "capabilities_cited",
+    "pain_points_cited",
+    "vp_pp_pairs",
+    "outcomes",
+    "confidence"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "customer_name": {
+      "type": ["string", "null"],
+      "description": "The customer company named in the case study."
+    },
+    "inferred_target_persona": {
+      "type": ["string", "null"],
+      "description": "The buyer or primary user persona at the customer (e.g. 'Marketing Director', 'VP Engineering', 'IT Operations team'). Inferred from titles, teams, or business functions described."
+    },
+    "audience_dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "industry": {
+          "type": ["string", "null"],
+          "description": "Industry as the page labels it, not normalized."
+        },
+        "company_size": {
+          "type": ["string", "null"],
+          "description": "Any explicit size/scale indicator: headcount, employee range, Fortune ranking, or qualitative ('mid-market', 'enterprise'). Null if not stated."
+        },
+        "location": {
+          "type": ["string", "null"],
+          "description": "Geographic location, headquarters, or primary region of the customer. Null if not stated."
+        },
+        "revenue": {
+          "type": ["string", "null"],
+          "description": "Revenue figure or range if explicitly stated on the page. Null if not stated."
+        },
+        "tech_stack": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Non-vendor technologies, platforms, or tools the customer uses, as mentioned on the page. Exclude the vendor's own products."
+        },
+        "other": {
+          "type": ["string", "null"],
+          "description": "Any other audience-relevant dimension stated on the page (e.g. regulatory environment, growth stage, business model). Null if none."
+        }
+      },
+      "description": "Structured audience dimensions extracted from the page."
+    },
+    "vendor_products_used": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Vendor products the customer deployed, as named on the page."
+    },
+    "capabilities_cited": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Specific capabilities the customer used or cited, raw phrasing."
+    },
+    "pain_points_cited": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Challenges/problems the customer faced before deployment. Each entry must be a self-contained sentence understandable without reading the rest of the page."
+    },
+    "vp_pp_pairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["capability", "pain_point", "confidence"],
+        "additionalProperties": false,
+        "properties": {
+          "capability": {
+            "type": "string",
+            "description": "The capability that addressed the pain point."
+          },
+          "pain_point": {
+            "type": "string",
+            "description": "The pain point that was addressed."
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "med", "low"],
+            "description": "How clearly the page connects this capability to this pain."
+          }
+        }
+      },
+      "description": "Explicit capability-to-pain-point links found on this page."
+    },
+    "outcomes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["metric", "value", "quote"],
+        "additionalProperties": false,
+        "properties": {
+          "metric": {
+            "type": ["string", "null"],
+            "description": "What was measured (e.g. 'time-to-publish')."
+          },
+          "value": {
+            "type": ["string", "null"],
+            "description": "Raw result (e.g. '+42%', 'from 3 weeks to 2 days')."
+          },
+          "quote": {
+            "type": ["string", "null"],
+            "description": "Supporting quote from the customer, if any."
+          }
+        }
+      },
+      "description": "Result statements with metrics and optional quotes."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "med", "low"],
+      "description": "Overall extraction confidence."
+    }
+  }
+}

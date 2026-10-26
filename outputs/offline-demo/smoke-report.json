@@ -1,0 +1,36 @@
+{
+  "synthetic": true,
+  "sampled_from_research_graph": false,
+  "network_calls": 0,
+  "models_trained": 0,
+  "extraction": "pre-authored schema-valid fixtures, NOT LLM extraction",
+  "induction": "explicit fixture mappings, NOT a learned taxonomy",
+  "raw_and_canonical_endpoint_integrity": true,
+  "prospect_excluded_from_peer_evidence": true,
+  "retrieval_contexts": [
+    {
+      "seller_id": "vendor:synthetic-vendor",
+      "product_id": "product:synthetic-vendor:2d70127b",
+      "capability_id": "synthetic:canonical:capability",
+      "pain_id": "synthetic:canonical:pain",
+      "pain": "Synthetic pain concept",
+      "peer_customer_ids": [
+        "customer:synthetic-beta",
+        "customer:synthetic-gamma"
+      ],
+      "source_urls": [
+        "https://example.org/synthetic/0",
+        "https://example.org/synthetic/1",
+        "https://example.org/synthetic/2"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    }
+  ],
+  "synthetic_account_score": {
+    "raw_score": 15,
+    "coverage": 0.6666666666666666,
+    "score": 12.499999999999998
+  },
+  "eligible_exact_source_date_joins": 1,
+  "reproduces_paper_metrics": false
+}

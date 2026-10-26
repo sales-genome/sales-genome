@@ -1,0 +1,124 @@
+[10:30:35] [v4-graph] Budget: $0.00 spent so far
+[10:30:35] [v4-graph] Loading extractions and crosslinks
+[10:30:35] [v4-graph]   3 extractions loaded
+[10:30:35] [v4-graph]   0 crosslink name mappings, 0 crosslinks
+[10:30:35] [v4-graph] Phase 1: Building vendor nodes
+[10:30:35] [v4-graph]   1 vendor nodes
+[10:30:35] [v4-graph] Phase 2: Building capability + pain nodes (single pass)
+[10:30:35] [v4-graph]   2 capability nodes across 1 vendors
+[10:30:35] [v4-graph]   2 pain_point nodes
+[10:30:35] [v4-graph] Phase 2B: Building product nodes via LLM normalization
+[10:30:35] [v4-graph]   1 vendors (0 cached, 1 need LLM)
+[10:30:35] [v4-graph]   synthetic-vendor: 2 product nodes (1 canonical + _unspecified), 1/1 raw names assigned
+[10:30:35] [v4-graph]   Cached to product_normalization.json
+[10:30:35] [v4-graph]   2 total product nodes
+[10:30:35] [v4-graph]   2 capabilities mapped (0 to _unspecified)
+[10:30:35] [v4-graph] Phase 3: Building customer nodes
+[10:30:35] [v4-graph]   3 customer nodes (0 crosslink-resolved)
+[10:30:35] [v4-graph] Phase 4: Building audience nodes via industry canonicalization
+[10:30:35] [v4-graph]   3 mentions, 1 unique industries
+[10:30:35] [v4-graph]   --skip-llm: using raw industries as audience nodes
+[10:30:35] [v4-graph]   1 audience nodes, 3 customers assigned
+[10:30:35] [v4-graph] Phase 4B: Building attribute nodes from audience_dimensions
+[10:30:35] [v4-graph]   --skip-llm: skipping attribute normalization
+[10:30:35] [v4-graph] Phase 5: Building edges
+[10:30:35] [v4-graph]   5a: 2 offers edges (vendor → product)
+[10:30:35] [v4-graph]   5a2: 2 provides edges (product → capability)
+[10:30:35] [v4-graph]   5b: 2 addresses edges (0 pairs skipped)
+[10:30:35] [v4-graph]   5c: 3 experiences edges
+[10:30:35] [v4-graph]   5d: 3 in_audience edges
+[10:30:35] [v4-graph]   5e: 3 has_case_study edges
+[10:30:35] [v4-graph]   5f: 0 in_audience (attribute) edges
+[10:30:35] [v4-graph]   5g: 0 competes_with edges (from POC competitor analysis)
+[10:30:35] [v4-graph]   Total: 15 edges
+[10:30:35] [v4-graph] Phase 6: Writing outputs
+[10:30:35] [v4-graph] Wrote nodes.jsonl (11 nodes)
+[10:30:35] [v4-graph] Wrote edges.jsonl (15 edges)
+[10:30:35] [v4-graph] Wrote summary.json
+[10:30:35] [v4-graph] Node types: {'vendor': 1, 'product': 2, 'capability': 2, 'pain_point': 2, 'customer': 3, 'audience': 1}
+[10:30:35] [v4-graph] Edge types: {'offers': 2, 'provides': 2, 'addresses': 2, 'experiences': 3, 'in_audience': 3, 'has_case_study': 3}
+[10:30:35] [v4-graph] Done. Budget: $0.00 total
+Building v5 canonical-first graph → outputs/offline-demo/canonical
+  Phase 0: Loading taxonomy overlay mappings …
+    pain_to_canon: 2 mappings → 1 canonicals
+    cap_to_canon:  2 mappings → 1 canonicals
+    structural: 4 nodes, 4 edges
+  Phase 1: Streaming v4 nodes …
+    v5 nodes (non-atom): 7
+    pain texts:  2
+    cap texts:   2
+    customer name→slug: 6
+  Phase 2: Streaming v4 edges …
+    Edge counts: {'offers': 2, 'provides': 2, 'addresses': 2, 'experiences': 3, 'in_audience': 3, 'has_case_study': 3}
+    Unmapped: 0 pain refs, 0 cap refs
+    provides groups:    1
+    addresses groups:   1
+    experiences groups: 3
+    pain_vendor_urls:   2
+    direct edges:       8
+  Phase 3: Building canonical edges with evidence …
+    provides edges:    1
+    addresses edges:   1
+    experiences edges: 3
+  Phase 4: Writing v5 graph …
+  
+Done in 0.0s
+  Phase 5: Verification …
+
+============================================================
+v5 graph written to outputs/offline-demo/canonical
+============================================================
+
+Files:
+  nodes.jsonl: 0.0 MB
+  edges.jsonl: 0.0 MB
+
+Node types (13 total):
+  customer                         3
+  product                          2
+  audience                         1
+  cap_canonical                    1
+  cap_domain                       1
+  cap_subtheme                     1
+  pain_canonical                   1
+  pain_domain                      1
+  pain_subtheme                    1
+  vendor                           1
+
+Edge types (17 total):
+  experiences                      3
+  has_case_study                   3
+  in_audience                      3
+  in_domain                        2
+  in_subtheme                      2
+  offers                           2
+  addresses                        1
+  provides                         1
+
+--- Sample experiences edge ---
+
+--- Sample addresses edge ---
+
+--- Sample provides edge ---
+{
+  "src": "product:synthetic-vendor:2d70127b",
+  "dst": "synthetic:canonical:capability",
+  "type": "provides",
+  "weight": 2,
+  "n_variants": 2,
+  "evidence": [
+    {
+      "text": "Automate synthetic ticket tracking",
+      "atom_id": "cap:synthetic-vendor:f3543b91"
+    },
+    {
+      "text": "Automated synthetic ticket routing",
+      "atom_id": "cap:synthetic-vendor:75095dfd"
+    }
+  ]
+}
+
+--- Compression vs v4 ---
+  Nodes:         11 →         13  (118.2%)
+  Edges:         15 →         17  (113.3%)
+OFFLINE_SYNTHETIC_SMOKE_OK outputs/offline-demo/smoke-report.json

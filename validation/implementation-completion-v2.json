@@ -1,0 +1,91 @@
+{
+  "status": "COMPLETE_EXECUTABLE_LOCAL_SUBMISSION_DRAFT",
+  "implementation_revision": "0.2.0",
+  "commands": {
+    "full_tests": "PYTHONDONTWRITEBYTECODE=1 python -m pytest -q -p no:cacheprovider tests",
+    "pipeline": "PYTHONDONTWRITEBYTECODE=1 python -m paper_submission.pipeline demo --out NEW_EXTERNAL_DIRECTORY",
+    "exact_replay": "PYTHONDONTWRITEBYTECODE=1 python -m paper_submission.pipeline replay-demo --demo DEMO_DIRECTORY --out NEW_EXTERNAL_DIRECTORY",
+    "sample": "PYTHONDONTWRITEBYTECODE=1 python -m paper_submission.validate --sample data/sample",
+    "audit_and_seal": "PYTHONDONTWRITEBYTECODE=1 python -m paper_submission.audit_package --seal",
+    "verify_seal": "PYTHONDONTWRITEBYTECODE=1 python -m paper_submission.audit_package --verify-checksums"
+  },
+  "results": {
+    "pytest": {
+      "passed": 83,
+      "subtests_passed": 32,
+      "warnings": 16,
+      "warning_categories": [
+        "upstream_torch_jit_deprecation",
+        "upstream_PyG_type_evaluation_deprecation",
+        "upstream_sparse_invariant_check_advisory"
+      ]
+    },
+    "synthetic_pipeline": {
+      "raw": {"nodes": 49, "edges": 96},
+      "canonical": {"nodes": 47, "edges": 89},
+      "hybrid": {"nodes": 78, "edges": 152},
+      "dimensions": ["pain", "capability", "audience", "strategy"],
+      "all_dimensions": "coverage_and_balance_targets_met",
+      "model_receipts": 90,
+      "exact_replay": "PASS",
+      "live_model_calls": 0
+    },
+    "integration": {
+      "core_canonical_edges_to_temporal_adapter": "PASS",
+      "ownership_derived_without_customer_ids_on_source_index": "PASS",
+      "target_source_urls_absent_from_retained_nodes_and_edges": "PASS",
+      "eligible_raw_claim_lineage_retained": "PASS",
+      "explicit_reference_URL_mask_without_customer_ownership": "PASS",
+      "ten_point_Graph_AET_merge": "PASS",
+      "account_evidence_grading_and_scoring": "PASS"
+    },
+    "experiments": {
+      "hash_verified_final_full_source_files": 18,
+      "original_regression_tests": 19,
+      "imported_modules": 17,
+      "complete_captured_RGCN_model_and_graph_builder_symbols": true,
+      "synthetic_CPU_optimizer_epochs": 1,
+      "optimization_negative_mask_uses_optimization_labels_only": true,
+      "historical_research_runs_executed": 0,
+      "historical_metrics_regenerated": false
+    },
+    "sample": {
+      "selected_customers": 4762,
+      "exact_source_groups": 7004,
+      "unsplit_label_pairs": 5391,
+      "eligible_date_records": 1778,
+      "projection_triples_checked": 75982,
+      "sample_files_checksum_verified": 11,
+      "deterministic_full_population_selection": "Verified in initial source-selection-validation.json; current run validates materialized sample checksums.",
+      "pinned_sampler_and_sample_unchanged": true
+    }
+  },
+  "authority_and_originals": {
+    "notebook_sha256": "0a7ffe44860d1758ab5bd77e3583ba4abe279df545787a547248cf7c83234279",
+    "architecture_memo_sha256": "67b82a96aa6617c1ef0e5218206a05206b894e9c8959112b419d3345a3958403",
+    "manuscript_initial_staging_sha256": "541960190dc838614b403296a1c6225503d6ae422a799e9d9e80530bbf56f9e4",
+    "manuscript_observed_during_completion_sha256": "06fa0ae88953244a105814581b28695330133eada86b8b50a225b384d09080f2",
+    "manuscript_observation": "External author draft changed since initial staging. Current composition/induction/GNN method sections were read; this task made no manuscript edits.",
+    "original_source_files_rechecked": 16,
+    "original_source_hash_changes_since_copy": 0,
+    "original_repository_written_by_this_task": false
+  },
+  "transport": {
+    "live_model_calls": 0,
+    "paid_or_external_search_calls": 0,
+    "external_company_page_fetches": 0,
+    "model_server_changes": 0,
+    "commit_push_upload": false
+  },
+  "release_policy": {
+    "local_draft_only": true,
+    "customer_group_sampling_policy_approval_required": true,
+    "code_and_data_redistribution_permission_required": true,
+    "release_approval_granted": false
+  },
+  "integrity": {
+    "registry": "provenance/package-files.json",
+    "complete_file_set_verified_not_only_previously_listed_files": true,
+    "finite_offline_package_audit": "PASS; not a comprehensive secrets or semantic-support certification"
+  }
+}

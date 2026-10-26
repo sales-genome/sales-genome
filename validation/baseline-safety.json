@@ -1,0 +1,5 @@
+{
+  "unsplit_sample_rejected_before_training": true,
+  "training_started": false,
+  "message": "Training requires a compatible frozen cohort with source-disjoint train_edges/splits. The unsplit paper sample is not training input; use paper_submission.gnn_smoke."
+}

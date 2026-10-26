@@ -1,0 +1,351 @@
+{
+  "status": "LOCAL DRAFT — NOT A PUBLIC RELEASE",
+  "sampling_policy": "PROVISIONAL engineering default: 20% of customer groups",
+  "sampling_policy_approved_by_user": false,
+  "release_blockers": [
+    "User approval of customer-group denominator and disclosure policy is required before release.",
+    "Data rights/license and source-support review are required before redistribution."
+  ],
+  "source_bundle": "audience-genome-full-2026-09-30",
+  "source_bundle_manifest_sha256": "474ff3b0713be8ed00fdce6a949a394dc2302145358b7bca3555beeb909b83fd",
+  "source_lineage": [
+    "source extractions -> raw product-layer graph",
+    "raw graph + corrected customer resolution -> v7",
+    "v7 + pain/capability v6 taxonomy overlays -> v8",
+    "v8 evidence references + publication-date quality data -> temporal sidecar v1"
+  ],
+  "manuscript_inventory_match": {
+    "raw_nodes": 4525703,
+    "raw_edges": 6993277,
+    "canonical_nodes": 214236,
+    "canonical_edges": 4559801
+  },
+  "seed": "audience-genome-paper-submission-20261026-v1",
+  "selection_algorithm": "sort by (SHA256(seed + NUL + customer_id), customer_id); take floor(N/5)",
+  "unit": "existing cleaned customer node ID; NOT independent source records, edges, nodes, or bytes",
+  "customer_groups_including_invalid_empty_id": 23812,
+  "denominator_valid_customer_groups": 23811,
+  "excluded_invalid_customer_ids": [
+    "customer:"
+  ],
+  "selected_customer_groups": 4762,
+  "actual_customer_group_fraction": 0.19999160052076773,
+  "selection_sha256": "a02526b17ee68806a8feda43fc0bcbbf61906aa3c107c0dd1458d2694a344b5b",
+  "closure": [
+    "All native experiences/in_audience/has_case_study edges for selected customers, without original aggregates.",
+    "Addresses restricted to exact (capability vendor, URL) references owned exclusively by sampled customer groups.",
+    "Mixed sampled/unsampled source groups are excluded; no URL/name fuzzy matching.",
+    "Provides/offers are native shared endpoint context, NOT exclusive source-level product attribution.",
+    "Raw atom text, selected identities, and minimal concept labels only; aggregate memberships/counts removed.",
+    "Raw_matched and canonical use the SAME selected raw claims and saved last-instance_of mapping.",
+    "Canonical business edges must also exist in the native canonical graph; required hierarchy ancestors retained."
+  ],
+  "exclusive_source_groups": 7004,
+  "mixed_source_groups_excluded": 0,
+  "labels": {
+    "count": 5391,
+    "splits": {
+      "unsplit": 5391
+    },
+    "original_paper_splits_available": false,
+    "train_edges_created": false
+  },
+  "mapping_count": 35364,
+  "unmapped_selected_raw_atoms": 7017,
+  "projected_triples_absent_from_native_canonical_excluded": 0,
+  "temporal_eligible_records": 1778,
+  "views": {
+    "raw": {
+      "nodes": 52940,
+      "edges": 96538,
+      "bytes": 49595225,
+      "node_types": {
+        "vendor": 885,
+        "product": 4882,
+        "capability": 17301,
+        "pain_point": 25080,
+        "audience": 30,
+        "customer": 4762
+      },
+      "edge_types": {
+        "experiences": 25298,
+        "in_audience": 842,
+        "has_case_study": 5391,
+        "addresses": 18529,
+        "provides": 41596,
+        "offers": 4882
+      },
+      "source_nodes": 4525703,
+      "source_edges": 6993277,
+      "source_bytes": 2144239516,
+      "node_fraction": 0.011697630180327786,
+      "edge_fraction": 0.013804400998273056,
+      "byte_fraction": 0.02312951730901689,
+      "node_type_fractions": {
+        "vendor": 0.26793823796548594,
+        "product": 0.060775062555241566,
+        "capability": 0.006435905066587307,
+        "pain_point": 0.014497034408491517,
+        "audience": 0.6,
+        "customer": 0.1999832017470183
+      },
+      "edge_type_fractions": {
+        "experiences": 0.2063963449457453,
+        "in_audience": 0.20090670484371273,
+        "has_case_study": 0.20092430397674332,
+        "addresses": 0.014943187820926915,
+        "provides": 0.007536456129893166,
+        "offers": 0.060775062555241566
+      },
+      "nodes_bytes": 9225153,
+      "nodes_byte_fraction": 0.007174618069760729,
+      "edges_bytes": 40370072,
+      "edges_byte_fraction": 0.04702749803222831
+    },
+    "raw_matched": {
+      "nodes": 45923,
+      "edges": 83514,
+      "bytes": 43270231,
+      "node_types": {
+        "vendor": 885,
+        "product": 4882,
+        "capability": 14510,
+        "pain_point": 20854,
+        "audience": 30,
+        "customer": 4762
+      },
+      "edge_types": {
+        "experiences": 21072,
+        "in_audience": 842,
+        "has_case_study": 5391,
+        "addresses": 15117,
+        "provides": 36210,
+        "offers": 4882
+      },
+      "source_nodes": 4525703,
+      "source_edges": 6993277,
+      "source_bytes": 2144239516,
+      "node_fraction": 0.01014715282907429,
+      "edge_fraction": 0.011942040905858584,
+      "byte_fraction": 0.020179756355166435,
+      "node_type_fractions": {
+        "vendor": 0.26793823796548594,
+        "product": 0.060775062555241566,
+        "capability": 0.005397663864295812,
+        "pain_point": 0.012054272550027197,
+        "audience": 0.6,
+        "customer": 0.1999832017470183
+      },
+      "edge_type_fractions": {
+        "experiences": 0.17191808762339889,
+        "in_audience": 0.20090670484371273,
+        "has_case_study": 0.20092430397674332,
+        "addresses": 0.012191492810672576,
+        "provides": 0.00656060862735435,
+        "offers": 0.060775062555241566
+      },
+      "nodes_bytes": 8023364,
+      "nodes_byte_fraction": 0.00623995854970294,
+      "edges_bytes": 35246867,
+      "edges_byte_fraction": 0.041059425618183515
+    },
+    "canonical": {
+      "nodes": 22021,
+      "edges": 87392,
+      "bytes": 28475734,
+      "node_types": {
+        "vendor": 885,
+        "product": 4882,
+        "audience": 30,
+        "customer": 4762,
+        "pain_canonical": 5435,
+        "cap_canonical": 5395,
+        "pain_domain": 26,
+        "pain_subtheme": 290,
+        "cap_domain": 26,
+        "cap_subtheme": 290
+      },
+      "edge_types": {
+        "addresses": 14248,
+        "experiences": 19297,
+        "in_audience": 842,
+        "provides": 31322,
+        "has_case_study": 5391,
+        "offers": 4882,
+        "in_subtheme": 10830,
+        "in_domain": 580
+      },
+      "source_nodes": 214236,
+      "source_edges": 4559801,
+      "source_bytes": 1330546823,
+      "node_fraction": 0.10278851360182228,
+      "edge_fraction": 0.019165748680699004,
+      "byte_fraction": 0.021401527182482324,
+      "node_type_fractions": {
+        "vendor": 0.26793823796548594,
+        "product": 0.060775062555241566,
+        "audience": 0.6,
+        "customer": 0.1999832017470183,
+        "pain_canonical": 0.17671923264509837,
+        "cap_canonical": 0.07159920371599204,
+        "pain_domain": 1.0,
+        "pain_subtheme": 0.9931506849315068,
+        "cap_domain": 1.0,
+        "cap_subtheme": 0.9897610921501706
+      },
+      "edge_type_fractions": {
+        "addresses": 0.01894779117534021,
+        "experiences": 0.20185991045650445,
+        "in_audience": 0.20090670484371273,
+        "provides": 0.008964215545281137,
+        "has_case_study": 0.20092430397674332,
+        "offers": 0.060775062555241566,
+        "in_subtheme": 0.10206870552754348,
+        "in_domain": 0.9914529914529915
+      },
+      "nodes_bytes": 4118940,
+      "nodes_byte_fraction": 0.028932142881351163,
+      "edges_bytes": 24356794,
+      "edges_byte_fraction": 0.020499223684121846
+    }
+  },
+  "disclosure": {
+    "distinct_native_raw_plus_canonical_edge_records": 183930,
+    "source_raw_plus_canonical_edge_records": 11553078,
+    "native_edge_record_fraction": 0.01592043263275813,
+    "physical_edge_records_including_matched_duplicates_and_mappings": 302808,
+    "physical_edge_fraction_vs_source_base_edges": 0.026210158020226297,
+    "native_raw_edge_fraction": 0.013804400998273056,
+    "native_canonical_edge_fraction": 0.019165748680699004,
+    "at_most_20_percent_native_edges_each_view_and_combined": true
+  },
+  "source_inputs_verified_by_full_sha256": {
+    "raw_v7/nodes.jsonl": {
+      "sha256": "61ddd8aa8ab2c5339f2e9c75656da82ea9d9f3905f60c3d3c5c082c56213ae9c",
+      "records": 4525703,
+      "bytes": 1285804054
+    },
+    "raw_v7/edges.jsonl": {
+      "sha256": "c6db1f2385e70ccc1b1d549f387fddc8d80d973c00b2728cf256cc418c812579",
+      "records": 6993277,
+      "bytes": 858435462
+    },
+    "taxonomy/pain_v6_overlay/overlay_edges.jsonl": {
+      "sha256": "7b99a8e68bf3b85cd494f8c6fa1139639f79d3cea17f79c8194d767d1834c103",
+      "records": 3094609,
+      "bytes": 255182445
+    },
+    "taxonomy/capability_v6_overlay/overlay_edges.jsonl": {
+      "sha256": "aff301ad621bf1a3c926e575a479220279004bc45ae37400cde32dc3c85f8489",
+      "records": 4076583,
+      "bytes": 343319569
+    },
+    "canonical_v8/edges.jsonl": {
+      "sha256": "90ce02243798ff52ac3c7b23c7e223a361f8c4e4b59727737b678c21d5b9562e",
+      "records": 4559801,
+      "bytes": 1188181288
+    },
+    "canonical_v8/nodes.jsonl": {
+      "sha256": "88446c70b64d84aab76b5d95f6e107a817446bf83ef24eb3769daa74a077c4d5",
+      "records": 214236,
+      "bytes": 142365535
+    },
+    "temporal/v1/evidence_dates.jsonl": {
+      "sha256": "9eec5f7b5b78166cf8d9d7170155abcfb7617208d9ea41e2db05986cce341f69",
+      "records": 62249,
+      "bytes": 56811321
+    },
+    "raw_v7/summary.json": {
+      "sha256": "ad4b9866598b762680f9dd311993197732da5177830decb5b52a913460a34453",
+      "bytes": 980,
+      "records": null
+    },
+    "canonical_v8/summary.json": {
+      "sha256": "60079340b1f3ac4fbb7c0e3f562beb1e8adc927e92059181be6d0d7f4be6a94c",
+      "bytes": 953,
+      "records": null
+    }
+  },
+  "known_source_issues": {
+    "invalid_v7_audience_edges": 1,
+    "invalid_v7_customer_nodes": 1,
+    "invalid_v8_audience_edges": 1,
+    "invalid_v8_customer_nodes": 1,
+    "persuasion": "Only extracted spans and six-axis fingerprints are present. The canonical persuasion taxonomy artifacts referenced by the integration script were absent when this bundle was built.",
+    "taxonomy": [
+      "v6 taxonomy has known vendor-blind over-merging",
+      "cross-slot fragmentation is present in a minority of atom mass",
+      "427643 v7 capability atoms and 235321 v7 pain atoms have no instance_of mapping in the included overlays"
+    ]
+  },
+  "exclusions": [
+    "All unsampled customer nodes and relationship memberships; invalid empty customer.",
+    "Full source pages/extractions, source databases, citations' bulk text and absolute paths.",
+    "Whole node aggregates, customers/vendors lists, raw_variants, source/global counts, pooled confidence.",
+    "Original vendor_pain_evidence, product-only source records, competitor model-inferred edges.",
+    "Persuasion sidecars/taxonomy work, extraction_dates, review-only dates, model caches/embeddings/checkpoints.",
+    "Private CRM/leads, credentials, endpoint registries, model-serving or session receipts."
+  ],
+  "reproduction_claim": "Illustrative sample only. No manuscript experimental result is reproduced.",
+  "artifacts": {
+    "canonical/edges.jsonl": {
+      "sha256": "5fcd702b2e8dedf47ea15fd6e6a72c4c2af49d8219e30505bceb8e009cfb5eb6",
+      "bytes": 24356794,
+      "records": 87392
+    },
+    "canonical/nodes.jsonl": {
+      "sha256": "93867e50b3c431e635a17fe1a917647aaffe662f9bdbd5d457bc471d8e07c8e2",
+      "bytes": 4118940,
+      "records": 22021
+    },
+    "labels.jsonl": {
+      "sha256": "b346852bbf4c4bbdd71407db696d53d3b09e4398e926362d8d370307cd423550",
+      "bytes": 1577762,
+      "records": 5391
+    },
+    "raw/edges.jsonl": {
+      "sha256": "d613325dc69e4b5432d4d19d89b62ccd42b864761c2f2f82675d94d23c82e2c5",
+      "bytes": 40370072,
+      "records": 96538
+    },
+    "raw/nodes.jsonl": {
+      "sha256": "fcc37a6a6f6083f22077b0dc3d398869642b1e44cede032e570ebf3e5d266be2",
+      "bytes": 9225153,
+      "records": 52940
+    },
+    "raw_matched/edges.jsonl": {
+      "sha256": "52a8a9ac4cdb2623600a32affc278604830d78360109e05d144c22b936ba96af",
+      "bytes": 35246867,
+      "records": 83514
+    },
+    "raw_matched/nodes.jsonl": {
+      "sha256": "560ed2928083e8378cb053360831896224ff9c612fc976a7c23d1427d5e1b5a2",
+      "bytes": 8023364,
+      "records": 45923
+    },
+    "selection/customers.jsonl": {
+      "sha256": "a02526b17ee68806a8feda43fc0bcbbf61906aa3c107c0dd1458d2694a344b5b",
+      "bytes": 192285,
+      "records": 4762
+    },
+    "sources.jsonl": {
+      "sha256": "3e71b0068782ad09e30820e5dcb9d4c175d1cfa4888c226208c673e7087f6247",
+      "bytes": 1208979,
+      "records": 7004
+    },
+    "taxonomy/mappings.jsonl": {
+      "sha256": "208fcb3f4b5fcdcb91a54eed9352e192767f85bf9d48fd490b84e72d15c73d20",
+      "bytes": 2578630,
+      "records": 35364
+    },
+    "temporal/evidence_dates.jsonl": {
+      "sha256": "50a0001d6711582b7d5671dbea5264797dc9a8cefc4605602f96d3f6218caefa",
+      "bytes": 1030359,
+      "records": 1778
+    }
+  },
+  "total_payload_bytes_excluding_manifest": 127929205,
+  "payload_byte_fraction_vs_source_raw_and_canonical_tables": 0.03681642337664319,
+  "sampler_sha256": "29df088bbde15ab90d861d02f825a39d046f31023f99775a2bf9ba98e013d106",
+  "source_ownership_limit": "Exclusivity is established only among saved native has_case_study references, whose source URL lists are capped; complete extraction-corpus ownership is not certified."
+}

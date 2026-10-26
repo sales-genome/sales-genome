@@ -1,0 +1,1153 @@
+{
+  "kind": "offline_retrieval_not_LLM_pitch",
+  "candidates": [
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_19793",
+      "pain_id": "pai_c_5011",
+      "pain": "Integration challenges across hybrid, multi-cloud, and distributed environments",
+      "peer_customer_ids": [
+        "customer:alma-automotive",
+        "customer:autonation",
+        "customer:bmw-group",
+        "customer:e-corti-alma-automotive",
+        "customer:polestar",
+        "customer:tesla-motors"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/customer-success-stories/dche-case-study.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_5011",
+      "pain": "Integration challenges across hybrid, multi-cloud, and distributed environments",
+      "peer_customer_ids": [
+        "customer:alma-automotive",
+        "customer:autonation",
+        "customer:bmw-group",
+        "customer:e-corti-alma-automotive",
+        "customer:polestar",
+        "customer:tesla-motors"
+      ],
+      "source_urls": [
+        "https://salesforce.com/ap/resources/customer-stories/sonak-group",
+        "https://www.docusign.com/en-au/blog/how-santander-uses-docusign-to-provide-100-digital-onboarding-and-loan-fulfilment",
+        "https://www.freeman.com/case-studies/immersive-event-meets-invaluable-sales-tool",
+        "https://www.informatica.com/about-us/customers/customer-success-stories/sulamerica.html",
+        "https://www.mulesoft.com/case-studies/api/atom-bank",
+        "https://www.mulesoft.com/webinars/api/adp-digital-transformation",
+        "https://www.mulesoft.com/webinars/spotlight-abcam",
+        "https://www.oracle.com/customers/yduqs",
+        "https://www.pega.com/insights/resources/pegaworld-inspire-2023-electricite-de-france-increases-upsell-consumer-home",
+        "https://www.renesas.com/en/blogs/customer-value-automotive-business-series-3-renesas-success-story-automotive-car-server-new-ee",
+        "https://www.trendmicro.com/de_de/about/customer-stories/university-of-warwick.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_5013",
+      "pain": "Architectural complexity and rigidity limiting adaptability and scalability",
+      "peer_customer_ids": [
+        "customer:autonation",
+        "customer:bmw-group",
+        "customer:issa",
+        "customer:marelli",
+        "customer:polestar",
+        "customer:tier-1-automotive-supplier"
+      ],
+      "source_urls": [
+        "https://www.contentful.com/case-studies/u-s-polo-assn"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_9337",
+      "pain_id": "pai_c_5013",
+      "pain": "Architectural complexity and rigidity limiting adaptability and scalability",
+      "peer_customer_ids": [
+        "customer:autonation",
+        "customer:bmw-group",
+        "customer:issa",
+        "customer:marelli",
+        "customer:polestar",
+        "customer:tier-1-automotive-supplier"
+      ],
+      "source_urls": [
+        "https://www.elastic.co/customers/appomni",
+        "https://www.hubspot.com/startups/stories/customers/pennylane"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_5013",
+      "pain": "Architectural complexity and rigidity limiting adaptability and scalability",
+      "peer_customer_ids": [
+        "customer:autonation",
+        "customer:bmw-group",
+        "customer:issa",
+        "customer:marelli",
+        "customer:polestar",
+        "customer:tier-1-automotive-supplier"
+      ],
+      "source_urls": [
+        "https://pipedrive.com/en/case-studies/ai-bees-case-study",
+        "https://www.hubspot.com/case-studies/wahi",
+        "https://www.ptc.com/en/case-studies/ceda"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_13278",
+      "pain": "Scalability and performance limitations in data and infrastructure",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:jaguar-land-rover",
+        "customer:polestar",
+        "customer:volkswagen-ag"
+      ],
+      "source_urls": [
+        "https://www.mulesoft.com/case-studies/api/dixons-carphone"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_26737",
+      "pain_id": "pai_c_1465",
+      "pain": "Data Silos and Fragmented Systems Hindering Unified Operations",
+      "peer_customer_ids": [
+        "customer:autonation",
+        "customer:bmw-group",
+        "customer:h-r-owen",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.databricks.com/customers/lippert"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_1465",
+      "pain": "Data Silos and Fragmented Systems Hindering Unified Operations",
+      "peer_customer_ids": [
+        "customer:autonation",
+        "customer:bmw-group",
+        "customer:h-r-owen",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.appsflyer.com/customers/chimpworks-drives-smarter-decisions",
+        "https://www.bynder.com/en/bynder-spotlight-awards/profile-pernod-ricard",
+        "https://www.docusign.com/en-au/customer-stories/international-sos-improves-sign-up-times-for-critical-helpline-with-docusign",
+        "https://www.docusign.com/en-sg/customer-stories/international-sos-improves-sign-up-times-for-critical-helpline-with-docusign",
+        "https://www.dremio.com/customers/michelin"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_10451",
+      "pain": "Manual effort and lack of automation in infrastructure and operations",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:esystems-mtg-gmbh",
+        "customer:mitsubishi-motors-australia"
+      ],
+      "source_urls": [
+        "https://www.databricks.com/customers/banco-bradesco/databricks-assistant"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_10455",
+      "pain": "Fragmented tools and poor integration slow development and deployment",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:issa",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/customer-success-stories/sika-case-study.html",
+        "https://grafana.com/success/pingcap",
+        "https://www.branch.io/resources/case-study/coffee-meets-bagel-boosts-retention-rate-with-branch",
+        "https://www.hubspot.com/case-studies/accommodation.co.uk"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_13279",
+      "pain": "Latency and real-time processing challenges in distributed systems",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:mitsubishi-motors-australia",
+        "customer:polestar"
+      ],
+      "source_urls": [
+        "https://www.ni.com/en/solutions/transportation/case-studies/internal-combustion-engine-test-bench-control-data-acquisition.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_19793",
+      "pain_id": "pai_c_1407",
+      "pain": "Data Silos and Fragmented Systems Impede Integration and Unified Views",
+      "peer_customer_ids": [
+        "customer:astara",
+        "customer:bmw-group",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.8451.com/company-and-culture/degreed-84-51-reimagines-training-at-scale"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_26737",
+      "pain_id": "pai_c_1407",
+      "pain": "Data Silos and Fragmented Systems Impede Integration and Unified Views",
+      "peer_customer_ids": [
+        "customer:astara",
+        "customer:bmw-group",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://snowflake.com/en/customers/all-customers/case-study/sandp-global"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_1407",
+      "pain": "Data Silos and Fragmented Systems Impede Integration and Unified Views",
+      "peer_customer_ids": [
+        "customer:astara",
+        "customer:bmw-group",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.braze.com/customers/rea-group-case-study"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_1407",
+      "pain": "Data Silos and Fragmented Systems Impede Integration and Unified Views",
+      "peer_customer_ids": [
+        "customer:astara",
+        "customer:bmw-group",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/customer-success-stories/ey-case-study.html",
+        "https://www.dremio.com/customers/quebec-blue-cross",
+        "https://www.hubspot.com/case-studies/txt-group",
+        "https://www.sitecore.com/customers/nonprofit/adoptaclassroom"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_14213",
+      "pain": "Fragmented data and identity resolution impede unified customer profiles",
+      "peer_customer_ids": [
+        "customer:h-r-owen",
+        "customer:lucid-motors",
+        "customer:mitsubishi-motors-australia"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/au/customer-success-stories/ranosys-case-study.html",
+        "https://www.braze.com/customers/amondz-case-study",
+        "https://www.braze.com/customers/busuu-client-story",
+        "https://www.braze.com/customers/jobkorea-case-study",
+        "https://www.braze.com/customers/kayo-sports-case-study",
+        "https://www.braze.com/customers/simplisafe-case-study",
+        "https://www.braze.com/customers/tonies-case-study",
+        "https://www.contentful.com/case-studies/telus-digital",
+        "https://www.hubspot.com/case-studies/newcastle-university"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_14213",
+      "pain": "Fragmented data and identity resolution impede unified customer profiles",
+      "peer_customer_ids": [
+        "customer:h-r-owen",
+        "customer:lucid-motors",
+        "customer:mitsubishi-motors-australia"
+      ],
+      "source_urls": [
+        "https://salesforce.com/au/customer-stories/z-energy"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_19793",
+      "pain_id": "pai_c_2091",
+      "pain": "Manual data entry and document processing inefficiencies",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:esystems-mtg-gmbh",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.docusign.com/en-au/blog/industry-spotlight-telco-company-transforms-contract-gen-and-management-simple-salesforce"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_2091",
+      "pain": "Manual data entry and document processing inefficiencies",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:esystems-mtg-gmbh",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/au/customer-success-stories/rea-group-esignatures-case-study.html",
+        "https://business.adobe.com/customer-success-stories/al-ghandi-case-study.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_26737",
+      "pain_id": "pai_c_2111",
+      "pain": "Manual tasks consuming time better spent on strategic work",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:h-r-owen",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://blueyonder.com/customers/supermercados-peruanos"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_2111",
+      "pain": "Manual tasks consuming time better spent on strategic work",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:h-r-owen",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.salesforce.com/customer-stories/afl-grows-fan-engagement",
+        "https://www.salesforce.com/resources/customer-stories/santander-personalization-customer-conversations"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_2111",
+      "pain": "Manual tasks consuming time better spent on strategic work",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:h-r-owen",
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/customer-success-stories/yakima-chief-hops-case-study",
+        "https://salesforce.com/au/customer-stories/intraffic",
+        "https://www.bynder.com/en/customers/link-logistics"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_2146",
+      "pain": "Lack of real-time end-to-end supply chain visibility and traceability",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:marelli",
+        "customer:renault"
+      ],
+      "source_urls": [
+        "https://www.braze.com/customers/bees-case-study"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_3177",
+      "pain": "Interoperability and Integration Challenges Across Systems, Devices, and Platforms",
+      "peer_customer_ids": [
+        "customer:autonation",
+        "customer:bmw-group",
+        "customer:mitsubishi-motors-australia"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/customer-success-stories/seiko-epson-case-study.html",
+        "https://www.axis.com/pl-pl/customer-story/kjell-company-upgrades-its-analog-audio-system-ip-help-innovative-solution-axis",
+        "https://www.cloudflare.com/case-studies/ivanti",
+        "https://www.jas.com/case-studies/enabling-real-time-visibility-through-tailored-api-integration",
+        "https://www.moxa.com/en/case-studies/enabling-connectivity-for-ac-power-monitoring",
+        "https://www.trendmicro.com/ar_sa/about/human-connections/south-carolina-state-library.html",
+        "https://www.trendmicro.com/de_de/about/customer-stories/government-information-sys-admin-peerstory.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_14219",
+      "pain": "Poor relevance and discovery in digital experiences",
+      "peer_customer_ids": [
+        "customer:autozone",
+        "customer:lucid-motors"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/au/customer-success-stories/latrobe-university-case-study.html",
+        "https://www.braze.com/customers/k-car-case-study",
+        "https://www.braze.com/perspectives/article/just-eat-case-study"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_14262",
+      "pain": "Technical and organizational barriers to scaling personalization",
+      "peer_customer_ids": [
+        "customer:bmw-group",
+        "customer:mitsubishi-motors-australia"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/au/customer-success-stories/tourism-nt-case-study.html",
+        "https://business.adobe.com/customer-success-stories/virgin-atlantic-case-study.html",
+        "https://business.adobe.com/jp/customer-success-stories/nvidia-case-study.html",
+        "https://rgp.com/work/elevating-member-experience-for-a-credentialing-body",
+        "https://salesforce.com/au/customer-stories/australian-pacific-touring",
+        "https://www.braze.com/customers/glovo-case-study",
+        "https://www.braze.com/customers/second-dinner-case-study",
+        "https://www.braze.com/customers/tonies-case-study",
+        "https://www.contentful.com/case-studies/u-s-polo-assn",
+        "https://www.oracle.com/customers/frontier-airlines",
+        "https://www.sitecore.com/customers/technology/microsoft"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_16798",
+      "pain": "Inefficient, manual, or disconnected systems and processes causing operational delays",
+      "peer_customer_ids": [
+        "customer:h-r-owen",
+        "customer:marelli"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/at/customer-success-stories/seat-case-study.html",
+        "https://www.mulesoft.com/webinars/api/unitymedia-vodafone-reuseable-apis"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_16832",
+      "pain": "Slow time-to-market due to inefficient development, deployment, or innovation cycles",
+      "peer_customer_ids": [
+        "customer:alma-automotive",
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.mulesoft.com/case-studies/api/addison-lee"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_26737",
+      "pain_id": "pai_c_0113",
+      "pain": "Outdated analytics infrastructure limiting insight accuracy and scalability",
+      "peer_customer_ids": [
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.appsflyer.com/customers/chimpworks-drives-smarter-decisions"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_36813",
+      "pain_id": "pai_c_11918",
+      "pain": "Legacy systems hinder modernization due to high costs, technical debt, and resource constraints",
+      "peer_customer_ids": [
+        "customer:autonation"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/customer-success-stories/aci-worldwide-case-study.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_11918",
+      "pain": "Legacy systems hinder modernization due to high costs, technical debt, and resource constraints",
+      "peer_customer_ids": [
+        "customer:autonation"
+      ],
+      "source_urls": [
+        "https://www.accenture.com/ae-en/case-studies/technology/salesforce-clarity-on-the-cloud",
+        "https://www.pega.com/insights/resources/pegaworld-inspire-2023-insurance-transformation-simplified-zurich-santanders"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_11918",
+      "pain": "Legacy systems hinder modernization due to high costs, technical debt, and resource constraints",
+      "peer_customer_ids": [
+        "customer:autonation"
+      ],
+      "source_urls": [
+        "https://www.mulesoft.com/webinars/spotlight-bayer",
+        "https://www.oracle.com/customers/cohu"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_12711",
+      "pain": "Lack of agile and future-proof platforms for digital transformation",
+      "peer_customer_ids": [
+        "customer:issa"
+      ],
+      "source_urls": [
+        "https://www.accenture.com/ae-en/case-studies/cloud/generali-vitality"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_13283",
+      "pain": "Software development and operational inefficiencies",
+      "peer_customer_ids": [
+        "customer:e-corti-alma-automotive"
+      ],
+      "source_urls": [
+        "https://salesforce.com/au/customer-stories/seek"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_1408",
+      "pain": "Lack of Centralized Digital Asset and Data Management",
+      "peer_customer_ids": [
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.frontify.com/en/customer-stories/frontify-for-nationwide"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_14228",
+      "pain": "Retailers struggle with customer recognition and scale",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/ae_ar/customer-success-stories/bmw-group-case-study.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_1468",
+      "pain": "Lack of Integration Between Digital Tools and Systems",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.frontify.com/en/customer-stories/frontify-for-nationwide",
+        "https://www.groupo.com/beverage-company-consumer-rebate-program",
+        "https://www.softserveinc.com/en-us/resources/shawbrook-bank-transforms-data-management"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_1468",
+      "pain": "Lack of Integration Between Digital Tools and Systems",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.8451.com/knowledge-hub/insights-and-activation/a-fresh-approach-to-data-ingestion-how-80-acres-farms-is-improving-customer",
+        "https://www.oracle.com/customers/aster-dm-healthcare"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_1469",
+      "pain": "Lack of a Centralized Source of Truth for Data and Digital Assets",
+      "peer_customer_ids": [
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.hubspot.com/case-studies/sandow-design-group"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_1469",
+      "pain": "Lack of a Centralized Source of Truth for Data and Digital Assets",
+      "peer_customer_ids": [
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.appsflyer.com/customers/shopee",
+        "https://www.salesforce.com/customer-stories/secret-escapes"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_1470",
+      "pain": "Lack of Automation and Real-Time Insights",
+      "peer_customer_ids": [
+        "customer:autonation"
+      ],
+      "source_urls": [
+        "https://www.mulesoft.com/case-studies/api/bayer-crop-science"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_26737",
+      "pain_id": "pai_c_1477",
+      "pain": "Scalability and Performance Challenges with Growing Data",
+      "peer_customer_ids": [
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.protiviti.com/ae-en/client-story/law-firm-navigates-class-action-litigation",
+        "https://www.protiviti.com/sa-en/client-story/law-firm-navigates-class-action-litigation"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_16195",
+      "pain": "Challenges in integrating legacy systems with modern technologies",
+      "peer_customer_ids": [
+        "customer:h-r-owen"
+      ],
+      "source_urls": [
+        "https://www.mulesoft.com/case-studies/api/smcp",
+        "https://www.salesforce.com/resources/customer-stories/hrowen"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_19793",
+      "pain_id": "pai_c_16797",
+      "pain": "Excessive administrative burden reducing capacity for strategic work",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/ae_en/customer-success-stories/columbia-shipmanagement-case-study.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_36813",
+      "pain_id": "pai_c_16797",
+      "pain": "Excessive administrative burden reducing capacity for strategic work",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.snowflake.com/en/customers/all-customers/case-study/natwest"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_16797",
+      "pain": "Excessive administrative burden reducing capacity for strategic work",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.braze.com/customers/jobkorea-case-study",
+        "https://www.braze.com/customers/sweetgreen-case-study"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_16797",
+      "pain": "Excessive administrative burden reducing capacity for strategic work",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.databricks.com/customers/ckdelta",
+        "https://www.docusign.com/en-au/customer-stories/santander-uks-expedites-onboarding-with-docusign"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_19777",
+      "pain": "Complex or poor user interface and user experience",
+      "peer_customer_ids": [
+        "customer:lucid-motors"
+      ],
+      "source_urls": [
+        "https://www.hubspot.com/case-studies/stella"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_26737",
+      "pain_id": "pai_c_2056",
+      "pain": "Lack of automation or integration leads to operational inefficiencies",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.mu-sigma.com/case-study/clinical-trial-benchmarking-with-competitive-intelligence"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_26737",
+      "pain_id": "pai_c_2057",
+      "pain": "Long setup, changeover, or cycle times reduce throughput",
+      "peer_customer_ids": [
+        "customer:robert-bosch-espa-a"
+      ],
+      "source_urls": [
+        "https://www.nabors.com/predictive-drilling-results-williston"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_26737",
+      "pain_id": "pai_c_20718",
+      "pain": "Inaccurate Cross-Channel Attribution and Measurement Due to Data Fragmentation and Silos",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.braze.com/customers/jobkorea-case-study"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_20718",
+      "pain": "Inaccurate Cross-Channel Attribution and Measurement Due to Data Fragmentation and Silos",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.branch.io/resources/case-study/6thstreet-drives-60-higher-app-installs-and-13-roas-growth-with-branch",
+        "https://www.branch.io/resources/case-study/payoneer-unlocks-mobile-app-growth-by-leveraging-branch-smart-banners",
+        "https://www.singular.net/case-study/posthaus-scales-growth-with-singular"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_20718",
+      "pain": "Inaccurate Cross-Channel Attribution and Measurement Due to Data Fragmentation and Silos",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.singular.net/case-study/cross-platform-measurement-personal-capital"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_2101",
+      "pain": "Manual data migration and system integration bottlenecks",
+      "peer_customer_ids": [
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://feedonomics.com/success-stories/apg-and-co-case-study",
+        "https://us.ovhcloud.com/resources/case-studies/wise-hosting-rapid-growth-with-ovhcloud",
+        "https://www.pega.com/insights/resources/pegaworld-inspire-2023-amriscs-journey-automating-insurance-submission-intake"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_22874",
+      "pain": "Outdated, legacy, or analog systems hindering efficiency and digital transformation",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/br/customer-success-stories/bradesco-case-study.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_22874",
+      "pain": "Outdated, legacy, or analog systems hindering efficiency and digital transformation",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/at/customer-success-stories/merck-case-study.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_3115",
+      "pain": "Lack of centralized digital asset management causing silos and inefficiencies",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.bynder.com/en/videos/bynder-customer-story-paris-society"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_3120",
+      "pain": "Inadequate integration with creative, marketing, and business workflows",
+      "peer_customer_ids": [
+        "customer:lucid-motors"
+      ],
+      "source_urls": [
+        "https://www.hubspot.com/case-studies/fatebenefratelli"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_3183",
+      "pain": "Limited or Inadequate Developer and Integration Tooling",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.wipro.com/applications/how-a-top-bank-opened-new-banking-channels-to-ramp-up-services"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_4123",
+      "pain": "Lack of Standardization Across Systems, Data, or Processes",
+      "peer_customer_ids": [
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://www.wipro.com/applications/scalable-api-ecosystem-boosts-topline-accelerates-digital-service-rollout"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_4224",
+      "pain": "Lack of Standardization and Interoperability",
+      "peer_customer_ids": [
+        "customer:jaguar-land-rover"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/br/customer-success-stories/roche-diagnostics-case-study.html"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_4920",
+      "pain": "Security, compliance, and network infrastructure barriers to digital transformation",
+      "peer_customer_ids": [
+        "customer:autonation"
+      ],
+      "source_urls": [
+        "https://www.pega.com/customers/google-platform"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_5578",
+      "pain": "Lack of end-to-end observability in distributed systems",
+      "peer_customer_ids": [
+        "customer:autonation"
+      ],
+      "source_urls": [
+        "https://newrelic.com/customers/swiggy"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_5580",
+      "pain": "Security, compliance, and governance gaps due to poor observability",
+      "peer_customer_ids": [
+        "customer:polestar"
+      ],
+      "source_urls": [
+        "https://www.cloudflare.com/de-de/case-studies/polestar"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_5864",
+      "pain": "Fragmented customer data and lack of unified customer view",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.salesforce.com/resources/customer-stories/currys",
+        "https://www.salesforce.com/resources/customer-stories/kellogg-shelf-revenue"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_5864",
+      "pain": "Fragmented customer data and lack of unified customer view",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.salesforce.com/customer-stories/afl-grows-fan-engagement"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_5873",
+      "pain": "Inefficient document and onboarding processes",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/africa/customer-success-stories/bmw-group-case-study.html",
+        "https://www.branch.io/resources/webinar/from-carts-to-conversions-how-instacart-delivered-growth-with-branch"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_11333",
+      "pain_id": "pai_c_6816",
+      "pain": "Disconnected or siloed data and systems",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://www.dremio.com/customers/vanguard"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:f7e5379b",
+      "capability_id": "cap_c_3054",
+      "pain_id": "pai_c_6816",
+      "pain": "Disconnected or siloed data and systems",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://business.adobe.com/customer-success-stories/ypo-case-study"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_8849",
+      "pain": "Fragmented or ineffective customer feedback collection and utilization",
+      "peer_customer_ids": [
+        "customer:astara"
+      ],
+      "source_urls": [
+        "https://www.hubspot.com/case-studies/sellics"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_8920",
+      "pain": "Inconsistent Cross-Channel Experiences",
+      "peer_customer_ids": [
+        "customer:autozone"
+      ],
+      "source_urls": [
+        "https://atlasmedstaff.com/ld-rn-rita-giese-the-atlas-life-82"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    },
+    {
+      "seller_id": "vendor:8451",
+      "product_id": "product:8451:_unspecified",
+      "capability_id": "cap_c_38512",
+      "pain_id": "pai_c_9919",
+      "pain": "Lack of Clear Strategy, Vision, or Roadmap for Transformation",
+      "peer_customer_ids": [
+        "customer:bmw-group"
+      ],
+      "source_urls": [
+        "https://rgp.com/work/elevating-member-experience-for-a-credentialing-body"
+      ],
+      "interpretation": "structural_candidate_not_prospect_fact_or_verified_product_specific_proof"
+    }
+  ]
+}

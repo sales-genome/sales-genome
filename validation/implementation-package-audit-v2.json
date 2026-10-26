@@ -1,0 +1,11 @@
+{
+  "status": "PASS_LOCAL_PACKAGE_AUDIT",
+  "files_scanned": 169,
+  "bytes_scanned": 130746883,
+  "symlinks": 0,
+  "full_databases_or_checkpoints": 0,
+  "known_credential_signature_matches": 0,
+  "private_machine_locator_matches": 0,
+  "scope": "Finite offline pattern/structure checks, not a comprehensive secrets or source-support certification.",
+  "release_approval_granted": false
+}

@@ -1,0 +1,17 @@
+{"src": "vendor:synthetic-vendor", "dst": "product:synthetic-vendor:2d70127b", "type": "offers"}
+{"src": "vendor:synthetic-vendor", "dst": "product:synthetic-vendor:_unspecified", "type": "offers"}
+{"src": "customer:synthetic-alpha", "dst": "audience:synthetic-industry", "type": "in_audience"}
+{"src": "customer:synthetic-beta", "dst": "audience:synthetic-industry", "type": "in_audience"}
+{"src": "customer:synthetic-gamma", "dst": "audience:synthetic-industry", "type": "in_audience"}
+{"src": "vendor:synthetic-vendor", "dst": "customer:synthetic-alpha", "type": "has_case_study", "n_case_studies": 1, "source_urls": ["https://example.org/synthetic/0"]}
+{"src": "vendor:synthetic-vendor", "dst": "customer:synthetic-beta", "type": "has_case_study", "n_case_studies": 1, "source_urls": ["https://example.org/synthetic/1"]}
+{"src": "vendor:synthetic-vendor", "dst": "customer:synthetic-gamma", "type": "has_case_study", "n_case_studies": 1, "source_urls": ["https://example.org/synthetic/2"]}
+{"dst": "synthetic:subtheme:pain", "src": "synthetic:canonical:pain", "type": "in_subtheme"}
+{"dst": "synthetic:domain:pain", "src": "synthetic:subtheme:pain", "type": "in_domain"}
+{"dst": "synthetic:subtheme:capability", "src": "synthetic:canonical:capability", "type": "in_subtheme"}
+{"dst": "synthetic:domain:capability", "src": "synthetic:subtheme:capability", "type": "in_domain"}
+{"src": "product:synthetic-vendor:2d70127b", "dst": "synthetic:canonical:capability", "type": "provides", "weight": 2, "n_variants": 2, "evidence": [{"text": "Automate synthetic ticket tracking", "atom_id": "cap:synthetic-vendor:f3543b91"}, {"text": "Automated synthetic ticket routing", "atom_id": "cap:synthetic-vendor:75095dfd"}]}
+{"src": "synthetic:canonical:capability", "dst": "synthetic:canonical:pain", "type": "addresses", "weight": 2, "n_vendors": 1, "vendors": ["synthetic-vendor"], "n_customers": 3, "customers": ["customer:synthetic-alpha", "customer:synthetic-beta", "customer:synthetic-gamma"], "source_urls": ["https://example.org/synthetic/0", "https://example.org/synthetic/1", "https://example.org/synthetic/2"], "avg_confidence": "high"}
+{"src": "customer:synthetic-alpha", "dst": "synthetic:canonical:pain", "type": "experiences", "weight": 1, "n_sources": 1, "vendors": ["synthetic-vendor"], "evidence": [{"text": "Manual synthetic ticket processing causes delays.", "vendor": "synthetic-vendor", "url": "https://example.org/synthetic/0", "atom_id": "pain:daeb892a"}]}
+{"src": "customer:synthetic-beta", "dst": "synthetic:canonical:pain", "type": "experiences", "weight": 1, "n_sources": 1, "vendors": ["synthetic-vendor"], "evidence": [{"text": "Manual synthetic ticket triage creates delays.", "vendor": "synthetic-vendor", "url": "https://example.org/synthetic/1", "atom_id": "pain:9387953b"}]}
+{"src": "customer:synthetic-gamma", "dst": "synthetic:canonical:pain", "type": "experiences", "weight": 1, "n_sources": 1, "vendors": ["synthetic-vendor"], "evidence": [{"text": "Manual synthetic ticket processing causes delays.", "vendor": "synthetic-vendor", "url": "https://example.org/synthetic/0", "atom_id": "pain:daeb892a"}]}

@@ -1,0 +1,3389 @@
+{
+  "model": "authored-semantic-fixture-v1",
+  "synthetic": true,
+  "responses": [
+    {
+      "operation": "extract_observation",
+      "request_sha256": "0f2f773741264edfcd0638f1713bf5d1cfba71cce1e2c5abcdc01ba5b5ff9406",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 0",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Manufacturing",
+            "company_size": null,
+            "location": "United States",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Automatically route incoming support tickets."
+          ],
+          "pain_points_cited": [
+            "Staff manually sorted support tickets, delaying responses."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Automatically route incoming support tickets.",
+              "pain_point": "Staff manually sorted support tickets, delaying responses.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Ticket operations processing time fell by 40 percent."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 0 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Staff manually sorted support tickets, delaying responses.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets.\nStaff manually sorted support tickets, delaying responses."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Ticket operations processing time fell by 40 percent."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Manufacturing",
+              "quote": "Industry: Manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "United States",
+              "quote": "Location: United States.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "6bae4a85fc284beff72998008e6ab3fa8c74cb50643952cbcdc8774db4b679ab",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Ticket operations processing time fell by 40 percent.",
+            "fingerprint": {
+              "mechanism": "Numerical improvement",
+              "evidence": "Before and after measurements",
+              "tone": "Confident",
+              "emotion": "Confidence",
+              "warrant": "Measured result",
+              "business_subject": "Ticket operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "95a44952d45f8aec209fa4bb6c50ad78d0a8be4f32aff054c9a2c6ef294a92a6",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 1",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Industrial manufacturing",
+            "company_size": null,
+            "location": "USA",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Assign new service requests without manual sorting."
+          ],
+          "pain_points_cited": [
+            "Manual support-request triage delayed replies."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Assign new service requests without manual sorting.",
+              "pain_point": "Manual support-request triage delayed replies.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Ticket operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 1 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Manual support-request triage delayed replies.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting.\nManual support-request triage delayed replies."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Ticket operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Industrial manufacturing",
+              "quote": "Industry: Industrial manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "USA",
+              "quote": "Location: USA.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "a4e8210db7cbb4f1e3da7d69f99c6fbbbc53c365cfc4582ed90e8585770d1bbb",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Ticket operations errors were eliminated, lowering operational risk.",
+            "fingerprint": {
+              "mechanism": "Risk reassurance",
+              "evidence": "Reported elimination of errors",
+              "tone": "Reassuring",
+              "emotion": "Safety",
+              "warrant": "Customer experience",
+              "business_subject": "Ticket operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "9a30d3533b830bf3302576f95d25134ff8c2fe3bd4acdd76850ae04b55926c98",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 2",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Manufacturing",
+            "company_size": null,
+            "location": "United States",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Capture supplier invoices automatically."
+          ],
+          "pain_points_cited": [
+            "Manual invoice entry caused processing delays."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Capture supplier invoices automatically.",
+              "pain_point": "Manual invoice entry caused processing delays.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Invoice operations processing time fell by 40 percent."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 2 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Manual invoice entry caused processing delays.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically.\nManual invoice entry caused processing delays."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Invoice operations processing time fell by 40 percent."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Manufacturing",
+              "quote": "Industry: Manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "United States",
+              "quote": "Location: United States.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 1,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "6409738a3f5e7308c19b8f255ceed312f72b5f579172ba23b28bce0fc6af73a3",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Invoice operations processing time fell by 40 percent.",
+            "fingerprint": {
+              "mechanism": "Quantified progress",
+              "evidence": "Comparison of measured outcomes",
+              "tone": "Assured",
+              "emotion": "Confidence",
+              "warrant": "Measured result",
+              "business_subject": "Invoice operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "0145db0fabcca5459de51ee3d85742e0dfa01d7f33e1179ff31055d3e12b1783",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 3",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Industrial manufacturing",
+            "company_size": null,
+            "location": "USA",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Digitize incoming invoices without manual entry."
+          ],
+          "pain_points_cited": [
+            "Staff retyped supplier bills, slowing finance operations."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Digitize incoming invoices without manual entry.",
+              "pain_point": "Staff retyped supplier bills, slowing finance operations.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Invoice operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 3 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Staff retyped supplier bills, slowing finance operations.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry.\nStaff retyped supplier bills, slowing finance operations."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Invoice operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Industrial manufacturing",
+              "quote": "Industry: Industrial manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "USA",
+              "quote": "Location: USA.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 1,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "435239318d9b451a1551d95a11034a7d7b5b129c1e1b69d5cc10b4773d1c13b5",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Invoice operations errors were eliminated, lowering operational risk.",
+            "fingerprint": {
+              "mechanism": "De-risking reassurance",
+              "evidence": "Reported removal of errors",
+              "tone": "Calm",
+              "emotion": "Safety",
+              "warrant": "Customer experience",
+              "business_subject": "Invoice operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "8c01109742872d4efc591f8e173f45a5ccf877474bc7b3db123289a2ea15735d",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client Zero LLC",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Manufacturing",
+            "company_size": null,
+            "location": "United States",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Automatically route incoming support tickets."
+          ],
+          "pain_points_cited": [
+            "Staff manually sorted support tickets, delaying responses."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Automatically route incoming support tickets.",
+              "pain_point": "Staff manually sorted support tickets, delaying responses.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Ticket operations processing time fell by 40 percent."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client Zero LLC is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Staff manually sorted support tickets, delaying responses.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets.\nStaff manually sorted support tickets, delaying responses."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Ticket operations processing time fell by 40 percent."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Manufacturing",
+              "quote": "Industry: Manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "United States",
+              "quote": "Location: United States.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "6bae4a85fc284beff72998008e6ab3fa8c74cb50643952cbcdc8774db4b679ab",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Ticket operations processing time fell by 40 percent.",
+            "fingerprint": {
+              "mechanism": "Numerical improvement",
+              "evidence": "Before and after measurements",
+              "tone": "Confident",
+              "emotion": "Confidence",
+              "warrant": "Measured result",
+              "business_subject": "Ticket operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "95a44952d45f8aec209fa4bb6c50ad78d0a8be4f32aff054c9a2c6ef294a92a6",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 1",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Industrial manufacturing",
+            "company_size": null,
+            "location": "USA",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Assign new service requests without manual sorting."
+          ],
+          "pain_points_cited": [
+            "Manual support-request triage delayed replies."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Assign new service requests without manual sorting.",
+              "pain_point": "Manual support-request triage delayed replies.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Ticket operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 1 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Manual support-request triage delayed replies.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting.\nManual support-request triage delayed replies."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Ticket operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Industrial manufacturing",
+              "quote": "Industry: Industrial manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "USA",
+              "quote": "Location: USA.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "a4e8210db7cbb4f1e3da7d69f99c6fbbbc53c365cfc4582ed90e8585770d1bbb",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Ticket operations errors were eliminated, lowering operational risk.",
+            "fingerprint": {
+              "mechanism": "Risk reassurance",
+              "evidence": "Reported elimination of errors",
+              "tone": "Reassuring",
+              "emotion": "Safety",
+              "warrant": "Customer experience",
+              "business_subject": "Ticket operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "9a30d3533b830bf3302576f95d25134ff8c2fe3bd4acdd76850ae04b55926c98",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 2",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Manufacturing",
+            "company_size": null,
+            "location": "United States",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Capture supplier invoices automatically."
+          ],
+          "pain_points_cited": [
+            "Manual invoice entry caused processing delays."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Capture supplier invoices automatically.",
+              "pain_point": "Manual invoice entry caused processing delays.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Invoice operations processing time fell by 40 percent."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 2 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Manual invoice entry caused processing delays.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically.\nManual invoice entry caused processing delays."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Invoice operations processing time fell by 40 percent."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Manufacturing",
+              "quote": "Industry: Manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "United States",
+              "quote": "Location: United States.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 1,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "6409738a3f5e7308c19b8f255ceed312f72b5f579172ba23b28bce0fc6af73a3",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Invoice operations processing time fell by 40 percent.",
+            "fingerprint": {
+              "mechanism": "Quantified progress",
+              "evidence": "Comparison of measured outcomes",
+              "tone": "Assured",
+              "emotion": "Confidence",
+              "warrant": "Measured result",
+              "business_subject": "Invoice operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "0145db0fabcca5459de51ee3d85742e0dfa01d7f33e1179ff31055d3e12b1783",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 3",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Industrial manufacturing",
+            "company_size": null,
+            "location": "USA",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Digitize incoming invoices without manual entry."
+          ],
+          "pain_points_cited": [
+            "Staff retyped supplier bills, slowing finance operations."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Digitize incoming invoices without manual entry.",
+              "pain_point": "Staff retyped supplier bills, slowing finance operations.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Invoice operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 3 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Staff retyped supplier bills, slowing finance operations.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry.\nStaff retyped supplier bills, slowing finance operations."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Invoice operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Industrial manufacturing",
+              "quote": "Industry: Industrial manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "USA",
+              "quote": "Location: USA.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 1,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "435239318d9b451a1551d95a11034a7d7b5b129c1e1b69d5cc10b4773d1c13b5",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Invoice operations errors were eliminated, lowering operational risk.",
+            "fingerprint": {
+              "mechanism": "De-risking reassurance",
+              "evidence": "Reported removal of errors",
+              "tone": "Calm",
+              "emotion": "Safety",
+              "warrant": "Customer experience",
+              "business_subject": "Invoice operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "0f2f773741264edfcd0638f1713bf5d1cfba71cce1e2c5abcdc01ba5b5ff9406",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 0",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Manufacturing",
+            "company_size": null,
+            "location": "United States",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Automatically route incoming support tickets."
+          ],
+          "pain_points_cited": [
+            "Staff manually sorted support tickets, delaying responses."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Automatically route incoming support tickets.",
+              "pain_point": "Staff manually sorted support tickets, delaying responses.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Ticket operations processing time fell by 40 percent."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 0 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Staff manually sorted support tickets, delaying responses.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets.\nStaff manually sorted support tickets, delaying responses."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Ticket operations processing time fell by 40 percent."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Manufacturing",
+              "quote": "Industry: Manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "United States",
+              "quote": "Location: United States.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "6bae4a85fc284beff72998008e6ab3fa8c74cb50643952cbcdc8774db4b679ab",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Ticket operations processing time fell by 40 percent.",
+            "fingerprint": {
+              "mechanism": "Numerical improvement",
+              "evidence": "Before and after measurements",
+              "tone": "Confident",
+              "emotion": "Confidence",
+              "warrant": "Measured result",
+              "business_subject": "Ticket operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "95a44952d45f8aec209fa4bb6c50ad78d0a8be4f32aff054c9a2c6ef294a92a6",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 1",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Industrial manufacturing",
+            "company_size": null,
+            "location": "USA",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Assign new service requests without manual sorting."
+          ],
+          "pain_points_cited": [
+            "Manual support-request triage delayed replies."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Assign new service requests without manual sorting.",
+              "pain_point": "Manual support-request triage delayed replies.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Ticket operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 1 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Manual support-request triage delayed replies.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting.\nManual support-request triage delayed replies."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Ticket operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Industrial manufacturing",
+              "quote": "Industry: Industrial manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "USA",
+              "quote": "Location: USA.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "a4e8210db7cbb4f1e3da7d69f99c6fbbbc53c365cfc4582ed90e8585770d1bbb",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Ticket operations errors were eliminated, lowering operational risk.",
+            "fingerprint": {
+              "mechanism": "Risk reassurance",
+              "evidence": "Reported elimination of errors",
+              "tone": "Reassuring",
+              "emotion": "Safety",
+              "warrant": "Customer experience",
+              "business_subject": "Ticket operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "9a30d3533b830bf3302576f95d25134ff8c2fe3bd4acdd76850ae04b55926c98",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 2",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Manufacturing",
+            "company_size": null,
+            "location": "United States",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Capture supplier invoices automatically."
+          ],
+          "pain_points_cited": [
+            "Manual invoice entry caused processing delays."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Capture supplier invoices automatically.",
+              "pain_point": "Manual invoice entry caused processing delays.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Invoice operations processing time fell by 40 percent."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 2 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Manual invoice entry caused processing delays.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically.\nManual invoice entry caused processing delays."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Invoice operations processing time fell by 40 percent."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Manufacturing",
+              "quote": "Industry: Manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "United States",
+              "quote": "Location: United States.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 1,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "6409738a3f5e7308c19b8f255ceed312f72b5f579172ba23b28bce0fc6af73a3",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Invoice operations processing time fell by 40 percent.",
+            "fingerprint": {
+              "mechanism": "Quantified progress",
+              "evidence": "Comparison of measured outcomes",
+              "tone": "Assured",
+              "emotion": "Confidence",
+              "warrant": "Measured result",
+              "business_subject": "Invoice operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "0145db0fabcca5459de51ee3d85742e0dfa01d7f33e1179ff31055d3e12b1783",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 3",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Industrial manufacturing",
+            "company_size": null,
+            "location": "USA",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Digitize incoming invoices without manual entry."
+          ],
+          "pain_points_cited": [
+            "Staff retyped supplier bills, slowing finance operations."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Digitize incoming invoices without manual entry.",
+              "pain_point": "Staff retyped supplier bills, slowing finance operations.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Invoice operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 3 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Staff retyped supplier bills, slowing finance operations.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry.\nStaff retyped supplier bills, slowing finance operations."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Invoice operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Industrial manufacturing",
+              "quote": "Industry: Industrial manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "USA",
+              "quote": "Location: USA.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 1,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "435239318d9b451a1551d95a11034a7d7b5b129c1e1b69d5cc10b4773d1c13b5",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Invoice operations errors were eliminated, lowering operational risk.",
+            "fingerprint": {
+              "mechanism": "De-risking reassurance",
+              "evidence": "Reported removal of errors",
+              "tone": "Calm",
+              "emotion": "Safety",
+              "warrant": "Customer experience",
+              "business_subject": "Invoice operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "0f2f773741264edfcd0638f1713bf5d1cfba71cce1e2c5abcdc01ba5b5ff9406",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 0",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Manufacturing",
+            "company_size": null,
+            "location": "United States",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Automatically route incoming support tickets."
+          ],
+          "pain_points_cited": [
+            "Staff manually sorted support tickets, delaying responses."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Automatically route incoming support tickets.",
+              "pain_point": "Staff manually sorted support tickets, delaying responses.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Ticket operations processing time fell by 40 percent."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 0 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Staff manually sorted support tickets, delaying responses.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets.\nStaff manually sorted support tickets, delaying responses."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Ticket operations processing time fell by 40 percent."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Manufacturing",
+              "quote": "Industry: Manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "United States",
+              "quote": "Location: United States.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 0,
+              "quote": "Synthetic Route enables this function: Automatically route incoming support tickets."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "6bae4a85fc284beff72998008e6ab3fa8c74cb50643952cbcdc8774db4b679ab",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Ticket operations processing time fell by 40 percent.",
+            "fingerprint": {
+              "mechanism": "Numerical improvement",
+              "evidence": "Before and after measurements",
+              "tone": "Confident",
+              "emotion": "Confidence",
+              "warrant": "Measured result",
+              "business_subject": "Ticket operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "95a44952d45f8aec209fa4bb6c50ad78d0a8be4f32aff054c9a2c6ef294a92a6",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 1",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Industrial manufacturing",
+            "company_size": null,
+            "location": "USA",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Assign new service requests without manual sorting."
+          ],
+          "pain_points_cited": [
+            "Manual support-request triage delayed replies."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Assign new service requests without manual sorting.",
+              "pain_point": "Manual support-request triage delayed replies.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Ticket operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 1 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Manual support-request triage delayed replies.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting.\nManual support-request triage delayed replies."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Ticket operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Industrial manufacturing",
+              "quote": "Industry: Industrial manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "USA",
+              "quote": "Location: USA.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 0,
+              "quote": "Synthetic Route enables this function: Assign new service requests without manual sorting."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "a4e8210db7cbb4f1e3da7d69f99c6fbbbc53c365cfc4582ed90e8585770d1bbb",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Ticket operations errors were eliminated, lowering operational risk.",
+            "fingerprint": {
+              "mechanism": "Risk reassurance",
+              "evidence": "Reported elimination of errors",
+              "tone": "Reassuring",
+              "emotion": "Safety",
+              "warrant": "Customer experience",
+              "business_subject": "Ticket operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "9a30d3533b830bf3302576f95d25134ff8c2fe3bd4acdd76850ae04b55926c98",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 2",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Manufacturing",
+            "company_size": null,
+            "location": "United States",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Capture supplier invoices automatically."
+          ],
+          "pain_points_cited": [
+            "Manual invoice entry caused processing delays."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Capture supplier invoices automatically.",
+              "pain_point": "Manual invoice entry caused processing delays.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Invoice operations processing time fell by 40 percent."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 2 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Manual invoice entry caused processing delays.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically.\nManual invoice entry caused processing delays."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Invoice operations processing time fell by 40 percent."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Manufacturing",
+              "quote": "Industry: Manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "United States",
+              "quote": "Location: United States.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 1,
+              "quote": "Synthetic Ledger enables this function: Capture supplier invoices automatically."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "6409738a3f5e7308c19b8f255ceed312f72b5f579172ba23b28bce0fc6af73a3",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Invoice operations processing time fell by 40 percent.",
+            "fingerprint": {
+              "mechanism": "Quantified progress",
+              "evidence": "Comparison of measured outcomes",
+              "tone": "Assured",
+              "emotion": "Confidence",
+              "warrant": "Measured result",
+              "business_subject": "Invoice operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "0145db0fabcca5459de51ee3d85742e0dfa01d7f33e1179ff31055d3e12b1783",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": "Synthetic Client 3",
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Industrial manufacturing",
+            "company_size": null,
+            "location": "USA",
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Route",
+            "Synthetic Ledger"
+          ],
+          "capabilities_cited": [
+            "Digitize incoming invoices without manual entry."
+          ],
+          "pain_points_cited": [
+            "Staff retyped supplier bills, slowing finance operations."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Digitize incoming invoices without manual entry.",
+              "pain_point": "Staff retyped supplier bills, slowing finance operations.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [
+            {
+              "metric": "Synthetic outcome",
+              "value": "Synthetic fixture only",
+              "quote": "Invoice operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": {
+            "quote": "Synthetic Client 3 is the subject of this synthetic customer story.",
+            "is_case_subject": true
+          },
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            },
+            {
+              "index": 1,
+              "quote": "Synthetic Route and Synthetic Ledger are available offerings."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Staff retyped supplier bills, slowing finance operations.",
+              "role": "customer_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry.\nStaff retyped supplier bills, slowing finance operations."
+            }
+          ],
+          "outcomes": [
+            {
+              "index": 0,
+              "quote": "Invoice operations errors were eliminated, lowering operational risk."
+            }
+          ],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Industrial manufacturing",
+              "quote": "Industry: Industrial manufacturing.",
+              "customer_supported": true
+            },
+            {
+              "attribute": "location",
+              "value": "USA",
+              "quote": "Location: USA.",
+              "customer_supported": true
+            }
+          ],
+          "capability_products": [
+            {
+              "capability_index": 0,
+              "product_index": 1,
+              "quote": "Synthetic Ledger enables this function: Digitize incoming invoices without manual entry."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "operation": "extract_fingerprints",
+      "request_sha256": "435239318d9b451a1551d95a11034a7d7b5b129c1e1b69d5cc10b4773d1c13b5",
+      "schema_sha256": "f35b3ddd23c37986708b4689bd1dac58788cff1a39eb07a91fd8ea171da953cc",
+      "response": {
+        "fingerprints": [
+          {
+            "outcome_index": 0,
+            "persuasive": true,
+            "claim": "Invoice operations errors were eliminated, lowering operational risk.",
+            "fingerprint": {
+              "mechanism": "De-risking reassurance",
+              "evidence": "Reported removal of errors",
+              "tone": "Calm",
+              "emotion": "Safety",
+              "warrant": "Customer experience",
+              "business_subject": "Invoice operations"
+            },
+            "cites_case_customer": true,
+            "target_audience_indices": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "extract_observation",
+      "request_sha256": "17bc439a26e228b36667b317f75e7daeb5aa20017fc295390dc5e8329734abf5",
+      "schema_sha256": "eed49f84c3a62c352b49022284c59d601a5dc01b51e77416930dd29b3b99036b",
+      "response": {
+        "data": {
+          "customer_name": null,
+          "inferred_target_persona": null,
+          "audience_dimensions": {
+            "industry": "Government agencies",
+            "company_size": null,
+            "location": null,
+            "revenue": null,
+            "tech_stack": [],
+            "other": null
+          },
+          "vendor_products_used": [
+            "Synthetic Reports"
+          ],
+          "capabilities_cited": [
+            "Export consistent audit reports."
+          ],
+          "pain_points_cited": [
+            "Analysts lacked consistent reporting across review cycles."
+          ],
+          "vp_pp_pairs": [
+            {
+              "capability": "Export consistent audit reports.",
+              "pain_point": "Analysts lacked consistent reporting across review cycles.",
+              "confidence": "high"
+            }
+          ],
+          "outcomes": [],
+          "confidence": "high"
+        },
+        "support": {
+          "customer": null,
+          "products": [
+            {
+              "index": 0,
+              "quote": "Synthetic Reports is an available offering."
+            }
+          ],
+          "capabilities": [
+            {
+              "index": 0,
+              "quote": "Export consistent audit reports."
+            }
+          ],
+          "pains": [
+            {
+              "index": 0,
+              "quote": "Analysts lacked consistent reporting across review cycles.",
+              "role": "general_problem"
+            }
+          ],
+          "pairs": [
+            {
+              "index": 0,
+              "quote": "Export consistent audit reports.\nAnalysts lacked consistent reporting across review cycles."
+            }
+          ],
+          "outcomes": [],
+          "audiences": [
+            {
+              "attribute": "industry",
+              "value": "Government agencies",
+              "quote": "Industry: Government agencies.",
+              "customer_supported": false
+            }
+          ],
+          "capability_products": []
+        }
+      }
+    },
+    {
+      "operation": "propose_hierarchy",
+      "request_sha256": "6304137396119c38d1984ff513b8f55a4833de8966e3b3401dac552895ef0532",
+      "schema_sha256": "032a85140bd0bf9b6b7a87e0b5018d456ebaae41434f477ba011219a12b3fc22",
+      "response": {
+        "dimension": "pain",
+        "domains": [
+          {
+            "name": "Synthetic pain domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Initial broad slot",
+                "description": "Initial synthetic semantic slot.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "dcd74364f6c77d54b3c8e7ad6a1af0b2fa32fd94a631666fdfd1207d2d0b92b1",
+      "schema_sha256": "b5d89c30d58a2409e04caad6a360bae6666c9581990130d35c9b7ec6f4ef4f65",
+      "response": {
+        "dimension": "pain",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": -1
+          },
+          {
+            "item": 1,
+            "choice": -1
+          },
+          {
+            "item": 2,
+            "choice": -1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "035ab9f0c039f1498424ab67f77a8f69f9f193d744d1b27329ed3c653d09128b",
+      "schema_sha256": "b5d89c30d58a2409e04caad6a360bae6666c9581990130d35c9b7ec6f4ef4f65",
+      "response": {
+        "dimension": "pain",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 0
+          },
+          {
+            "item": 1,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "refine_hierarchy",
+      "request_sha256": "245f6674e0d4615b8cd2d083097dae82038fd8a23503172d8f0dec5a7b2f70ab",
+      "schema_sha256": "032a85140bd0bf9b6b7a87e0b5018d456ebaae41434f477ba011219a12b3fc22",
+      "response": {
+        "dimension": "pain",
+        "domains": [
+          {
+            "name": "Synthetic pain domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Refined meanings",
+                "description": "Force-split overloaded semantic branch.",
+                "children": [
+                  {
+                    "name": "ticket",
+                    "description": "Synthetic ticket descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "invoice",
+                    "description": "Synthetic invoice descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "reporting",
+                    "description": "Synthetic reporting descriptions.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "ce4b586b257e3a7b1c37d475d5310e030fcfc9226c8c80cf03c0fc461dac2b73",
+      "schema_sha256": "08e6b873af1d03cdbe098e35cf8ef2f9d340589650d1d939e298ba67630bb815",
+      "response": {
+        "dimension": "pain",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 1
+          },
+          {
+            "item": 1,
+            "choice": 1
+          },
+          {
+            "item": 2,
+            "choice": 2
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "43f375c63ff989416e0b5e660d8ed737a3c7d8c82ac15d65331b8be42cbd7a50",
+      "schema_sha256": "08e6b873af1d03cdbe098e35cf8ef2f9d340589650d1d939e298ba67630bb815",
+      "response": {
+        "dimension": "pain",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 0
+          },
+          {
+            "item": 1,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "515aeccd027d1dde330b163a3615b3fa2f311cfa23fe2d59289700175bb928e5",
+      "schema_sha256": "cb1a7e6982cd66bf0ede9c2a9f9307499a9ab1d618624e83a5ca4f7728cd7aed",
+      "response": {
+        "dimension": "pain",
+        "groups": [
+          {
+            "name": "Synthetic pain ticket",
+            "scope": "Equivalent synthetic ticket meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "19414c2dca5be2003ef2c9176f2df8f210023f89cb2bab6ea4e44daa7b9a209e",
+      "schema_sha256": "cb1a7e6982cd66bf0ede9c2a9f9307499a9ab1d618624e83a5ca4f7728cd7aed",
+      "response": {
+        "dimension": "pain",
+        "groups": [
+          {
+            "name": "Synthetic pain invoice",
+            "scope": "Equivalent synthetic invoice meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "71a98bef6a348c6b777b222c8bd62ba4c7f91cdf24e0bbf519863f9f7473c48e",
+      "schema_sha256": "cb1a7e6982cd66bf0ede9c2a9f9307499a9ab1d618624e83a5ca4f7728cd7aed",
+      "response": {
+        "dimension": "pain",
+        "groups": [
+          {
+            "name": "Synthetic pain reporting",
+            "scope": "Equivalent synthetic reporting meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "propose_hierarchy",
+      "request_sha256": "7f544bb585adbb678f16cf6fb94e5be58845b0db60b32281ce09eb8dec541ac2",
+      "schema_sha256": "e13b87b399a43726773185dcabcc61da8a72235223d58e055dabba19d81eafd4",
+      "response": {
+        "dimension": "capability",
+        "domains": [
+          {
+            "name": "Synthetic capability domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Initial broad slot",
+                "description": "Initial synthetic semantic slot.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "2a14f74f5a4ca896dd604ac9883417bad1e11089c71785d81e5e1999146f8b9d",
+      "schema_sha256": "bc2895fd236e17844e9bd586724063bcdfe04efffbde3a10e6943f7162f4e1ee",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": -1
+          },
+          {
+            "item": 1,
+            "choice": 0
+          },
+          {
+            "item": 2,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "d36bcb87a24123d75b7e34a7b8340e5860ef38515b52803c79e79dc964db947f",
+      "schema_sha256": "bc2895fd236e17844e9bd586724063bcdfe04efffbde3a10e6943f7162f4e1ee",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": -1
+          },
+          {
+            "item": 1,
+            "choice": -1
+          },
+          {
+            "item": 2,
+            "choice": -1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "1939ed2d232036daf30b1cc2d565b6588a708f404614605bc05ca2359046cf99",
+      "schema_sha256": "bc2895fd236e17844e9bd586724063bcdfe04efffbde3a10e6943f7162f4e1ee",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 0
+          },
+          {
+            "item": 1,
+            "choice": 0
+          },
+          {
+            "item": 2,
+            "choice": -1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "2a14f74f5a4ca896dd604ac9883417bad1e11089c71785d81e5e1999146f8b9d",
+      "schema_sha256": "bc2895fd236e17844e9bd586724063bcdfe04efffbde3a10e6943f7162f4e1ee",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": -1
+          },
+          {
+            "item": 1,
+            "choice": 0
+          },
+          {
+            "item": 2,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "cc2f3162dfb6bf212b69fda2f4151031e56f3c12056a20151d53d3acd297ffa3",
+      "schema_sha256": "bc2895fd236e17844e9bd586724063bcdfe04efffbde3a10e6943f7162f4e1ee",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": -1
+          },
+          {
+            "item": 1,
+            "choice": -1
+          },
+          {
+            "item": 2,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "fe58cb24db98abf0a5827bb024f6b6a0440003c540952ac1b76750dc89650368",
+      "schema_sha256": "bc2895fd236e17844e9bd586724063bcdfe04efffbde3a10e6943f7162f4e1ee",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 0
+          },
+          {
+            "item": 1,
+            "choice": -1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "refine_hierarchy",
+      "request_sha256": "d329bef6525dcca7fbbc35a26d1db668d1678f20b372e4a3323a527687abb1ad",
+      "schema_sha256": "e13b87b399a43726773185dcabcc61da8a72235223d58e055dabba19d81eafd4",
+      "response": {
+        "dimension": "capability",
+        "domains": [
+          {
+            "name": "Synthetic capability domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Refined meanings",
+                "description": "Force-split overloaded semantic branch.",
+                "children": [
+                  {
+                    "name": "ticket",
+                    "description": "Synthetic ticket descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "invoice",
+                    "description": "Synthetic invoice descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "reporting",
+                    "description": "Synthetic reporting descriptions.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "f9ad886bd1e4a99e336cec13aa4415a7d9126fb0627f9b8679e409162e7e679e",
+      "schema_sha256": "36cd8a09babe7c6679f7c428385e9ec39541df813783d8f570e5df644a1ad830",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 1
+          },
+          {
+            "item": 1,
+            "choice": 0
+          },
+          {
+            "item": 2,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "e8e5569343a29d3b19957db9ed1b4ef08ebed6aef85df8ba12c7c302792ce4ee",
+      "schema_sha256": "36cd8a09babe7c6679f7c428385e9ec39541df813783d8f570e5df644a1ad830",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 1
+          },
+          {
+            "item": 1,
+            "choice": 2
+          },
+          {
+            "item": 2,
+            "choice": 1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "182c82cba20af28809d176c4ad53f6b46c80536be876ea19e7a5594986c61878",
+      "schema_sha256": "36cd8a09babe7c6679f7c428385e9ec39541df813783d8f570e5df644a1ad830",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 0
+          },
+          {
+            "item": 1,
+            "choice": 0
+          },
+          {
+            "item": 2,
+            "choice": 1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "f9ad886bd1e4a99e336cec13aa4415a7d9126fb0627f9b8679e409162e7e679e",
+      "schema_sha256": "36cd8a09babe7c6679f7c428385e9ec39541df813783d8f570e5df644a1ad830",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 1
+          },
+          {
+            "item": 1,
+            "choice": 0
+          },
+          {
+            "item": 2,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "52f1840680a4c0669ee1de4fd6499ec1082fbd8410e6b54ce927687fc7b87add",
+      "schema_sha256": "36cd8a09babe7c6679f7c428385e9ec39541df813783d8f570e5df644a1ad830",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 1
+          },
+          {
+            "item": 1,
+            "choice": 1
+          },
+          {
+            "item": 2,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "766b78817e682e7f781246732039dbc1e7681adb270e60e44d5c56f48a4b2ff8",
+      "schema_sha256": "36cd8a09babe7c6679f7c428385e9ec39541df813783d8f570e5df644a1ad830",
+      "response": {
+        "dimension": "capability",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 0
+          },
+          {
+            "item": 1,
+            "choice": 1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "976973031d78484b1440a5e27a495b62e8aed6365838f5680b8041a1f66162e4",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability ticket",
+            "scope": "Equivalent synthetic ticket meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "976973031d78484b1440a5e27a495b62e8aed6365838f5680b8041a1f66162e4",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability ticket",
+            "scope": "Equivalent synthetic ticket meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "976973031d78484b1440a5e27a495b62e8aed6365838f5680b8041a1f66162e4",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability ticket",
+            "scope": "Equivalent synthetic ticket meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "976973031d78484b1440a5e27a495b62e8aed6365838f5680b8041a1f66162e4",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability ticket",
+            "scope": "Equivalent synthetic ticket meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "reconcile_canonicals",
+      "request_sha256": "7354c5bf6183b8f16cd2244eff9876caee899b08c7443bcba02cf83765aa1ef8",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability ticket",
+            "scope": "Equivalent synthetic ticket meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "reconcile_canonicals",
+      "request_sha256": "7354c5bf6183b8f16cd2244eff9876caee899b08c7443bcba02cf83765aa1ef8",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability ticket",
+            "scope": "Equivalent synthetic ticket meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "reconcile_canonicals",
+      "request_sha256": "7354c5bf6183b8f16cd2244eff9876caee899b08c7443bcba02cf83765aa1ef8",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability ticket",
+            "scope": "Equivalent synthetic ticket meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "872eb05ee01c2c585b1706199ead27ef6fa82882b97d2bcdc6a2fb38118368eb",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability invoice",
+            "scope": "Equivalent synthetic invoice meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "872eb05ee01c2c585b1706199ead27ef6fa82882b97d2bcdc6a2fb38118368eb",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability invoice",
+            "scope": "Equivalent synthetic invoice meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "872eb05ee01c2c585b1706199ead27ef6fa82882b97d2bcdc6a2fb38118368eb",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability invoice",
+            "scope": "Equivalent synthetic invoice meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "872eb05ee01c2c585b1706199ead27ef6fa82882b97d2bcdc6a2fb38118368eb",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability invoice",
+            "scope": "Equivalent synthetic invoice meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "reconcile_canonicals",
+      "request_sha256": "ad326a3ab97e52e5ec603708445bace4f6da7296375de0df0e1d85c0ae94cc9b",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability invoice",
+            "scope": "Equivalent synthetic invoice meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "reconcile_canonicals",
+      "request_sha256": "ad326a3ab97e52e5ec603708445bace4f6da7296375de0df0e1d85c0ae94cc9b",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability invoice",
+            "scope": "Equivalent synthetic invoice meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "reconcile_canonicals",
+      "request_sha256": "ad326a3ab97e52e5ec603708445bace4f6da7296375de0df0e1d85c0ae94cc9b",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability invoice",
+            "scope": "Equivalent synthetic invoice meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "e78cf6f4e05c6c0501be73dd3b1c38fc37daa7d69b485a6cd0f697c583788b76",
+      "schema_sha256": "88322c1f0b132737927ee9876e72c215a7ffe3e46ef53427991234d23f37f145",
+      "response": {
+        "dimension": "capability",
+        "groups": [
+          {
+            "name": "Synthetic capability reporting",
+            "scope": "Equivalent synthetic reporting meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "propose_hierarchy",
+      "request_sha256": "8a7e66943960780099ab7d6417dbf0b428934843f848d07e537aa5921715a03f",
+      "schema_sha256": "45164f0bc51097b3c541241125f4be86c7744b9c5f22f328247702576f0cbce1",
+      "response": {
+        "dimension": "audience",
+        "domains": [
+          {
+            "name": "Synthetic audience domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Initial broad slot",
+                "description": "Initial synthetic semantic slot.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "f1feae8c48c7c3593012b5eb38de79ba3dd44e14b42aea4fe474cfded590ddf3",
+      "schema_sha256": "00ec20f22cc051cec499058862a563eedd8d36e6e6df5a4b33db769d795b663a",
+      "response": {
+        "dimension": "audience",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": -1
+          },
+          {
+            "item": 1,
+            "choice": 0
+          },
+          {
+            "item": 2,
+            "choice": -1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "44444656c12453e9e8ddad153c240b33f60c0cca6930d0eda8111d4b3e256ea6",
+      "schema_sha256": "00ec20f22cc051cec499058862a563eedd8d36e6e6df5a4b33db769d795b663a",
+      "response": {
+        "dimension": "audience",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 0
+          },
+          {
+            "item": 1,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "refine_hierarchy",
+      "request_sha256": "ac8dd76ded5a4fb9dd3e4971d030dd360f9b1d863f2803ad94726434e9b3db2a",
+      "schema_sha256": "45164f0bc51097b3c541241125f4be86c7744b9c5f22f328247702576f0cbce1",
+      "response": {
+        "dimension": "audience",
+        "domains": [
+          {
+            "name": "Synthetic audience domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Refined meanings",
+                "description": "Force-split overloaded semantic branch.",
+                "children": [
+                  {
+                    "name": "industry",
+                    "description": "Synthetic industry descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "location",
+                    "description": "Synthetic location descriptions.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "405a3cb3df156a309d8aa7751351088b9e6bdf08a1bb39715030feec3fd8c9d1",
+      "schema_sha256": "3362e1d35401572a8f741b020106b29999d5d2509a50e3e82df93f8a88677cd7",
+      "response": {
+        "dimension": "audience",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 1
+          },
+          {
+            "item": 1,
+            "choice": 0
+          },
+          {
+            "item": 2,
+            "choice": 1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "8d3f54f95003165bf205a97aa5c7b349a2abe3200102f8b4fe18b7f5637a4827",
+      "schema_sha256": "3362e1d35401572a8f741b020106b29999d5d2509a50e3e82df93f8a88677cd7",
+      "response": {
+        "dimension": "audience",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 0
+          },
+          {
+            "item": 1,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "b28db33b23fb2d507c82ae668f1c17c0e67b236d4a5d46fe4aacc9bac18f3833",
+      "schema_sha256": "004e3a1ef5a4512d45ee6d3671d02d948c42430c60345d9311f0ba0eb5de31d7",
+      "response": {
+        "dimension": "audience",
+        "groups": [
+          {
+            "name": "Synthetic audience government",
+            "scope": "Equivalent synthetic government meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0
+            ]
+          },
+          {
+            "name": "Synthetic audience manufacturing",
+            "scope": "Equivalent synthetic manufacturing meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "46531a44f49a054d4ef972f5750353bad1d747d3fbd5bd5763c08b6def8b27c0",
+      "schema_sha256": "004e3a1ef5a4512d45ee6d3671d02d948c42430c60345d9311f0ba0eb5de31d7",
+      "response": {
+        "dimension": "audience",
+        "groups": [
+          {
+            "name": "Synthetic audience manufacturing",
+            "scope": "Equivalent synthetic manufacturing meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "reconcile_canonicals",
+      "request_sha256": "7921ac44267d4ae7cec928d6d5cf52cf1d2bd23f9775253b473dfcb85a60107f",
+      "schema_sha256": "004e3a1ef5a4512d45ee6d3671d02d948c42430c60345d9311f0ba0eb5de31d7",
+      "response": {
+        "dimension": "audience",
+        "groups": [
+          {
+            "name": "Synthetic audience manufacturing",
+            "scope": "Equivalent synthetic manufacturing meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "reconcile_canonicals",
+      "request_sha256": "1f1021f8d9d99e3d2db855324dd218ae96aaaadbcc94883db6cf9c0df9423298",
+      "schema_sha256": "004e3a1ef5a4512d45ee6d3671d02d948c42430c60345d9311f0ba0eb5de31d7",
+      "response": {
+        "dimension": "audience",
+        "groups": [
+          {
+            "name": "Synthetic audience government",
+            "scope": "Equivalent synthetic government meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              1
+            ]
+          },
+          {
+            "name": "Synthetic audience manufacturing",
+            "scope": "Equivalent synthetic manufacturing meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "31525bec8a66b87649d6050df169dc9bf8126d7e64e61567e3c24c2bbdffa185",
+      "schema_sha256": "004e3a1ef5a4512d45ee6d3671d02d948c42430c60345d9311f0ba0eb5de31d7",
+      "response": {
+        "dimension": "audience",
+        "groups": [
+          {
+            "name": "Synthetic audience united_states",
+            "scope": "Equivalent synthetic united_states meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "propose_hierarchy",
+      "request_sha256": "2bd9bf19a66d526cfb5aa466b78203288abbb9ba73eccee3036f93ff68cc1e67",
+      "schema_sha256": "6b68a2d4f60cf386e788440dbb4856d44e046354a19c8cfb6cbeab270cce9382",
+      "response": {
+        "dimension": "strategy",
+        "domains": [
+          {
+            "name": "Synthetic strategy domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Initial broad slot",
+                "description": "Initial synthetic semantic slot.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "69c65fbf052214954c0ef6794fdbb4977bdb377579b943416b36c346112d7f43",
+      "schema_sha256": "72d68bc5a3866a7f89e16bf616618008fad06b89074d61a6ab831dfa6fc4b634",
+      "response": {
+        "dimension": "strategy",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 0
+          },
+          {
+            "item": 1,
+            "choice": -1
+          },
+          {
+            "item": 2,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "9a44b3249f83eb618ef9324f992ac135d90aa4e4901726cf983a129e88f9607d",
+      "schema_sha256": "72d68bc5a3866a7f89e16bf616618008fad06b89074d61a6ab831dfa6fc4b634",
+      "response": {
+        "dimension": "strategy",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": -1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "refine_hierarchy",
+      "request_sha256": "7244274c9e172e625d623bfa7353702230341d741b33e5cf08e849047c78fb81",
+      "schema_sha256": "6b68a2d4f60cf386e788440dbb4856d44e046354a19c8cfb6cbeab270cce9382",
+      "response": {
+        "dimension": "strategy",
+        "domains": [
+          {
+            "name": "Synthetic strategy domain",
+            "description": "Authored synthetic semantic responses.",
+            "children": [
+              {
+                "name": "Refined meanings",
+                "description": "Force-split overloaded semantic branch.",
+                "children": [
+                  {
+                    "name": "quantified",
+                    "description": "Synthetic quantified descriptions.",
+                    "children": []
+                  },
+                  {
+                    "name": "reassurance",
+                    "description": "Synthetic reassurance descriptions.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "2e07e32f53b0063c14d077d824ab87db68db8db0df6fe6bc8ae6a8fa7e45f275",
+      "schema_sha256": "0206817d1ec2e1910e523c4de0d87e9bb3c41825d3c3df6ae4477127040ef685",
+      "response": {
+        "dimension": "strategy",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 0
+          },
+          {
+            "item": 1,
+            "choice": 1
+          },
+          {
+            "item": 2,
+            "choice": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "assign_hierarchy",
+      "request_sha256": "18309919b1aeee36fd3915c298d154036a4aad56ce78eb9d3eb4c3506edf44c5",
+      "schema_sha256": "0206817d1ec2e1910e523c4de0d87e9bb3c41825d3c3df6ae4477127040ef685",
+      "response": {
+        "dimension": "strategy",
+        "assignments": [
+          {
+            "item": 0,
+            "choice": 1
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "33d9c1562963df77d26b76859682fc27b096029184e9651714a0871ca32d7aaa",
+      "schema_sha256": "885339b39842649c7fe125855f8cc4ad250ed476701c4f76f11ff41c8a8c771a",
+      "response": {
+        "dimension": "strategy",
+        "groups": [
+          {
+            "name": "Synthetic strategy quantified",
+            "scope": "Equivalent synthetic quantified meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "operation": "group_canonicals",
+      "request_sha256": "00f9827ece9b09eb4a526760534b8dd7aaca4974c4705bfcbdee9ccc74600190",
+      "schema_sha256": "885339b39842649c7fe125855f8cc4ad250ed476701c4f76f11ff41c8a8c771a",
+      "response": {
+        "dimension": "strategy",
+        "groups": [
+          {
+            "name": "Synthetic strategy reassurance",
+            "scope": "Equivalent synthetic reassurance meaning only.",
+            "discriminator": "Distinct from other synthetic meanings.",
+            "members": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "synthetic": true,
+  "learned_taxonomy": false,
+  "description": "Explicit test mappings exercise graph projection; no LLM induction was run."
+}

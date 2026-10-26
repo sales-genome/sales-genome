@@ -1,0 +1,15 @@
+{"src": "vendor:synthetic-vendor", "dst": "product:synthetic-vendor:2d70127b", "type": "offers"}
+{"src": "vendor:synthetic-vendor", "dst": "product:synthetic-vendor:_unspecified", "type": "offers"}
+{"src": "product:synthetic-vendor:2d70127b", "dst": "cap:synthetic-vendor:f3543b91", "type": "provides"}
+{"src": "product:synthetic-vendor:2d70127b", "dst": "cap:synthetic-vendor:75095dfd", "type": "provides"}
+{"src": "cap:synthetic-vendor:f3543b91", "dst": "pain:daeb892a", "type": "addresses", "weight": 2, "source_urls": ["https://example.org/synthetic/0", "https://example.org/synthetic/2"], "customer_names": ["Synthetic Alpha", "Synthetic Gamma"], "n_customers": 2, "avg_confidence": "high"}
+{"src": "cap:synthetic-vendor:75095dfd", "dst": "pain:9387953b", "type": "addresses", "weight": 1, "source_urls": ["https://example.org/synthetic/1"], "customer_names": ["Synthetic Beta"], "n_customers": 1, "avg_confidence": "high"}
+{"src": "customer:synthetic-alpha", "dst": "pain:daeb892a", "type": "experiences", "n_sources": 1, "vendor_slugs": ["synthetic-vendor"]}
+{"src": "customer:synthetic-beta", "dst": "pain:9387953b", "type": "experiences", "n_sources": 1, "vendor_slugs": ["synthetic-vendor"]}
+{"src": "customer:synthetic-gamma", "dst": "pain:daeb892a", "type": "experiences", "n_sources": 1, "vendor_slugs": ["synthetic-vendor"]}
+{"src": "customer:synthetic-alpha", "dst": "audience:synthetic-industry", "type": "in_audience"}
+{"src": "customer:synthetic-beta", "dst": "audience:synthetic-industry", "type": "in_audience"}
+{"src": "customer:synthetic-gamma", "dst": "audience:synthetic-industry", "type": "in_audience"}
+{"src": "vendor:synthetic-vendor", "dst": "customer:synthetic-alpha", "type": "has_case_study", "n_case_studies": 1, "source_urls": ["https://example.org/synthetic/0"]}
+{"src": "vendor:synthetic-vendor", "dst": "customer:synthetic-beta", "type": "has_case_study", "n_case_studies": 1, "source_urls": ["https://example.org/synthetic/1"]}
+{"src": "vendor:synthetic-vendor", "dst": "customer:synthetic-gamma", "type": "has_case_study", "n_case_studies": 1, "source_urls": ["https://example.org/synthetic/2"]}

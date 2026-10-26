@@ -1,0 +1,18 @@
+test_exact_date_join_excludes_review_and_non_editorial_dates (test_submission.DownstreamTests.test_exact_date_join_excludes_review_and_non_editorial_dates) ... ok
+test_prospect_is_not_used_as_peer (test_submission.DownstreamTests.test_prospect_is_not_used_as_peer) ... ok
+test_score_matches_recovered_implementation (test_submission.DownstreamTests.test_score_matches_recovered_implementation) ... ok
+test_all_python_sources_compile_without_writing_bytecode (test_submission.EnvironmentTests.test_all_python_sources_compile_without_writing_bytecode) ... ok
+test_local_provider_rejects_non_loopback_endpoint (test_submission.EnvironmentTests.test_local_provider_rejects_non_loopback_endpoint) ... ok
+test_provider_fails_closed_without_opt_in (test_submission.EnvironmentTests.test_provider_fails_closed_without_opt_in) ... ok
+test_recovered_modules_import_without_service_configuration (test_submission.EnvironmentTests.test_recovered_modules_import_without_service_configuration) ... ok
+test_schema_is_valid (test_submission.EnvironmentTests.test_schema_is_valid) ... ok
+test_only_explicit_accepted_same_type_merges_are_applied (test_submission.RepairTests.test_only_explicit_accepted_same_type_merges_are_applied) ... ok
+test_unsupported_relationships_are_withheld_not_promoted (test_submission.RepairTests.test_unsupported_relationships_are_withheld_not_promoted) ... ok
+test_aggregate_attributes_are_not_carried_by_shared_nodes (test_submission.SamplingTests.test_aggregate_attributes_are_not_carried_by_shared_nodes) ... ok
+test_customer_selection_is_exact_deterministic_and_order_independent (test_submission.SamplingTests.test_customer_selection_is_exact_deterministic_and_order_independent) ... ok
+test_private_urls_and_credential_queries_are_rejected (test_submission.SamplingTests.test_private_urls_and_credential_queries_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.190s
+
+OK

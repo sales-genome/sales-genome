@@ -1,0 +1,264 @@
+{
+  "version": "executable-construction-to-canonical-1",
+  "historical_experiment_reproduction": false,
+  "settings": {
+    "seed": "construction-pipeline-v1",
+    "sample_size": 4,
+    "classification_batch": 3,
+    "group_batch": 2,
+    "reconciliation_batch": 2,
+    "max_rounds": 4,
+    "coverage_target": 0.95,
+    "max_leaf_fraction": 0.6,
+    "min_split_size": 2,
+    "max_depth": 6,
+    "explicit_singleton_fallback": false
+  },
+  "identity_policy_sha256": "1b42cb4cc98da117ebdca0fd1bb7216d0e86640d4f5c6ad6fce9184b531be099",
+  "semantic_success": true,
+  "model": {
+    "backend": "synthetic_recorded_responses",
+    "model": "authored-semantic-fixture-v1",
+    "live_calls": false,
+    "synthetic": true
+  },
+  "receipts": 90,
+  "source_records": 17,
+  "dimensions": {
+    "pain": {
+      "status": "coverage_and_balance_targets_met",
+      "rounds": [
+        {
+          "round": 1,
+          "coverage": 0.4,
+          "assigned": 2,
+          "total": 5,
+          "leaf_loads": {
+            "0": 2
+          },
+          "overloaded_leaves": [
+            0
+          ],
+          "hierarchy_sha256": "04ae977a77c57a43fb9d92dca66eaae4f1a5f7278e269012063b3cb83e285167",
+          "hierarchy_receipt": 33,
+          "schema_unchanged": false
+        },
+        {
+          "round": 2,
+          "coverage": 1.0,
+          "assigned": 5,
+          "total": 5,
+          "leaf_loads": {
+            "1": 2,
+            "2": 1,
+            "0": 2
+          },
+          "overloaded_leaves": [],
+          "hierarchy_sha256": "eff85180be5541616455227c1e205740270da67598902bc3df22e2b4b7891d55",
+          "hierarchy_receipt": 36,
+          "schema_unchanged": false
+        }
+      ],
+      "mappings": 5,
+      "unmapped": 0
+    },
+    "capability": {
+      "status": "coverage_and_balance_targets_met",
+      "rounds": [
+        {
+          "round": 1,
+          "coverage": 0.47058823529411764,
+          "assigned": 8,
+          "total": 17,
+          "leaf_loads": {
+            "0": 8
+          },
+          "overloaded_leaves": [
+            0
+          ],
+          "hierarchy_sha256": "006a7f6a5ae2723931824fc86f53fe9c124385977b84d279d9fa5f1feaebe4ef",
+          "hierarchy_receipt": 42,
+          "schema_unchanged": false
+        },
+        {
+          "round": 2,
+          "coverage": 1.0,
+          "assigned": 17,
+          "total": 17,
+          "leaf_loads": {
+            "1": 8,
+            "0": 8,
+            "2": 1
+          },
+          "overloaded_leaves": [],
+          "hierarchy_sha256": "7c314801c23904b57fdc691284029df779d687ccbe943394a960a3920ea2fec9",
+          "hierarchy_receipt": 49,
+          "schema_unchanged": false
+        }
+      ],
+      "mappings": 17,
+      "unmapped": 0
+    },
+    "audience": {
+      "status": "coverage_and_balance_targets_met",
+      "rounds": [
+        {
+          "round": 1,
+          "coverage": 0.6,
+          "assigned": 3,
+          "total": 5,
+          "leaf_loads": {
+            "0": 3
+          },
+          "overloaded_leaves": [
+            0
+          ],
+          "hierarchy_sha256": "3ac1e47317f7ac1ed2a7de8d875c2a1222ef67763a4622405cd926ae95cba63a",
+          "hierarchy_receipt": 71,
+          "schema_unchanged": false
+        },
+        {
+          "round": 2,
+          "coverage": 1.0,
+          "assigned": 5,
+          "total": 5,
+          "leaf_loads": {
+            "1": 2,
+            "0": 3
+          },
+          "overloaded_leaves": [],
+          "hierarchy_sha256": "e7ad03181bc788e81fb4b18f1b4138519528db67e8b226d041a0e20ac26f4d95",
+          "hierarchy_receipt": 74,
+          "schema_unchanged": false
+        }
+      ],
+      "mappings": 5,
+      "unmapped": 0
+    },
+    "strategy": {
+      "status": "coverage_and_balance_targets_met",
+      "rounds": [
+        {
+          "round": 1,
+          "coverage": 0.5,
+          "assigned": 2,
+          "total": 4,
+          "leaf_loads": {
+            "0": 2
+          },
+          "overloaded_leaves": [
+            0
+          ],
+          "hierarchy_sha256": "f91939705f7f66dd3b9bf23ea2daabe584e4207dbc191a6b77a75e47b3716b46",
+          "hierarchy_receipt": 82,
+          "schema_unchanged": false
+        },
+        {
+          "round": 2,
+          "coverage": 1.0,
+          "assigned": 4,
+          "total": 4,
+          "leaf_loads": {
+            "0": 2,
+            "1": 2
+          },
+          "overloaded_leaves": [],
+          "hierarchy_sha256": "43de5aa5aea8c524a2a2ac4ba590085a1571ed8ff7332d2d86f5f70c0f1690fb",
+          "hierarchy_receipt": 85,
+          "schema_unchanged": false
+        }
+      ],
+      "mappings": 4,
+      "unmapped": 0
+    }
+  },
+  "views": {
+    "raw": {
+      "nodes": 49,
+      "edges": 96
+    },
+    "canonical": {
+      "nodes": 47,
+      "edges": 89
+    },
+    "hybrid": {
+      "nodes": 78,
+      "edges": 152
+    }
+  },
+  "provenance_contract": "edge.source_records indexes exact vendor_slug/url; edge.claims retains per-source evidence and raw_src/raw_type/raw_dst; no source bodies persisted",
+  "input_observation_sha256": "d7e3679d90c25a87e67e1a1fb2ac48449164b502c3e7d884165294b5d898942d",
+  "code_sha256": {
+    "construction": "88438d21462ff7426f0aa7e21916cc5fedb8f40c5999b7678ac38db8976382e4",
+    "composition": "af90f66373c507b52ba1cd6dd2cc770b6029d7a67572e246851f1e58b498c24d",
+    "induction": "fa21571c2ddd4854b59808237e82730327eb03a0ca4d773570ab03961370d622",
+    "canonicalization": "27bb785d3fc811019c71097faca59ba88f0da785fca421b3cb3ca6bb1144998b",
+    "pipeline": "db4f0657d562094a73b030dbb81c38803503d566962cf9579fa0a0d914b05b61"
+  },
+  "artifacts": {
+    "canonical/edges.jsonl": {
+      "sha256": "51a65cffd95a31528426e0ec585488af020ff2bb598b6162aaf4fe8fa314613a",
+      "bytes": 142059
+    },
+    "canonical/nodes.jsonl": {
+      "sha256": "2984cb4270f92749985ed2baa7ef209f60267c11764e43c6658d29742e6f4e9f",
+      "bytes": 28840
+    },
+    "demo-inputs.json": {
+      "sha256": "93878d372397fb6b98dbe92d146413451a1681acb757fa27534850108741e7ff",
+      "bytes": 10537
+    },
+    "demo-report.json": {
+      "sha256": "f08e11a893a0740a5c8e43f90e391627ba11adbdb4967cf8a7db6c8357ba437b",
+      "bytes": 561
+    },
+    "graph-validation.json": {
+      "sha256": "4b7cc33c790fb901fbc68579c59c5f217a4589e4e85cc1d604cefae466649d7c",
+      "bytes": 480
+    },
+    "hybrid/edges.jsonl": {
+      "sha256": "846d2087a8245af8403dadbc150ee17531a23443bb9d93fa36ecb3fb8a434e3f",
+      "bytes": 132004
+    },
+    "hybrid/nodes.jsonl": {
+      "sha256": "108f1a2480e39fe5d72e94ae99a8f5d409024eb6f15c52bec8857d179d7c533a",
+      "bytes": 67088
+    },
+    "induction.json": {
+      "sha256": "700a50d3e26db8783e2dc905282d0c0b8f61801a87c4805685666b4e8e896695",
+      "bytes": 58692
+    },
+    "mappings.jsonl": {
+      "sha256": "50e529314fc28db3bf8a839fce07b2f0e1be7b9cd895de5a45e4b372c99b83e5",
+      "bytes": 4901
+    },
+    "model-receipts.json": {
+      "sha256": "1a1bd60069fbe72e94535d706d2796db699296cb5f274be337bb38bda5067359",
+      "bytes": 51804
+    },
+    "observations.jsonl": {
+      "sha256": "3dc0eee3f666a399906fbbf321a0fc5ddb7d403376dd881801341b67e2a7671d",
+      "bytes": 97362
+    },
+    "raw/edges.jsonl": {
+      "sha256": "ec2425206c0f92c460fa9e57c14bddccec250d7ce2ed4f12ab2d90e2d6a20028",
+      "bytes": 123634
+    },
+    "raw/nodes.jsonl": {
+      "sha256": "428055f0996f174e502b148bf1eecdaf47db1ebe56d118bfd4d2811f76fdbbde",
+      "bytes": 57756
+    },
+    "sources.jsonl": {
+      "sha256": "b5dfa3afb90dd6fa255f5b7fa1edc1b0169aacc3966f7a0fe6f770d2664b660f",
+      "bytes": 5024
+    },
+    "synthetic-recording.json": {
+      "sha256": "52c79977d9c55f8142b910f428f219f33e87ef4f2780d052febcf0b0be2c1f2e",
+      "bytes": 109830
+    },
+    "unmapped.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  }
+}

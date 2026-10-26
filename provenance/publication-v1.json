@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/sales-genome/sales-genome",
+  "branch": "main",
+  "publication_authorized_by_author": true,
+  "authorization_date": "2026-10-26",
+  "scope": "Existing prepared submission package, code, recorded synthetic fixtures and unchanged materialized graph sample",
+  "author": {
+    "name": "Sales Genome",
+    "email": "348262791+sales-genome@users.noreply.github.com"
+  },
+  "anonymization": {
+    "fresh_history_no_original_repository_history": true,
+    "original_repository_commit_locator_omitted": true,
+    "personal_commit_identity_not_used": true,
+    "source_code_hash_provenance_retained": true,
+    "machine_paths_credentials_and_model_assets_not_published": true
+  },
+  "sample": {
+    "changed_for_publication": false,
+    "unit": "20% of valid customer groups with documented context closure",
+    "selected_customer_groups": 4762,
+    "valid_customer_groups": 23811,
+    "native_edge_disclosure_fraction": 0.01592043263275813,
+    "labels": "unsplit",
+    "original_provisional_policy_fields": "Retained as historical staging metadata; no sampler or data manifest rewritten",
+    "full_graph_private_CRM_or_source_cache_published": false
+  },
+  "validation": {
+    "full_tests_passed": 84,
+    "subtests_passed": 32,
+    "git_control_metadata_excluded_from_release_seal": true,
+    "all_other_unexpected_files_rejected": true
+  },
+  "license": "No license assigned; public availability is not a code/data license grant.",
+  "historical_metrics_regenerated_for_publication": false
+}

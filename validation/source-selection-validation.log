@@ -1,0 +1,20 @@
+{
+  "status": "PASS_LOCAL_DRAFT_INVARIANTS",
+  "selected_customer_groups": 4762,
+  "exclusive_source_groups": 7004,
+  "label_pairs": 5391,
+  "labels_are_unsplit": true,
+  "temporal_eligible_records": 1778,
+  "projection_triples_checked": 75982,
+  "endpoint_signature_integrity": true,
+  "shared_identity_ids_and_types_match": true,
+  "source_view_metadata_differences_preserved_not_identity_rematched": {
+    "raw_matched": 0,
+    "canonical": 885
+  },
+  "bulk_citation_bodies_and_private_paths_absent": true,
+  "sample_checksums_verified": 11,
+  "deterministic_selection_recomputed_from_verified_full_population": true,
+  "native_edge_disclosure_fraction": 0.01592043263275813,
+  "sampling_policy_approval_still_required_before_release": true
+}

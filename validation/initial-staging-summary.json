@@ -1,0 +1,45 @@
+{
+  "scope": "Historical initial v0.1 staging only; superseded by implementation-completion-v2.json.",
+  "status": "COMPLETE_LOCAL_DRAFT_WITH_RELEASE_BLOCKERS",
+  "checks": {
+    "unit_test_methods": 13,
+    "python_sources_compile": true,
+    "offline_CLI_help_checks": 10,
+    "synthetic_construction_through_tasks": "PASS",
+    "sample_endpoint_signature_and_mapping_integrity": "PASS",
+    "exact_saved_source_group_scope": "PASS",
+    "full_population_deterministic_selection_recomputed": "PASS",
+    "actual_sample_structural_retrieval": "PASS (72 candidates, not performance metrics)",
+    "CPU_GraphSAGE_forward_only": "PASS (885 seller x32;4762 customer x32)",
+    "unsplit_sample_rejected_before_training": true
+  },
+  "no_paid_calls_or_source_fetching": true,
+  "no_model_training_or_model_server_changes": true,
+  "no_upload_push_commit_or_full_archive_created": true,
+  "sampling": {
+    "unit": "PROVISIONAL 20% of customer groups",
+    "seed": "audience-genome-paper-submission-20261026-v1",
+    "denominator": 23811,
+    "selected": 4762,
+    "raw_nodes": 52940,
+    "raw_edges": 96538,
+    "canonical_nodes": 22021,
+    "canonical_edges": 87392,
+    "native_edge_disclosure_fraction": 0.01592043263275813,
+    "JSONL_payload_bytes": 127929205
+  },
+  "missing_or_not_reproduced": [
+    "Complete full-source extraction/caches and exact historical identity patch",
+    "Historical temporal reconstruction recipes",
+    "SDR-Bench/AET/judge benchmark harness and paper scores",
+    "Private CRM qualification experiment",
+    "Historical R-GCN and inductive model runs",
+    "Current independent persuasion taxonomy/analysis and incomplete independent feature recovery"
+  ],
+  "release_blockers": [
+    "User approval of customer-group denominator and disclosure policy is required before release.",
+    "Data rights/license and source-support review are required before redistribution."
+  ],
+  "provenance": "Every selected original code file hash rechecked unchanged; extracted downstream symbol text verified verbatim; manuscript source hash rechecked unchanged.",
+  "package_privacy_and_standalone_audit": "PASS; no symlinks, private machine locators, known credential signatures, full databases or model files"
+}

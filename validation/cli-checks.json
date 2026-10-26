@@ -1,0 +1,55 @@
+{
+  "network_enabled": false,
+  "checks": [
+    {
+      "command": "python scripts/build_v4_graph.py --help",
+      "returncode": 0,
+      "help_present": true
+    },
+    {
+      "command": "python scripts/build_v5_graph.py --help",
+      "returncode": 0,
+      "help_present": true
+    },
+    {
+      "command": "python scripts/taxonomy_v4.py --help",
+      "returncode": 0,
+      "help_present": true
+    },
+    {
+      "command": "python scripts/taxonomy_v4_chisel.py --help",
+      "returncode": 0,
+      "help_present": true
+    },
+    {
+      "command": "python scripts/ingest/extract_corpus.py --help",
+      "returncode": 0,
+      "help_present": true
+    },
+    {
+      "command": "python scripts/gnn_ready_baseline.py --help",
+      "returncode": 0,
+      "help_present": true
+    },
+    {
+      "command": "python -m paper_submission.sample_graph --help",
+      "returncode": 0,
+      "help_present": true
+    },
+    {
+      "command": "python -m paper_submission.validate --help",
+      "returncode": 0,
+      "help_present": true
+    },
+    {
+      "command": "python -m paper_submission.downstream --help",
+      "returncode": 0,
+      "help_present": true
+    },
+    {
+      "command": "python -m paper_submission.gnn_smoke --help",
+      "returncode": 0,
+      "help_present": true
+    }
+  ]
+}

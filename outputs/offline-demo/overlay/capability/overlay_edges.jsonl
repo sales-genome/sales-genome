@@ -1,0 +1,4 @@
+{"dst": "synthetic:canonical:capability", "src": "cap:synthetic-vendor:f3543b91", "type": "instance_of"}
+{"dst": "synthetic:canonical:capability", "src": "cap:synthetic-vendor:75095dfd", "type": "instance_of"}
+{"dst": "synthetic:subtheme:capability", "src": "synthetic:canonical:capability", "type": "in_subtheme"}
+{"dst": "synthetic:domain:capability", "src": "synthetic:subtheme:capability", "type": "in_domain"}

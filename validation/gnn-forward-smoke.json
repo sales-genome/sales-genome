@@ -1,0 +1,17 @@
+{
+  "task": "untrained_CPU_shape_and_endpoint_check",
+  "training_run": false,
+  "experimental_metrics_computed": false,
+  "feature_source": "selected graph phrase hashing; NOT independent cold-start attributes",
+  "vendor_shape": [
+    885,
+    32
+  ],
+  "customer_shape": [
+    4762,
+    32
+  ],
+  "message_edges": 90305,
+  "direct_has_case_study_label_edges_used": false,
+  "torch": "2.13.0+cu130"
+}
